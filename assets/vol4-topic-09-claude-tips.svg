@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="100%" height="300">
+  <rect width="100%" height="300" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 09 — 実務 / Claude Code実践術 — Skills.md × Effort Control × 節約術</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="19" font-weight="900" fill="#ffffff">Claude Code 実践術：トークン最大60%削減 ＆ 組織知をAIに定着させる3手法</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Key stat -->
+  <rect x="48" y="108" width="200" height="140" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="148" y="134" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">トークン消費削減</text>
+  <text x="148" y="174" font-family="'Nunito Sans',sans-serif" font-size="38" font-weight="900" fill="#FFFFFF" text-anchor="middle">60%</text>
+  <text x="148" y="200" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#FF5757" text-anchor="middle">最大削減達成</text>
+  <text x="148" y="222" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">/compact + Effort調整で</text>
+  <text x="148" y="240" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">コストを劇的に削減</text>
+
+  <!-- Feature boxes -->
+  <rect x="268" y="108" width="190" height="64" rx="8" fill="#2A1A2A"/>
+  <text x="288" y="130" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">① Skills.md</text>
+  <text x="288" y="150" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#D9D9D9">組織の知識・ルールをAIに</text>
+  <text x="288" y="166" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#D9D9D9">定着させる設計ファイル</text>
+
+  <rect x="268" y="182" width="190" height="66" rx="8" fill="#2A1A2A"/>
+  <text x="288" y="204" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">② Effort Control</text>
+  <text x="288" y="222" font-family="'Nunito Sans',sans-serif" font-size="10" fill="#8C52FF">low / medium / high</text>
+  <text x="288" y="238" font-family="'Nunito Sans',sans-serif" font-size="10" fill="#8C52FF">xhigh / max</text>
+  <text x="288" y="254" font-family="'Noto Sans JP',sans-serif" font-size="9" fill="#D9D9D9">タスクに応じた5段階調整</text>
+
+  <!-- Right feature -->
+  <rect x="478" y="108" width="354" height="140" rx="8" fill="#2A1A2A"/>
+  <text x="498" y="132" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">③ /compact 活用術 ― コンテキスト圧縮で節約</text>
+  <line x1="498" y1="144" x2="812" y2="144" stroke="#333333" stroke-width="1"/>
+  <text x="498" y="164" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">長いセッションは途中で /compact を実行</text>
+  <text x="498" y="184" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">→ コンテキストを要約・圧縮してトークン節約</text>
+  <text x="498" y="208" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">Effort=low で雑務を処理 → 重要タスクに max を使う</text>
+  <text x="498" y="228" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">組み合わせでコスト対効果を最大化</text>
+  <text x="498" y="248" font-family="'Nunito Sans',sans-serif" font-size="13" font-weight="900" fill="#FF5757">= 最大 60% のトークン削減</text>
+
+  <rect x="48" y="264" width="784" height="24" rx="4" fill="#350A20"/>
+  <text x="440" y="280" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">AI活用の質は"モデルの賢さ"より"使い方の設計"で決まる</text>
+</svg>
