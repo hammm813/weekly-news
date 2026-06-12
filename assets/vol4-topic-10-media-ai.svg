@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="100%" height="300">
+  <rect width="100%" height="300" fill="#F6E9F0"/>
+  <rect x="0" y="0" width="6" height="300" fill="#A51E6D"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 10 — ツール / 2026年5月 画像・動画生成AI アップデートまとめ</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="18" font-weight="900" fill="#1A1A1A">画像・動画・音声AIが一斉進化 ― エージェント化＋多言語展開が加速</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#DEDEDE" stroke-width="1"/>
+
+  <!-- 6-cell grid: 3 x 2 -->
+  <!-- Row 1 -->
+  <rect x="48" y="108" width="250" height="60" rx="6" fill="#FFFFFF" stroke="#DEDEDE" stroke-width="1"/>
+  <text x="68" y="128" font-family="'Nunito Sans',sans-serif" font-size="10" font-weight="900" fill="#A51E6D">① Runway Agent</text>
+  <text x="68" y="146" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#333333">動画生成エージェント化・自律編集</text>
+  <text x="68" y="162" font-family="'Noto Sans JP',sans-serif" font-size="9" fill="#808080">人間の指示なしで完結する動画制作</text>
+
+  <rect x="318" y="108" width="250" height="60" rx="6" fill="#FFFFFF" stroke="#DEDEDE" stroke-width="1"/>
+  <text x="338" y="128" font-family="'Nunito Sans',sans-serif" font-size="10" font-weight="900" fill="#A51E6D">② Topview Drama Studio</text>
+  <text x="338" y="146" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#333333">AIドラマ・シネマティック映像生成</text>
+  <text x="338" y="162" font-family="'Noto Sans JP',sans-serif" font-size="9" fill="#808080">俳優・台本・演出をAIが一括担当</text>
+
+  <rect x="588" y="108" width="244" height="60" rx="6" fill="#FFFFFF" stroke="#DEDEDE" stroke-width="1"/>
+  <text x="608" y="128" font-family="'Nunito Sans',sans-serif" font-size="10" font-weight="900" fill="#A51E6D">③ Gemini Omni Flash</text>
+  <text x="608" y="146" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#333333">超高速・低コスト動画理解モデル</text>
+  <text x="608" y="162" font-family="'Noto Sans JP',sans-serif" font-size="9" fill="#808080">リアルタイム映像分析が実用化</text>
+
+  <!-- Row 2 -->
+  <rect x="48" y="178" width="250" height="60" rx="6" fill="#FFFFFF" stroke="#DEDEDE" stroke-width="1"/>
+  <text x="68" y="198" font-family="'Nunito Sans',sans-serif" font-size="10" font-weight="900" fill="#8C52FF">④ Runway Aleph2</text>
+  <text x="68" y="216" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#333333">次世代動画生成モデル（高解像度）</text>
+  <text x="68" y="232" font-family="'Noto Sans JP',sans-serif" font-size="9" fill="#808080">4K相当の映像品質を自動生成</text>
+
+  <rect x="318" y="178" width="250" height="60" rx="6" fill="#FFFFFF" stroke="#DEDEDE" stroke-width="1"/>
+  <text x="338" y="198" font-family="'Nunito Sans',sans-serif" font-size="10" font-weight="900" fill="#8C52FF">⑤ MAI-Image-2.5</text>
+  <text x="338" y="216" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#333333">Microsoft 高精度画像生成モデル</text>
+  <text x="338" y="232" font-family="'Noto Sans JP',sans-serif" font-size="9" fill="#808080">Azure統合で企業利用が容易に</text>
+
+  <rect x="588" y="178" width="244" height="60" rx="6" fill="#FFFFFF" stroke="#DEDEDE" stroke-width="1"/>
+  <text x="608" y="198" font-family="'Nunito Sans',sans-serif" font-size="10" font-weight="900" fill="#8C52FF">⑥ ElevenLabs Dubbing v2</text>
+  <text x="608" y="216" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#333333">AI吹替v2・30言語対応</text>
+  <text x="608" y="232" font-family="'Noto Sans JP',sans-serif" font-size="9" fill="#808080">音声トーン・感情を保持した多言語化</text>
+
+  <rect x="48" y="264" width="784" height="24" rx="4" fill="#F0D8E8" stroke="#C06090" stroke-width="1"/>
+  <text x="440" y="280" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">動画・音声生成のエージェント化で、個人クリエイターが企業レベルの映像制作力を持てる時代へ</text>
+</svg>
