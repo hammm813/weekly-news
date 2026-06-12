@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="100%" height="300">
+  <rect width="100%" height="300" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 05 — ツール / OpenAI Codex Windows対応 + 自律セッション管理</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="19" font-weight="900" fill="#ffffff">Codex が Windows 対応・モバイル遠隔操作・セッション自律管理へ進化</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Key stat -->
+  <rect x="48" y="108" width="220" height="140" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="158" y="134" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">新機能</text>
+  <text x="158" y="164" font-family="'Nunito Sans',sans-serif" font-size="14" font-weight="900" fill="#FFFFFF" text-anchor="middle">Computer Use</text>
+  <text x="158" y="188" font-family="'Nunito Sans',sans-serif" font-size="14" font-weight="900" fill="#8C52FF" text-anchor="middle">on Windows</text>
+  <text x="158" y="214" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">Windows OS上でのPC操作</text>
+  <text x="158" y="232" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">自律実行が解禁</text>
+
+  <!-- Feature boxes -->
+  <rect x="288" y="108" width="250" height="64" rx="8" fill="#2A1A2A"/>
+  <text x="308" y="132" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">① モバイル遠隔制御</text>
+  <text x="308" y="152" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">スマホからPCへ指示を送り</text>
+  <text x="308" y="168" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">処理を帰宅前に完了させる</text>
+
+  <rect x="288" y="182" width="250" height="66" rx="8" fill="#2A1A2A"/>
+  <text x="308" y="206" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">② セッション自律管理</text>
+  <text x="308" y="226" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">セッションを自動生成・管理</text>
+  <text x="308" y="242" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">worktree 並列処理に対応</text>
+
+  <!-- Right box -->
+  <rect x="558" y="108" width="274" height="140" rx="8" fill="#1E0E1E"/>
+  <text x="695" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">働き方の変化</text>
+  <text x="695" y="158" font-family="'Noto Sans JP',sans-serif" font-size="12" fill="#D9D9D9" text-anchor="middle">人間の役割が変わる</text>
+  <line x1="578" y1="172" x2="812" y2="172" stroke="#333333" stroke-width="1"/>
+  <text x="695" y="192" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080" text-anchor="middle">従来：実行者</text>
+  <text x="695" y="212" font-family="'Nunito Sans',sans-serif" font-size="13" font-weight="900" fill="#FF5757" text-anchor="middle">↓ AI がセッションを自律管理</text>
+  <text x="695" y="234" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">これから：承認者</text>
+
+  <rect x="48" y="264" width="784" height="24" rx="4" fill="#350A20"/>
+  <text x="440" y="280" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">Codexがセッションを自律管理する時代 ― 人間は"承認者"にシフトしていく</text>
+</svg>
