@@ -2,17 +2,82 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SHIFT AI ELITE 週刊ニュース</title>
+<style>
+body {
+  margin: 0;
+  font-family: "Noto Sans JP", sans-serif;
+  background: linear-gradient(135deg, #13002b, #4b008f, #ff2aa3);
+  color: white;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+h1 {
+  font-size: 34px;
+  margin-bottom: 8px;
+}
+p {
+  opacity: 0.9;
+}
+.card {
+  display: block;
+  background: rgba(255,255,255,0.14);
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 20px;
+  padding: 24px;
+  margin: 18px 0;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+.card:hover {
+  transform: translateY(-3px);
+}
+.badge {
+  display: inline-block;
+  background: #ff4fb8;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+.card h2 {
+  margin: 0 0 8px;
+  font-size: 24px;
+}
+.date {
+  opacity: 0.85;
+}
+</style>
 </head>
+
 <body>
+<div class="container">
+  <h1>SHIFT AI ELITE 週刊ニュース</h1>
+  <p>AIエージェント週次レポート一覧</p>
 
-<h1>SHIFT AI ELITE 週刊ニュース</h1>
+  <a class="card" href="weekly_news_vol3_20260518.html">
+    <span class="badge">Vol.03</span>
+    <h2>第3巻 2026年5月18日号</h2>
+    <div class="date">2026年5月18日〜5月24日</div>
+  </a>
 
-<ul>
-<li><a href="weekly_news_vol1_20260504.html">第1巻 2026年5月4日号</a></li>
-<li><a href="weekly_news_vol2_20260511.html">第2巻 2026年5月11日号</a></li>
-<li><a href="weekly_news_vol3_20260518.html">第3巻 2026年5月18日号</a></li>
-</ul>
+  <a class="card" href="weekly_news_vol2_20260511.html">
+    <span class="badge">Vol.02</span>
+    <h2>第2巻 2026年5月11日号</h2>
+    <div class="date">2026年5月11日〜5月17日</div>
+  </a>
 
+  <a class="card" href="weekly_news_vol1_20260504.html">
+    <span class="badge">Vol.01</span>
+    <h2>第1巻 2026年5月4日号</h2>
+    <div class="date">2026年5月4日〜5月10日</div>
+  </a>
+</div>
 </body>
 </html>
