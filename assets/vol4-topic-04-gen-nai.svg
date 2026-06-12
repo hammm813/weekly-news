@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="100%" height="300">
+  <rect width="100%" height="300" fill="#F6E9F0"/>
+  <rect x="0" y="0" width="6" height="300" fill="#A51E6D"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 04 — 国内 / 政府AI「源内」全府省庁18万人実証実験開始</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="19" font-weight="900" fill="#1A1A1A">政府AI「源内」— 全府省庁対象・18万人規模の PoC が始動</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#DEDEDE" stroke-width="1"/>
+
+  <!-- Key stat -->
+  <rect x="48" y="108" width="220" height="140" rx="8" fill="#FFFFFF" stroke="#A51E6D" stroke-width="1.5"/>
+  <text x="158" y="134" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">実証実験規模</text>
+  <text x="158" y="178" font-family="'Nunito Sans',sans-serif" font-size="38" font-weight="900" fill="#A51E6D" text-anchor="middle">18万人</text>
+  <text x="158" y="206" font-family="'Noto Sans JP',sans-serif" font-size="12" fill="#333333" text-anchor="middle">全府省庁対象</text>
+  <text x="158" y="226" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">PoC（実証実験）開始</text>
+  <text x="158" y="244" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">2026年5月〜</text>
+
+  <!-- Feature boxes -->
+  <rect x="288" y="108" width="250" height="64" rx="8" fill="#FFFFFF" stroke="#DEDEDE" stroke-width="1"/>
+  <text x="308" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">システム概要</text>
+  <text x="308" y="152" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#333333">行政向け汎用AIアシスタント</text>
+  <text x="308" y="168" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#333333">文書作成・情報整理・回答支援</text>
+
+  <rect x="288" y="182" width="250" height="66" rx="8" fill="#FFFFFF" stroke="#DEDEDE" stroke-width="1"/>
+  <text x="308" y="206" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">行政DX加速の背景</text>
+  <text x="308" y="226" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#333333">デジタル庁主導のDX推進</text>
+  <text x="308" y="242" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#333333">23年比で予算3倍規模に拡大</text>
+
+  <!-- Right box -->
+  <rect x="558" y="108" width="274" height="140" rx="8" fill="#F9F0F5" stroke="#E8D0E0" stroke-width="1"/>
+  <text x="695" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">参入機会</text>
+  <text x="695" y="158" font-family="'Noto Sans JP',sans-serif" font-size="12" fill="#333333" text-anchor="middle">公的機関向けAI活用支援</text>
+  <text x="695" y="178" font-family="'Noto Sans JP',sans-serif" font-size="12" fill="#333333" text-anchor="middle">競合プレーヤーが少ない</text>
+  <text x="695" y="206" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">特化できる領域</text>
+  <text x="695" y="226" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#555555" text-anchor="middle">官公庁・地方自治体・</text>
+  <text x="695" y="244" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#555555" text-anchor="middle">独立行政法人 への展開</text>
+
+  <rect x="48" y="264" width="784" height="24" rx="4" fill="#F0D8E8" stroke="#C06090" stroke-width="1"/>
+  <text x="440" y="280" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">行政DX加速 ― 公的機関向けAI活用支援は競合が少ない参入領域</text>
+</svg>
