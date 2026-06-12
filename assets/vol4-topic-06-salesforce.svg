@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="100%" height="300">
+  <rect width="100%" height="300" fill="#F6E9F0"/>
+  <rect x="0" y="0" width="6" height="300" fill="#A51E6D"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 06 — 活用事例 / Salesforce × Claude Code 231日→13日</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="19" font-weight="900" fill="#1A1A1A">Salesforce が Claude Code で開発期間を 231日→13日 に短縮（94%削減）</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#DEDEDE" stroke-width="1"/>
+
+  <!-- Before/After -->
+  <rect x="48" y="108" width="170" height="140" rx="8" fill="#FFFFFF" stroke="#DEDEDE" stroke-width="1"/>
+  <text x="133" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#808080" text-anchor="middle">BEFORE</text>
+  <text x="133" y="172" font-family="'Nunito Sans',sans-serif" font-size="36" font-weight="900" fill="#808080" text-anchor="middle">231日</text>
+  <text x="133" y="198" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080" text-anchor="middle">従来の開発期間</text>
+  <text x="133" y="220" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#AAAAAA" text-anchor="middle">人手による実装</text>
+
+  <text x="238" y="182" font-family="'Nunito Sans',sans-serif" font-size="28" font-weight="900" fill="#A51E6D" text-anchor="middle">→</text>
+
+  <rect x="268" y="108" width="170" height="140" rx="8" fill="#FFFFFF" stroke="#A51E6D" stroke-width="1.5"/>
+  <text x="353" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">AFTER</text>
+  <text x="353" y="172" font-family="'Nunito Sans',sans-serif" font-size="36" font-weight="900" fill="#A51E6D" text-anchor="middle">13日</text>
+  <text x="353" y="198" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#A51E6D" text-anchor="middle">Claude Code使用後</text>
+  <text x="353" y="220" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">94% 短縮達成</text>
+
+  <!-- Stats -->
+  <rect x="458" y="108" width="180" height="64" rx="8" fill="#FFFFFF" stroke="#DEDEDE" stroke-width="1"/>
+  <text x="548" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">実装規模</text>
+  <text x="548" y="158" font-family="'Nunito Sans',sans-serif" font-size="26" font-weight="900" fill="#1A1A1A" text-anchor="middle">21</text>
+  <text x="548" y="176" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080" text-anchor="middle">エンドポイント</text>
+
+  <rect x="458" y="182" width="180" height="66" rx="8" fill="#FFFFFF" stroke="#DEDEDE" stroke-width="1"/>
+  <text x="548" y="206" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">品質保証</text>
+  <text x="548" y="230" font-family="'Nunito Sans',sans-serif" font-size="26" font-weight="900" fill="#1A1A1A" text-anchor="middle">100%</text>
+  <text x="548" y="248" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">テストカバレッジ</text>
+
+  <!-- Right box -->
+  <rect x="658" y="108" width="174" height="140" rx="8" fill="#F9F0F5" stroke="#E8D0E0" stroke-width="1"/>
+  <text x="745" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">活用の示唆</text>
+  <text x="745" y="158" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#333333" text-anchor="middle">数字で語れる</text>
+  <text x="745" y="178" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#333333" text-anchor="middle">実績が武器に</text>
+  <text x="745" y="202" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">この事例が</text>
+  <text x="745" y="222" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#555555" text-anchor="middle">AI導入提案の</text>
+  <text x="745" y="242" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#555555" text-anchor="middle">最強の根拠になる</text>
+
+  <rect x="48" y="264" width="784" height="24" rx="4" fill="#F0D8E8" stroke="#C06090" stroke-width="1"/>
+  <text x="440" y="280" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">Claude Code活用実績を数字で示せることが、AI導入提案の最強の武器になる</text>
+</svg>
