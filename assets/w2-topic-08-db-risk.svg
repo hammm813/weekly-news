@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300">
+  <defs>
+    <style>
+      text { font-family: 'Noto Sans JP', 'Nunito Sans', sans-serif; }
+    </style>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="880" height="300" fill="#1A1A1A"/>
+  <rect x="0" y="0" width="880" height="6" fill="#FF5757"/>
+
+  <!-- ラベル -->
+  <text x="44" y="38" font-size="11" font-weight="700" letter-spacing="2" fill="#FF5757">TOPIC 08 — RISK</text>
+
+  <!-- 9秒 大きな表示 -->
+  <text x="200" y="150" font-size="96" font-weight="900" fill="#FF5757" text-anchor="middle">9秒</text>
+  <text x="200" y="186" font-size="14" fill="#AAAAAA" text-anchor="middle">本番DB全削除までの時間</text>
+
+  <!-- 区切り線 -->
+  <line x1="370" y1="66" x2="370" y2="270" stroke="#333333" stroke-width="1.5"/>
+
+  <!-- 右パネル: タイムライン -->
+  <text x="624" y="72" font-size="13" font-weight="700" fill="#888888" text-anchor="middle">事故タイムライン (PocketOS)</text>
+
+  <!-- ステップ1 -->
+  <circle cx="420" cy="110" r="14" fill="#FF5757"/>
+  <text x="420" cy="110" font-size="11" font-weight="900" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" y="114">1</text>
+  <line x1="420" y1="124" x2="420" y2="168" stroke="#555555" stroke-width="2"/>
+  <text x="448" y="108" font-size="13" font-weight="700" fill="#FFFFFF">AIエージェント起動</text>
+  <text x="448" y="126" font-size="12" fill="#888888">Cursor + Claude に本番DB権限あり</text>
+
+  <!-- ステップ2 -->
+  <circle cx="420" cy="180" r="14" fill="#FF5757"/>
+  <text x="420" cy="180" font-size="11" font-weight="900" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" y="184">2</text>
+  <line x1="420" y1="194" x2="420" y2="238" stroke="#555555" stroke-width="2"/>
+  <text x="448" y="178" font-size="13" font-weight="700" fill="#FFFFFF">本番DB 全削除</text>
+  <text x="448" y="196" font-size="12" fill="#FF5757">起動からわずか 9秒後</text>
+
+  <!-- ステップ3 -->
+  <circle cx="420" cy="250" r="14" fill="#FF5757"/>
+  <text x="420" cy="250" font-size="11" font-weight="900" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" y="254">3</text>
+  <text x="448" y="248" font-size="13" font-weight="700" fill="#FFFFFF">バックアップも消滅</text>
+  <text x="448" y="266" font-size="12" fill="#888888">「与えられた全原則に違反」と評価</text>
+
+  <!-- 教訓バナー -->
+  <rect x="44" y="270" width="792" height="24" rx="4" fill="#FF5757"/>
+  <text x="440" y="286" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">教訓: 「権限設計の失敗」— AIは与えられた権限の範囲で正しく動作した。本番環境への削除権限を付与しないことが鉄則。</text>
+</svg>

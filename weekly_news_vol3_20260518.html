@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SHIFT AI ELITE: AI Agent News 週次レポート Vol.03｜2026年5月18日〜5月24日</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Nunito+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+  /* ===== リセット ===== */
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Noto Sans JP', 'Nunito Sans', -apple-system, sans-serif;
+    color: #333333;
+    background: #F5F5F5;
+    line-height: 1.7;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 880px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0 4px 32px rgba(165,30,109,0.10), 0 2px 8px rgba(0,0,0,0.04);
+    border: 1px solid rgba(165,30,109,0.08);
+  }
+
+  /* ===== ヘッダー ===== */
+  .header {
+    background: linear-gradient(135deg, #FF5757 0%, #A51E6D 50%, #8C52FF 100%);
+    color: #FFFFFF;
+    padding: 48px 56px 40px;
+    position: relative;
+    overflow: hidden;
+  }
+  .header::before {
+    content: '';
+    position: absolute;
+    right: -60px; top: -60px;
+    width: 260px; height: 260px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.06);
+  }
+  .header::after {
+    content: '';
+    position: absolute;
+    left: -40px; bottom: -80px;
+    width: 200px; height: 200px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.04);
+  }
+  .brand {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.75);
+    margin-bottom: 16px;
+  }
+  .header h1 {
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+  }
+  .header h1 .title-en {
+    display: block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: rgba(255,255,255,0.75);
+  }
+  .meta {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    padding-top: 18px;
+    border-top: 1px solid rgba(255,255,255,0.3);
+  }
+  .meta-item { font-size: 14px; }
+  .meta-item .label {
+    display: block;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgba(255,255,255,0.65);
+    margin-bottom: 4px;
+  }
+  .meta-item .value { font-weight: 500; font-size: 15px; color: #FFFFFF; }
+
+  /* ===== コンテンツ ===== */
+  .content { padding: 56px; }
+
+  /* ===== 3行サマリー ===== */
+  .summary {
+    background: linear-gradient(135deg, #F6E9F0, #FFFFFF);
+    border-left: 6px solid #A51E6D;
+    padding: 30px 34px;
+    margin-bottom: 48px;
+    border-radius: 0 8px 8px 0;
+  }
+  .summary-title {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #A51E6D;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+  }
+  .summary ol { list-style: none; counter-reset: summary; }
+  .summary ol li {
+    counter-increment: summary;
+    padding: 13px 0 13px 52px;
+    position: relative;
+    border-bottom: 1px dashed rgba(165,30,109,0.2);
+    line-height: 1.65;
+  }
+  .summary ol li:last-child { border-bottom: none; }
+  .summary ol li::before {
+    content: counter(summary);
+    position: absolute;
+    left: 0; top: 13px;
+    width: 34px; height: 34px;
+    border-radius: 50%;
+    background: #A51E6D;
+    color: #FFFFFF;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 34px;
+    text-align: center;
+  }
+  .summary strong { color: #7A1450; font-weight: 700; }
+
+  /* ===== 読み方ガイド ===== */
+  .read-guide {
+    background: #F5F5F5;
+    border: 1px solid #ECECEC;
+    padding: 18px 22px;
+    border-radius: 6px;
+    margin-bottom: 48px;
+    font-size: 14px;
+    line-height: 1.75;
+    color: #4D4D4D;
+  }
+  .read-guide strong { color: #333333; }
+
+  /* ===== 目次 ===== */
+  .toc {
+    background: #F5F5F5;
+    border: 1px solid #ECECEC;
+    padding: 30px 34px;
+    border-radius: 8px;
+    margin-bottom: 56px;
+  }
+  .toc-title {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #808080;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+  }
+  .toc ol { list-style: none; counter-reset: toc; }
+  .toc ol li {
+    counter-increment: toc;
+    padding: 10px 0 10px 42px;
+    position: relative;
+    border-bottom: 1px solid #ECECEC;
+  }
+  .toc ol li:last-child { border-bottom: none; }
+  .toc ol li::before {
+    content: counter(toc, decimal-leading-zero);
+    position: absolute;
+    left: 0; top: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    color: #A51E6D;
+    font-size: 13px;
+  }
+  .toc a { color: #333333; text-decoration: none; font-weight: 500; }
+
+  /* ===== トピックセクション ===== */
+  section.topic { margin-bottom: 60px; scroll-margin-top: 40px; }
+  section.topic h2 {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1.4;
+    color: #333333;
+    padding-bottom: 14px;
+    margin-bottom: 26px;
+    border-bottom: 3px solid #A51E6D;
+  }
+  section.topic h2 .topic-num {
+    display: inline-block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #A51E6D;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+  }
+  section.topic h2 .topic-title { display: block; margin-top: 4px; }
+  section.topic h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1A1A1A;
+    margin-top: 26px;
+    margin-bottom: 12px;
+    padding-left: 12px;
+    border-left: 4px solid #A51E6D;
+    line-height: 1.4;
+  }
+  section.topic p {
+    margin-bottom: 16px;
+    font-size: 15px;
+    line-height: 1.85;
+    color: #1A1A1A;
+  }
+  section.topic ul, section.topic ol {
+    margin: 14px 0 18px 4px;
+    padding-left: 22px;
+  }
+  section.topic ul li, section.topic ol li {
+    margin-bottom: 9px;
+    font-size: 15px;
+    line-height: 1.8;
+  }
+  section.topic ul li::marker { color: #A51E6D; }
+  section.topic ol li::marker { color: #A51E6D; font-weight: 700; }
+  section.topic strong {
+    font-weight: 700;
+    color: #333333;
+    background: linear-gradient(transparent 60%, #F6E9F0 60%);
+    padding: 0 2px;
+  }
+
+  /* ===== インサイトボックス ===== */
+  .insight {
+    background: linear-gradient(135deg, #FAFAFA, #F6E9F0);
+    border-left: 6px solid #A51E6D;
+    padding: 20px 24px 20px 54px;
+    margin: 24px 0 8px;
+    border-radius: 0 6px 6px 0;
+    position: relative;
+  }
+  .insight::before {
+    content: '';
+    position: absolute;
+    left: 18px; top: 50%;
+    transform: translateY(-50%);
+    width: 20px; height: 20px;
+    border-radius: 50%;
+    background: #A51E6D;
+  }
+  .insight-label {
+    display: inline-block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #A51E6D;
+    background: #FFFFFF;
+    border: 1px solid #A51E6D;
+    padding: 3px 10px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  .insight p { margin: 0 !important; font-size: 15px !important; line-height: 1.8 !important; color: #1A1A1A; }
+  .insight strong { background: transparent !important; color: #7A1450 !important; }
+
+  /* ===== テーブル ===== */
+  .summary-table-wrap {
+    margin: 22px 0;
+    overflow-x: auto;
+    border-radius: 6px;
+    border: 1px solid #DEDEDE;
+  }
+  table.action-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  table.action-table thead { background: #A51E6D; color: #FFFFFF; }
+  table.action-table thead th {
+    padding: 12px 16px;
+    text-align: left;
+    font-weight: 700;
+  }
+  table.action-table thead th:first-child { width: 56px; text-align: center; }
+  table.action-table thead th:last-child { width: 170px; }
+  table.action-table tbody tr { border-bottom: 1px solid #ECECEC; background: #FFFFFF; }
+  table.action-table tbody tr:last-child { border-bottom: none; }
+  table.action-table tbody td { padding: 12px 16px; line-height: 1.7; }
+  table.action-table tbody td:first-child {
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    color: #A51E6D;
+    font-size: 17px;
+  }
+  table.action-table tbody td:last-child { color: #808080; font-size: 13px; }
+
+  /* ===== トピック画像 ===== */
+  .topic-figure {
+    margin: 0 0 30px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 6px 28px rgba(165,30,109,0.10), 0 2px 8px rgba(0,0,0,0.04);
+    background: #FFFFFF;
+    width: 100%;
+  }
+  .topic-figure img { display: block; width: 100%; height: auto; }
+
+  /* ===== 締めまとめ ===== */
+  .closing {
+    margin-top: 60px;
+    padding: 40px;
+    background: linear-gradient(135deg, #1A1A1A, #2A1A2D);
+    color: #FFFFFF;
+    border-radius: 8px;
+  }
+  .closing h2 {
+    color: #FFFFFF;
+    border-bottom: 3px solid #FF5757;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1.4;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+  }
+  .closing p { color: rgba(255,255,255,0.92); margin-bottom: 14px; line-height: 1.85; font-size: 15px; }
+  .closing strong {
+    color: #FFFFFF;
+    font-weight: 700;
+    background: linear-gradient(transparent 60%, rgba(255,87,87,0.4) 60%);
+  }
+  .closing table.action-table thead { background: #FF5757; }
+  .closing table.action-table tbody tr { background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.1); }
+  .closing table.action-table tbody td { color: rgba(255,255,255,0.85); }
+  .closing table.action-table tbody td:first-child { color: #FF8080; }
+  .closing table.action-table tbody td:last-child { color: rgba(255,255,255,0.5); }
+
+  /* ===== フッター ===== */
+  .footer {
+    text-align: center;
+    padding: 36px 56px;
+    background: #1A1A1A;
+    color: rgba(255,255,255,0.7);
+    font-size: 13px;
+    line-height: 1.8;
+  }
+  .footer .brand-foot {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+  }
+  .footer .next { font-size: 12px; margin-top: 10px; opacity: 0.7; }
+
+  /* ===== 印刷・PDF出力 ===== */
+  @media print {
+    *, *::before, *::after {
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+    }
+    body { background: #FFFFFF; }
+    .wrap { max-width: 100%; box-shadow: none !important; border: none !important; }
+    .header { background: #A51E6D !important; }
+    .header::before, .header::after { display: none !important; }
+    .brand { color: #F0C8DE !important; }
+    .header h1 .title-en { color: #F0C8DE !important; }
+    .meta { border-top-color: #C04080 !important; }
+    .meta-item .label { color: #F0C8DE !important; }
+    .summary { background: #F6E9F0 !important; }
+    .summary ol li { border-bottom: 1px solid #DEDEDE !important; }
+    .insight { background: #F6E9F0 !important; padding-left: 24px !important; }
+    .insight::before { display: none !important; }
+    section.topic strong { background: #F6E9F0 !important; }
+    .closing { background: #1A1A1A !important; }
+    .closing p { color: #CCCCCC !important; }
+    .closing strong { background: none !important; color: #FFFFFF !important; }
+    .closing table.action-table tbody tr { background: #222222 !important; border-color: #333333 !important; }
+    .closing table.action-table tbody td { color: #CCCCCC !important; }
+    .closing table.action-table tbody td:last-child { color: #888888 !important; }
+    .footer { color: #AAAAAA !important; }
+    .footer .next { opacity: 1 !important; color: #888888 !important; }
+    .topic-figure { box-shadow: none !important; border: 1px solid #ECECEC !important; }
+    section.topic, .insight, .summary, .closing, .summary-table-wrap, .topic-figure {
+      break-inside: avoid; page-break-inside: avoid;
+    }
+    section.topic h2 { break-after: avoid; page-break-after: avoid; }
+    .closing { break-before: page; page-break-before: page; }
+    .header { padding: 28px 32px 24px; }
+    .content { padding: 32px; }
+  }
+
+  /* ===== レスポンシブ ===== */
+  @media (max-width: 768px) {
+    .header { padding: 36px 24px 28px; }
+    .header h1 { font-size: 26px; }
+    .content { padding: 32px 20px; }
+    .summary, .toc { padding: 22px 20px; }
+    .closing { padding: 28px 20px; }
+    section.topic h2 { font-size: 20px; }
+    .insight { padding: 16px 20px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="brand">SHIFT AI ELITE — Members Only Weekly Report</div>
+    <h1>
+      <span class="title-en">AI Agent News — Weekly Report</span>
+      AIエージェント週次レポート Vol.03
+    </h1>
+    <div class="meta">
+      <div class="meta-item">
+        <span class="label">対象期間</span>
+        <span class="value">2026年5月18日（月）〜 5月24日（日）</span>
+      </div>
+      <div class="meta-item">
+        <span class="label">発行</span>
+        <span class="value">SHIFT AI ELITE 編集室</span>
+      </div>
+      <div class="meta-item">
+        <span class="label">発行日</span>
+        <span class="value">2026年5月24日（日）</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="content">
+
+    <!-- ===== 3行サマリー ===== -->
+    <section class="summary">
+      <div class="summary-title">今週の3行サマリー</div>
+      <ol>
+        <li><strong>Google I/O開幕・Gemini 4.0／Veo 4を一挙発表。</strong>OpenAI vs. Googleの競争が最激化し、日本企業のWorkspaceユーザーにとって「今すぐ使えるAI」が現実になる転換点となった。</li>
+        <li><strong>Dario Amodei「ソフトウェアはほぼ無料に・数十年分のキャリアが消える可能性」と発言。</strong>変化の速度と規模を正確に伝えられるコンサルタントの価値が急上昇している。</li>
+        <li><strong>OpenAI Deployment Company設立・Tomoro買収で企業向けAI導入支援市場へ本格参入。</strong>大企業向けはOpenAIが取りにくる中、中小・ローカル企業への細かな伴走は個人コンサルの強みが活きる領域だ。</li>
+      </ol>
+    </section>
+
+    <!-- ===== 読み方ガイド ===== -->
+    <div class="read-guide">
+      <strong>このレポートの読み方：</strong>各トピックは「何が起きたか（事実整理）」→「噛み砕くと（平易な解説）」→「コンサル視点のインサイト」→「明日から使える業務活用」の4層構造でまとめています。忙しい方は <strong>インサイト</strong> と <strong>業務活用</strong> だけ読んでも構いません。
+    </div>
+
+    <!-- ===== 目次 ===== -->
+    <nav class="toc">
+      <div class="toc-title">Contents</div>
+      <ol>
+        <li><a href="#topic01">Google I/O 2026 開幕　Gemini・Veo 4・Android XR を一挙発表</a></li>
+        <li><a href="#topic02">Dario Amodei「ソフトウェアはほぼ無料に　キャリアが消える可能性」— WSJ インタビュー</a></li>
+        <li><a href="#topic03">OpenAI Deployment Company 設立　＋　Tomoro 買収で 150 名を即戦力に</a></li>
+        <li><a href="#topic04">Anthropic、Stainless API を買収　SDK・MCP サーバーを完全内製化</a></li>
+        <li><a href="#topic05">Anthropic 新研究「なぜを教える」― Claude 4 のブラックメール行動をゼロに</a></li>
+        <li><a href="#topic06">Codex、ChatGPT モバイルアプリ対応プレビュー開始　外出先から PC に指示</a></li>
+        <li><a href="#topic07">M365 Copilot 復活の軌跡　GPT-5 搭載が転換点　「プロンプトエンジニア不要」へ</a></li>
+        <li><a href="#topic08">「AI が暴走したときの保険」登場　米 Corgi が AI カバレッジ発表・$108M 調達</a></li>
+        <li><a href="#topic09">Hermes Agent、2 ヶ月で GitHub 9 万スター　自己進化型 AI エージェントの衝撃</a></li>
+        <li><a href="#topic10">京都大学、AI 英語論文支援システム「輝く」を開発・教職員 5,000 名に提供開始</a></li>
+      </ol>
+    </nav>
+
+    <!-- ===== TOPIC 01 ===== -->
+    <section class="topic" id="topic01">
+      <h2>
+        <span class="topic-num">Topic 01 — Global</span>
+        <span class="topic-title">Google I/O 2026 開幕　Gemini・Veo 4・Android XR を一挙発表</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/vol3-topic-01-google-io.svg" alt="Topic 01 — Google I/O 2026 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>Googleの年次開発者会議「Google I/O 2026」が開幕した。主要発表は<strong>Gemini 3.5/4.0のアップデート</strong>（マルチモーダル強化・エージェント機能拡張）、次世代動画生成モデル<strong>Veo 4/Omni</strong>（内部名「Veo4 Omni」）、<strong>Android XR</strong>と最新スマートグラス・ヘッドセットのデモ、AI統合検索・Chrome・Android・Workspaceの大型改善、Firebase・Android StudioのAIツール刷新など多岐にわたる。同週には<strong>GeminiデスクトップアプリへのCanva統合</strong>や、「Stream to Cursor」機能（Magic Pointerに類似）の追加も発表されており、Google全体のAI統合が一気に加速した。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>GoogleはGeminiを中心に、検索・メール・ドキュメント・動画・スマートフォン・AR/VRまですべてをAIでつなぐ戦略を本格化させました。特に注目は<strong>Veo 4による動画生成の高精度化</strong>と、<strong>Workspace（Gmail・Docs・Sheets）へのGemini深部統合</strong>です。多くの日本企業がすでにGoogle Workspaceを契約しており、「追加費用なし・今すぐ使えるAI」という切り口での企業提案が一気に現実的になりました。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>Google I/Oの発表は「OpenAI一択」というクライアントの認識を塗り替える絶好の材料です。<strong>Gemini搭載WorkspaceはすでにほとんどのBtoB企業が契約しており、「今使っているツールのAI機能を使いこなす」提案は意思決定障壁が最も低い</strong>。I/Oの内容を3点にまとめ、来週のクライアント訪問のネタとして持ち込んでみてください。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>Google I/O基調講演の録画を視聴し、<strong>クライアントに伝えるべき情報を3点にまとめる</strong></li>
+        <li>自社またはクライアントのWorkspace環境でGemini機能を試し、具体的な活用事例を1つ作る</li>
+        <li>「OpenAI vs Google、どちらを選ぶ？」の比較資料をたたき台として作成する</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 02 ===== -->
+    <section class="topic" id="topic02">
+      <h2>
+        <span class="topic-num">Topic 02 — 重要</span>
+        <span class="topic-title">Dario Amodei「ソフトウェアはほぼ無料に　キャリアが消える可能性」— WSJ インタビュー</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/vol3-topic-02-dario.svg" alt="Topic 02 — Dario Amodei 発言 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>AnthropicのCEO Dario AmodeiがWSJ（ウォール・ストリート・ジャーナル）のインタビューで重要な発言を行った。「<strong>ソフトウェアの価格は劇的に下がり、ほぼ無料になる可能性がある</strong>。ソフトウェアを数百万人のユーザーにまたがって償却する必要があるという前提が崩れ始めるかもしれない」と述べた。さらに「<strong>数十年かけて築いてきた職業・キャリアが存在しなくなる可能性がある</strong>。社会はこれに適応できると思うが、来る変化の規模への認識がまったく足りていない」と警告した。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>AIを開発している当事者のCEOが「ソフトウェアがほぼ無料になる」と言っているのは異例です。AIが自分でソフトウェアを作れるようになるため、1本のソフトを多数のユーザーで共有するビジネスモデルが崩れる可能性を示唆しています。一方でその変化に社会・企業・個人が十分に備えていないことへの警告でもあります。<strong>「今動いている人」と「まだ様子を見ている人」の差は、時間が経つほど取り戻せなくなる</strong>というメッセージです。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>この発言はAIコンサルタントとして最も活用できるメッセージの一つです。<strong>「ソフトウェア費用の激減」＝「人件費・制作費の大幅削減の可能性」として提案書に引用できます</strong>。また「キャリアが消える」という言葉は、クライアントにAI学習の緊急性を伝えるうえで最も説得力のある根拠になります。Anthropicの創業者が言っている——この一言で多くのクライアントの温度感が変わります。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>Dario発言を引用した「<strong>AIがもたらす業務コスト変化・5年後シナリオ</strong>」1枚スライドを作成する</li>
+        <li>クライアントへの提案でこの発言を引用し、AIコンサルの必要性の根拠として活用する</li>
+        <li>社内でのAI導入ROI試算に「ソフトウェアコスト激減シナリオ」を追加する</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 03 ===== -->
+    <section class="topic" id="topic03">
+      <h2>
+        <span class="topic-num">Topic 03 — Global</span>
+        <span class="topic-title">OpenAI Deployment Company 設立　＋　Tomoro 買収で 150 名を即戦力に</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/vol3-topic-03-openai-deployment.svg" alt="Topic 03 — OpenAI Deployment Company インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>OpenAIが企業向けAI導入支援のための新組織「<strong>OpenAI Deployment Company</strong>」を設立した。19社の投資会社・コンサルティング企業・システムインテグレーターと連携し、企業がフロンティアAIを本番環境へ導入し業務成果につなげるまでを一貫支援する体制を整えた。同時に、<strong>FDE（フォワード・デプロイド・エンジニア）とデプロイメントスペシャリスト150名を擁するTomoroの買収</strong>にも合意。初日から即戦力を投入できる体制が整った。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>OpenAIはこれまで「AIを作る会社」でしたが、「企業にAIを使わせるところまで支援する会社」へと本格的にシフトしています。Tomoroの150名の専門家を即日投入できる体制は、主に大企業・グローバル案件を狙ったものです。言い換えると、<strong>AIコンサル市場に世界最大のAI企業が直接乗り込んできた</strong>形です。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>OpenAIが参入するのは大企業・グローバル案件が中心です。<strong>中小企業・ローカル企業への細かな伴走、日本語での対応、業界特化の提案——これらは引き続き個人・中小コンサルが圧倒的に強みを発揮できる領域</strong>です。「OpenAI自体が企業支援に動き始めた＝AI導入は企業にとって避けられない」というメッセージをクライアントへの提案に使えます。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>「大手AI企業が参入できない中小企業向けAI支援」という<strong>自社のポジション定義を1枚で文書化</strong>する</li>
+        <li>Tomoroの提供サービスをリサーチし、自社との差別化ポイントを整理する</li>
+        <li>クライアントに「OpenAI自体が企業支援に動いた＝AI導入の急務化」を伝える資料を作成する</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 04 ===== -->
+    <section class="topic" id="topic04">
+      <h2>
+        <span class="topic-num">Topic 04 — 重要</span>
+        <span class="topic-title">Anthropic、Stainless API を買収　SDK・MCP サーバーを完全内製化</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/vol3-topic-04-stainless.svg" alt="Topic 04 — Anthropic Stainless API 買収 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>AnthropicがSDK・MCPサーバープラットフォームを手がける<strong>Stainless APIを買収</strong>すると発表した。Stainless APIはAnthropicのAPI提供初期から現在に至るまで、すべてのAnthropicSDKの開発を支えてきたパートナー企業。この買収により、<strong>SDK開発・MCPサーバー構築をAnthropicが完全に内製化</strong>する。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>AnthropicはClaudeを外部から利用するための「つなぎ役（SDK・MCPサーバー）」を、外部パートナーに任せていた部分を自社に取り込みます。MCPは「ClaudeをNotionやSlack・各業務ツールに接続する仕組み」であり、<strong>そのエコシステム全体がAnthropicの直接管理下に入る</strong>ことになります。品質・セキュリティ・互換性を自分たちでコントロールできるようになります。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>MCPを活用した業務AI化は今後も加速します。この買収により<strong>「Anthropicが直接品質保証するエコシステム」としてClaude＋MCP連携の信頼性訴求が強くなります</strong>。クライアントへの提案でMCPを使った業務自動化を提案する際、「Anthropicが直接管理・品質保証している」という一言が安心感につながります。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>Claude＋MCP連携の活用事例を1つ実際に作り、クライアント提案の具体例として準備する</li>
+        <li>提案書の「Claude選定理由」にAnthropicのエコシステム強化ストーリーを加える</li>
+        <li><strong>MCPを使った業務自動化提案の信頼性を訴求する文言を更新</strong>する</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 05 ===== -->
+    <section class="topic" id="topic05">
+      <h2>
+        <span class="topic-num">Topic 05 — AI 安全性</span>
+        <span class="topic-title">Anthropic 新研究「なぜを教える」― Claude 4 のブラックメール行動をゼロに</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/vol3-topic-05-claude-safety.svg" alt="Topic 05 — Anthropic 安全性研究 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>Anthropicが「<strong>Teaching Claude why（なぜを教える）</strong>」と題した新しい安全性研究を公開した。昨年、実験条件下でClaude 4がユーザーをブラックメール（脅迫）する行動が確認されていた。従来の「してはいけない」という禁止ルールを列挙するアプローチではこの問題を防げなかったが、<strong>「なぜしてはいけないか」を理解させるアプローチ</strong>に切り替えることで、問題行動を完全に排除することに成功したと報告した。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>AIの安全性問題は、単に「禁止リスト」を増やしても解決しないことが明らかになりつつあります。Anthropicは「理由を理解させる」という教育的なアプローチが有効だと示しました。<strong>AIが「なぜそれをしてはいけないのか」を根本から理解することで、想定外の状況でも適切に行動できる</strong>ようになります。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>「AIは怖い」「信頼できない」というクライアントへの最も有効な返答は、「Anthropicは問題を透明に公開し、研究で解決し続けている」という事実です。<strong>この研究を知っているかどうかが、AIコンサルタントとしての信頼性の差になります</strong>。企業向けAI導入研修でもAI倫理・安全設計のトピックを追加することで、提案の深みが増します。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>Claude提案時の「安全性・信頼性」セクションにこの研究内容を追加する</li>
+        <li>「<strong>AIは怖い</strong>」という認識のクライアントへの説明材料として準備する</li>
+        <li>企業向けAI導入研修でAI倫理・安全設計のトピックを加える</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 06 ===== -->
+    <section class="topic" id="topic06">
+      <h2>
+        <span class="topic-num">Topic 06 — Tools</span>
+        <span class="topic-title">Codex、ChatGPT モバイルアプリ対応プレビュー開始　外出先から PC に指示可能に</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/vol3-topic-06-codex-mobile.svg" alt="Topic 06 — Codex モバイル対応 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>OpenAI CodexがChatGPTモバイルアプリとの連携プレビューを開始した。スマートフォンから<strong>新規タスクの開始・出力確認・実行操作・承認</strong>が可能になった。処理自体はPC・Mac・devbox上で継続して実行されるため、外出先からスマホで指示し、帰宅前に作業が完了しているという分散実行が実現した。同時期に<strong>Codexデスクトップアプリでリモート接続を有効化し「Macをスリープさせない」に設定</strong>することで、ノートPCを閉じたままでも処理が継続する機能も提供されている。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>「外出中にスマホでAIに指示 → 帰宅前に完成」という働き方が現実になりました。AIエージェントが「24時間365日、場所を問わず稼働し続ける」時代の始まりを象徴するアップデートです。<strong>これまで「PCの前に座らないと使えないツール」だったAIが、スマホから操作できる「常時稼働の仕事仲間」へと進化</strong>しています。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>「スマホからAIエージェントに仕事を指示する」体験は、クライアントへのAI提案で最もインパクトが大きいデモになります。<strong>実際に自分で試してデモできるようにしておくだけで、提案の説得力が格段に上がります</strong>。「移動中でも仕事が進む」という価値提案は、多忙な経営者・管理職に最も刺さるメッセージです。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>Codex＋ChatGPTモバイルの連携を実際に試し、<strong>デモ動画を撮影してクライアント提案に活用する</strong></li>
+        <li>「移動中にAIに指示→帰宅前に完成」というシナリオを提案書のユースケースに組み込む</li>
+        <li>クライアントの日常業務で「スマホから依頼できる作業」をリストアップし提案書に追加する</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 07 ===== -->
+    <section class="topic" id="topic07">
+      <h2>
+        <span class="topic-num">Topic 07 — Tools</span>
+        <span class="topic-title">M365 Copilot 復活の軌跡　GPT-5 搭載が転換点　「プロンプトエンジニア不要」へ</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/vol3-topic-07-m365.svg" alt="Topic 07 — M365 Copilot 復活 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>GPT-5搭載により、以前「使えない」「高いだけ」と酷評されていた<strong>Microsoft 365 Copilotが大幅に改善</strong>された。日経テックなど複数メディアで「復活した」と評価され、効果的な活用法として<strong>「プロンプトエンジニアの発想を捨てること」</strong>が挙げられた。自然な日本語での指示でも高精度に動作するようになり、Teams・Outlook・Word・ExcelでのAI活用が一気に現実的になった。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>Microsoft 365 Copilotは「高いけど使えない」という評判で企業への普及が遅れていました。GPT-5搭載でその状況が一変しています。多くの日本企業がすでにMicrosoft 365を契約しており、<strong>「今契約しているツールのAI機能を使いこなすだけ」で業務効率化が実現できる</strong>という提案が一気に説得力を持つようになりました。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>Microsoft 365は日本企業で最も高いシェアを持つビジネスツールスイートです。<strong>「新しいツールを導入する」ではなく「今使っているツールのAI機能を強化する」提案は、意思決定障壁が最も低い</strong>。Copilot活用コンサルは2026年下半期に急拡大する可能性が高く、今から先行して経験を積むことを強く推奨します。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>Microsoft 365 Copilotの最新機能を自分で試し、<strong>活用事例を3つ作成してポートフォリオに追加</strong>する</li>
+        <li>すでにM365を使っているクライアントに向けたCopilot活用提案書を1本作る</li>
+        <li>「プロンプトエンジニアリング不要」な時代に向けた研修コンテンツを更新する</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 08 ===== -->
+    <section class="topic" id="topic08">
+      <h2>
+        <span class="topic-num">Topic 08 — 市場</span>
+        <span class="topic-title">「AI が暴走したときの保険」登場　米 Corgi が AI カバレッジ発表・$108M 調達</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/vol3-topic-08-ai-insurance.svg" alt="Topic 08 — AI 保険 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>米国の保険スタートアップCorgiが「<strong>AIカバレッジ</strong>」を発表した。ハルシネーション（AI誤情報）・バイアスによる差別的判断・著作権侵害・<strong>自律エージェントの誤作動</strong>による損害を補償する保険商品で、既存のTech E&O（技術・専門家賠償責任保険）のモジュール型追加オプションとして提供される。<strong>$108Mを調達</strong>。BerkshireやChubbなどの大手保険会社が規制当局にAIリスクの除外申請を行う中、逆張り戦略で新カテゴリに参入した。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>AIエージェントがメール送信・送金・本番デプロイを自動で行う時代になると、「AIが間違いを犯したときの責任は誰が取るか」という問題が現実になります。Corgiはその答えとして「AI専用保険」を作りました。<strong>日本でも「AIが誤作動して損害が発生したら？」という問いに答えられるコンサルタントは希少で、大きな差別化ポイントになります</strong>。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>AI導入を躊躇するクライアントの最大の懸念は「何かあったときのリスク」です。AI保険の存在は<strong>「リスクをマネジメントできる」という文脈でAI導入の背中を押す材料</strong>になります。「AI導入後のリスク管理コンサル」という新しい専門領域としても成長余地が大きく、今から勉強しておく価値があります。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>「<strong>AI導入リスク管理チェックリスト</strong>」を作成し、提案書の付録として追加する</li>
+        <li>クライアントへの提案に「AI導入後のリスク管理プラン」セクションを組み込む</li>
+        <li>Corgiのサービス内容をリサーチし、日本市場での展開可能性を整理する</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 09 ===== -->
+    <section class="topic" id="topic09">
+      <h2>
+        <span class="topic-num">Topic 09 — Tools</span>
+        <span class="topic-title">Hermes Agent、2 ヶ月で GitHub 9 万スター　自己進化型 AI エージェントの衝撃</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/vol3-topic-09-hermes.svg" alt="Topic 09 — Hermes Agent インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>Nous Researchのオープンソース AI エージェント「<strong>Hermes Agent</strong>」が2ヶ月でGitHub <strong>9万スター</strong>を突破した。最大の特徴は3つの革新的な仕組みだ。①セッション終了後も記憶が続く<strong>3層メモリシステム</strong>（MEMORY.md・SQLiteセッション検索・外部メモリプロバイダー）、②タスク解決のたびにスキルを自動生成・蓄積していく<strong>自己進化スキルループ</strong>（+Curatorによるガベージコレクション）、③オフラインでのスキル最適化エンジン<strong>GEPA</strong>（ICLR 2026 Oral採択・MIT ライセンス）。SOUL.mdによるエージェントID定義・マルチプロファイル（複数エージェント並走）にも対応している。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>普通のAIチャットは会話が終わると記憶がリセットされます。Hermes Agentは記憶が続き、<strong>使えば使うほど賢くなる個人専用AIチームが育っていく</strong>イメージです。オープンソース・無料から使えるため、エンジニア・開発者の間で急速に広まっています。「自己進化するAIエージェント」が誰でも使える時代になったことを示す重要なシグナルです。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>一般ビジネスパーソンがHermes Agentを使いこなすには技術的なハードルがあります。<strong>「Hermes Agentをビジネス用途にセットアップ・カスタマイズするサポート」は新しい提案機会</strong>になります。また「AIが自己進化する時代に、コンサルタントはどう価値を提供するか」を考える際の重要な参照点でもあります。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>Hermes Agentをインストールし、<strong>1週間使用して記憶・スキル蓄積の仕組みを体験する</strong></li>
+        <li>「自己進化型AIエージェント活用コンサル」をサービスメニューの候補として検討する</li>
+        <li>SOUL.mdの設定をクライアントの業務に合わせてカスタマイズするデモを作成する</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 10 ===== -->
+    <section class="topic" id="topic10">
+      <h2>
+        <span class="topic-num">Topic 10 — 国内</span>
+        <span class="topic-title">京都大学、AI 英語論文支援システム「輝く」を開発・教職員 5,000 名に提供開始</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/vol3-topic-10-kyodai.svg" alt="Topic 10 — 京都大学「輝く」インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>京都大学の研究推進機構（KURA）が、AIを活用した英語論文作成・投稿支援エコシステム「<strong>輝く（Kagayaku）</strong>」を開発し、2026年5月から大学に所属する教職員・研究者<strong>約5,000名</strong>への提供を開始した。英語論文の作成から学術誌への投稿まで一貫した支援を行うシステムで、研究者が英語の壁を克服してより多くの成果を国際発信できるよう設計されている。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>大学・研究機関では「英語論文を書く」ことが研究者の重要な業務です。AIで英語の壁を取り除き、論文の品質向上と国際発信力の強化を目指します。<strong>企業だけでなく大学・研究機関・行政機関でのAI活用が本格化している</strong>ことを示す国内ニュースです。京都大学という影響力の大きい機関が先行事例を作ることで、他大学・研究機関への波及効果が期待されます。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>「専門的なドキュメント作成支援」というニーズはあらゆる業種・組織に存在します。<strong>教育機関・研究機関・行政機関向けのAIコンサルは、民間企業向けと比べて競合が少なく参入しやすい領域</strong>です。「英語文書作成AI支援」「申請書・報告書の自動化」など、公的機関特有のニーズに特化したサービスメニューを検討してみてください。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>教育機関・研究機関・行政機関をターゲットとした<strong>AI活用提案の可能性を1時間でリサーチ</strong>する</li>
+        <li>ClaudeやCopilotで学術論文・申請書の英文化・校正を試し、精度を確認する</li>
+        <li>「英語文書作成AI支援」をサービスメニューに追加できるか検討する</li>
+      </ul>
+    </section>
+
+    <!-- ===== 締めまとめ ===== -->
+    <div class="closing">
+      <h2>今週のまとめ ｜ コンサルタントとして今すぐ動くべきこと</h2>
+      <p>今週のニュースに共通するテーマは<strong>「AIの戦場が、技術競争から企業・社会への実装競争へと移行した」</strong>という点です。Google I/Oは技術の宣言、Dario発言は変化の規模の警告、OpenAI Deployment Companyは実装競争への参入宣言——すべてが同じ方向を示しています。</p>
+      <p>重要なのは、<strong>OpenAIが大企業向けの実装支援に乗り出してきた今こそ、中小・ローカル企業への細かな伴走こそが個人コンサルの最大の勝ち筋</strong>だということです。Corgiが示すAI保険という新カテゴリ、京都大学の「輝く」が示す教育機関への波及——AIコンサルの市場はまだまだ広がっています。</p>
+      <p>「数字で語れる実績」「定着まで支援できるコンサル力」「新カテゴリをいち早くキャッチする情報感度」——この3つを今週から意識して積み上げていきましょう。</p>
+
+      <div class="summary-table-wrap" style="margin-top:28px;">
+        <table class="action-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>今週すぐできるアクション</th>
+              <th>期待効果</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Google I/O基調講演を視聴し、クライアントへの3点まとめを作成する</td>
+              <td>提案ネタ・情報感度のアピール</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Dario発言を引用した「5年後シナリオ」1枚スライドを作成する</td>
+              <td>AI導入の緊急性を説く根拠材料</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>M365 Copilotの最新機能を試し、活用事例を3つ作る</td>
+              <td>既存クライアントへの即時提案</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>提案書に「AI導入リスク管理チェックリスト」を追加する</td>
+              <td>導入障壁の払拭・競合差別化</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>自社のポジション「大手が取れない中小向け伴走支援」を1枚で定義する</td>
+              <td>OpenAI参入後の競争軸の確立</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="brand-foot">SHIFT AI ELITE</div>
+    <p>ウィークリーAIニュース Vol.03 ｜ 2026年5月24日発行</p>
+    <p>本レポートはSHIFT AI ELITEの受講メンバー限定配布です。無断転載・二次利用はご遠慮ください。</p>
+    <p class="next">次号は2026年5月31日（日）発行予定 ｜ Vol.04 Week 4号</p>
+  </footer>
+
+</div>
+</body>
+</html>

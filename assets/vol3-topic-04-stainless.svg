@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 280" width="100%" height="280">
+  <rect width="100%" height="280" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 04 — 重要 / Anthropic M&A · 2026年5月19日発表</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="19" font-weight="900" fill="#ffffff">Anthropic、Stainless API を買収　SDK・MCP を完全内製化</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Before -->
+  <rect x="48" y="112" width="320" height="110" rx="8" fill="#2A2A2A" stroke="#444" stroke-width="1"/>
+  <text x="208" y="136" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#808080" text-anchor="middle">買収前</text>
+  <text x="208" y="160" font-family="'Noto Sans JP',sans-serif" font-size="12" fill="#B3B3B3" text-anchor="middle">Anthropic ← → Stainless API（外部委託）</text>
+  <text x="208" y="184" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080" text-anchor="middle">SDK 開発・MCP サーバー構築をパートナーが担当</text>
+  <text x="208" y="208" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#666" text-anchor="middle">API 初期〜現在まで継続パートナー</text>
+
+  <text x="398" y="172" font-family="'Nunito Sans',sans-serif" font-size="28" font-weight="900" fill="#A51E6D" text-anchor="middle">→</text>
+
+  <!-- After -->
+  <rect x="432" y="112" width="400" height="110" rx="8" fill="#350A20" stroke="#8C1050" stroke-width="1"/>
+  <text x="632" y="136" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">買収後</text>
+  <text x="632" y="160" font-family="'Noto Sans JP',sans-serif" font-size="12" fill="#ffffff" text-anchor="middle">Anthropic ＝ SDK + MCP サーバー 完全内製</text>
+  <text x="632" y="184" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9" text-anchor="middle">品質・セキュリティを直接管理</text>
+  <text x="632" y="208" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#A51E6D" text-anchor="middle">MCP エコシステムが Anthropic の直接管理下へ</text>
+
+  <rect x="48" y="240" width="784" height="24" rx="4" fill="#350A20"/>
+  <text x="440" y="256" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">Claude ＋ MCP 連携提案の信頼性がさらに向上　―「Anthropic 直接品質保証のエコシステム」として訴求可能に</text>
+</svg>

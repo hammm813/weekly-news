@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="100%" height="300">
+  <!-- Background -->
+  <rect width="100%" height="300" fill="#1A1A1A"/>
+
+  <!-- Label -->
+  <text x="48" y="52" font-family="'Nunito Sans',sans-serif" font-size="12" font-weight="700" letter-spacing="3" fill="#A51E6D">TOPIC 02 — 重要アップデート</text>
+
+  <!-- Title -->
+  <text x="48" y="88" font-family="'Noto Sans JP',sans-serif" font-size="20" font-weight="900" fill="#ffffff">Claude Pro / Max　プログラム使用クレジット導入</text>
+  <text x="48" y="112" font-family="'Nunito Sans',sans-serif" font-size="15" font-weight="700" fill="#FF5757">▶ 2026年6月15日（月）より適用開始</text>
+
+  <!-- Divider -->
+  <line x1="48" y1="128" x2="832" y2="128" stroke="#333333" stroke-width="1"/>
+
+  <!-- Pro -->
+  <rect x="48" y="144" width="240" height="108" rx="10" fill="#3A0E25" stroke="#7A1050" stroke-width="1"/>
+  <text x="168" y="173" font-family="'Nunito Sans',sans-serif" font-size="12" font-weight="900" fill="#999999" text-anchor="middle" letter-spacing="2">PRO PLAN</text>
+  <text x="168" y="215" font-family="'Nunito Sans',sans-serif" font-size="36" font-weight="900" fill="#ffffff" text-anchor="middle">$20</text>
+  <text x="168" y="238" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#8C8C8C" text-anchor="middle">月額 $20 ＋ クレジット $20</text>
+
+  <!-- Max 5X -->
+  <rect x="308" y="144" width="240" height="108" rx="10" fill="#3A0E25" stroke="#7A1050" stroke-width="1"/>
+  <text x="428" y="173" font-family="'Nunito Sans',sans-serif" font-size="12" font-weight="900" fill="#999999" text-anchor="middle" letter-spacing="2">MAX 5X PLAN</text>
+  <text x="428" y="215" font-family="'Nunito Sans',sans-serif" font-size="36" font-weight="900" fill="#ffffff" text-anchor="middle">$100</text>
+  <text x="428" y="238" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#8C8C8C" text-anchor="middle">月額 $100 ＋ クレジット $100</text>
+
+  <!-- Max 20X -->
+  <rect x="568" y="144" width="264" height="108" rx="10" fill="#3A0E25" stroke="#7A1050" stroke-width="1"/>
+  <text x="700" y="173" font-family="'Nunito Sans',sans-serif" font-size="12" font-weight="900" fill="#999999" text-anchor="middle" letter-spacing="2">MAX 20X PLAN</text>
+  <text x="700" y="215" font-family="'Nunito Sans',sans-serif" font-size="36" font-weight="900" fill="#ffffff" text-anchor="middle">$200</text>
+  <text x="700" y="238" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#8C8C8C" text-anchor="middle">月額 $200 ＋ クレジット $200</text>
+
+  <!-- Warning -->
+  <rect x="48" y="266" width="784" height="22" rx="4" fill="#3A1C1C"/>
+  <text x="440" y="281" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#FF5757" text-anchor="middle">非ロールオーバー型 ・ サブスクリプション枠と完全分離 ・ 対象：Claude Code / Agent SDK / GitHub Actions</text>
+</svg>

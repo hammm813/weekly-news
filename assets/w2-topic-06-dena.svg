@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300">
+  <defs>
+    <style>
+      text { font-family: 'Noto Sans JP', 'Nunito Sans', sans-serif; }
+    </style>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="880" height="300" fill="#F6E9F0"/>
+
+  <!-- ラベル -->
+  <text x="44" y="36" font-size="11" font-weight="700" letter-spacing="2" fill="#A51E6D">TOPIC 06 — DOMESTIC</text>
+
+  <!-- タイトル -->
+  <text x="44" y="68" font-size="20" font-weight="900" fill="#1A1A1A">DeNA 南場会長「全産業AIネーティブ化」発言 ＆ 新人研修刷新</text>
+
+  <!-- 左パネル: 南場会長の発言 -->
+  <rect x="44" y="84" width="440" height="180" rx="8" fill="#FFFFFF" stroke="#A51E6D" stroke-width="2"/>
+  <rect x="44" y="84" width="440" height="8" rx="4" fill="#A51E6D"/>
+
+  <text x="264" y="118" font-size="13" font-weight="700" fill="#808080" text-anchor="middle">DeNA 南場智子会長 — 日経インタビューより</text>
+
+  <!-- 引用テキスト -->
+  <text x="70" y="150" font-size="14" font-weight="700" fill="#A51E6D">"</text>
+  <text x="84" y="150" font-size="14" fill="#1A1A1A">全産業がAIネーティブに変わる。</text>
+  <text x="84" y="172" font-size="14" fill="#1A1A1A">日本の経営者は認識が</text>
+  <text x="84" y="194" font-size="14" fill="#1A1A1A">追いついていない人も多い。</text>
+  <text x="84" y="218" font-size="14" fill="#1A1A1A">教育で重要になるのは</text>
+  <text x="84" y="240" font-size="14" fill="#1A1A1A">哲学や人文学。</text>
+  <text x="462" y="252" font-size="14" font-weight="700" fill="#A51E6D" text-anchor="end">"</text>
+
+  <!-- 右パネル: 研修期間比較 -->
+  <rect x="508" y="84" width="328" height="180" rx="8" fill="#FFFFFF" stroke="#DEDEDE" stroke-width="1.5"/>
+  <text x="672" y="110" font-size="13" font-weight="700" fill="#808080" text-anchor="middle">新卒研修：AI前後の比較</text>
+
+  <!-- AI前 -->
+  <rect x="528" y="122" width="130" height="120" rx="6" fill="#ECECEC"/>
+  <text x="593" y="148" font-size="11" font-weight="700" fill="#808080" text-anchor="middle">AI導入前</text>
+  <text x="593" y="195" font-size="30" font-weight="900" fill="#808080" text-anchor="middle">10〜</text>
+  <text x="593" y="225" font-size="30" font-weight="900" fill="#808080" text-anchor="middle">15年</text>
+
+  <!-- 矢印 -->
+  <text x="680" y="188" font-size="24" fill="#A51E6D" text-anchor="middle">&#x2192;</text>
+
+  <!-- AI後 -->
+  <rect x="698" y="122" width="118" height="120" rx="6" fill="#A51E6D"/>
+  <text x="757" y="148" font-size="11" font-weight="700" fill="#F0C8DE" text-anchor="middle">AI導入後</text>
+  <text x="757" y="195" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">大幅</text>
+  <text x="757" y="225" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">短縮</text>
+
+  <!-- 下部バナー -->
+  <rect x="44" y="278" width="792" height="16" rx="4" fill="#A51E6D"/>
+  <text x="440" y="290" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">DeNA × GO AI Community が勉強会資料を累計100件以上無料公開（dena.ai）</text>
+</svg>

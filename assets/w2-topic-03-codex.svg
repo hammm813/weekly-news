@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 280" width="880" height="280">
+  <defs>
+    <style>
+      text { font-family: 'Noto Sans JP', 'Nunito Sans', sans-serif; }
+    </style>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="880" height="280" fill="#F6E9F0"/>
+
+  <!-- ラベル -->
+  <text x="44" y="36" font-size="11" font-weight="700" letter-spacing="2" fill="#A51E6D">TOPIC 03 — TOOLS</text>
+
+  <!-- タイトル -->
+  <text x="44" y="68" font-size="20" font-weight="900" fill="#1A1A1A">OpenAI Codex ― スーパーアプリ化・非エンジニアへの全面展開</text>
+
+  <!-- BEFORE ボックス -->
+  <rect x="44" y="92" width="310" height="150" rx="8" fill="#FFFFFF" stroke="#DEDEDE" stroke-width="1.5"/>
+  <rect x="44" y="92" width="310" height="40" rx="8" fill="#DEDEDE"/>
+  <rect x="44" y="116" width="310" height="16" rx="0" fill="#DEDEDE"/>
+  <text x="199" y="118" font-size="13" font-weight="900" fill="#808080" text-anchor="middle">BEFORE</text>
+  <text x="199" y="155" font-size="22" font-weight="900" fill="#808080" text-anchor="middle">エンジニア専用</text>
+  <text x="199" y="184" font-size="14" fill="#808080" text-anchor="middle">コーディング専用UI</text>
+  <text x="199" y="206" font-size="14" fill="#808080" text-anchor="middle">技術知識が必要</text>
+  <text x="199" y="228" font-size="14" fill="#808080" text-anchor="middle">限られた用途</text>
+
+  <!-- 矢印 -->
+  <text x="440" y="170" font-size="44" font-weight="900" fill="#A51E6D" text-anchor="middle">→</text>
+
+  <!-- AFTER ボックス -->
+  <rect x="526" y="92" width="310" height="150" rx="8" fill="#FFFFFF" stroke="#A51E6D" stroke-width="2"/>
+  <rect x="526" y="92" width="310" height="40" rx="8" fill="#A51E6D"/>
+  <rect x="526" y="116" width="310" height="16" rx="0" fill="#A51E6D"/>
+  <text x="681" y="118" font-size="13" font-weight="900" fill="#FFFFFF" text-anchor="middle">AFTER</text>
+  <text x="681" y="155" font-size="22" font-weight="900" fill="#A51E6D" text-anchor="middle">全ビジネスパーソン</text>
+  <text x="681" y="184" font-size="14" fill="#1A1A1A" text-anchor="middle">日常業務に対応</text>
+  <text x="681" y="206" font-size="14" fill="#1A1A1A" text-anchor="middle">スプレッドシート・資料・リサーチ</text>
+  <text x="681" y="228" font-size="14" fill="#1A1A1A" text-anchor="middle">役割選択機能搭載</text>
+
+  <!-- 6月末まで無料 バナー -->
+  <rect x="44" y="254" width="792" height="20" rx="4" fill="#A51E6D"/>
+  <text x="440" y="268" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">6月末まで追加シート $0 提供中（ChatGPT Business/Enterprise向け）— Sam Altman「ひとり社長に史上最も幸運な時代」</text>
+</svg>

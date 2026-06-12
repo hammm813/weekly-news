@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="100%" height="300">
+  <!-- Background -->
+  <rect width="100%" height="300" fill="#1A1A1A"/>
+
+  <!-- Label -->
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 10 — キャリア / 転職市場動向</text>
+
+  <!-- Title -->
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="19" font-weight="900" fill="#ffffff">AIスキルで年収200万円超アップ　実際の転職事例</text>
+
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Case 1: 営業 -->
+  <rect x="48" y="112" width="240" height="136" rx="10" fill="#4A0E2A" stroke="#8C1050" stroke-width="1"/>
+  <text x="168" y="136" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#B3B3B3" text-anchor="middle">営業職（35歳）</text>
+  <text x="168" y="160" font-family="'Nunito Sans',sans-serif" font-size="13" fill="#999999" text-anchor="middle">520万 → </text>
+  <text x="168" y="184" font-family="'Nunito Sans',sans-serif" font-size="26" font-weight="900" fill="#ffffff" text-anchor="middle">780万円</text>
+  <text x="168" y="204" font-family="'Nunito Sans',sans-serif" font-size="14" font-weight="900" fill="#FF5757" text-anchor="middle">+260万円</text>
+  <line x1="68" y1="214" x2="268" y2="214" stroke="#333333" stroke-width="1"/>
+  <text x="168" y="232" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#999999" text-anchor="middle">提案書作成 4h → 45min</text>
+  <text x="168" y="246" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#999999" text-anchor="middle">顧客売上 前年比138%</text>
+
+  <!-- Case 2: 人事 -->
+  <rect x="308" y="112" width="240" height="136" rx="10" fill="#4A0E2A" stroke="#8C1050" stroke-width="1"/>
+  <text x="428" y="136" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#B3B3B3" text-anchor="middle">人事職（32歳）</text>
+  <text x="428" y="160" font-family="'Nunito Sans',sans-serif" font-size="13" fill="#999999" text-anchor="middle">450万 → </text>
+  <text x="428" y="184" font-family="'Nunito Sans',sans-serif" font-size="26" font-weight="900" fill="#ffffff" text-anchor="middle">680万円</text>
+  <text x="428" y="204" font-family="'Nunito Sans',sans-serif" font-size="14" font-weight="900" fill="#FF5757" text-anchor="middle">+230万円</text>
+  <line x1="328" y1="214" x2="528" y2="214" stroke="#333333" stroke-width="1"/>
+  <text x="428" y="232" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#999999" text-anchor="middle">採用評価をAIで分析</text>
+  <text x="428" y="246" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#999999" text-anchor="middle">内定承諾率 62% → 79%</text>
+
+  <!-- Case 3: フリーランス -->
+  <rect x="568" y="112" width="264" height="136" rx="10" fill="#3A1A60" stroke="#6641CC" stroke-width="1"/>
+  <text x="700" y="136" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#B3B3B3" text-anchor="middle">フリーランス（38歳）</text>
+  <text x="700" y="160" font-family="'Nunito Sans',sans-serif" font-size="13" fill="#999999" text-anchor="middle">600万 → </text>
+  <text x="700" y="184" font-family="'Nunito Sans',sans-serif" font-size="26" font-weight="900" fill="#ffffff" text-anchor="middle">1,000万超</text>
+  <text x="700" y="204" font-family="'Nunito Sans',sans-serif" font-size="14" font-weight="900" fill="#FF5757" text-anchor="middle">+400万円以上</text>
+  <line x1="588" y1="214" x2="812" y2="214" stroke="#333333" stroke-width="1"/>
+  <text x="700" y="232" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#999999" text-anchor="middle">AI導入コンサルに転向</text>
+  <text x="700" y="246" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#999999" text-anchor="middle">中小企業向け専門</text>
+
+  <!-- Key message -->
+  <rect x="48" y="264" width="784" height="24" rx="4" fill="#350A1E"/>
+  <text x="440" y="280" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">採用で差がつくのは「AIを使った経験談」ではなく「数字で示した業務改善実績」</text>
+</svg>

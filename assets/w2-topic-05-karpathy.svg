@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 280" width="880" height="280">
+  <defs>
+    <style>
+      text { font-family: 'Noto Sans JP', 'Nunito Sans', sans-serif; }
+    </style>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="880" height="280" fill="#F6E9F0"/>
+
+  <!-- ラベル -->
+  <text x="44" y="36" font-size="11" font-weight="700" letter-spacing="2" fill="#A51E6D">TOPIC 05 — TREND</text>
+
+  <!-- タイトル -->
+  <text x="44" y="68" font-size="20" font-weight="900" fill="#1A1A1A">Karpathy の CLAUDE.md が GitHub トレンド 1位</text>
+
+  <!-- 左パネル: GitHub統計 -->
+  <rect x="44" y="84" width="380" height="170" rx="8" fill="#FFFFFF" stroke="#DEDEDE" stroke-width="1.5"/>
+
+  <!-- 統計タイトル -->
+  <text x="234" y="110" font-size="13" font-weight="700" fill="#808080" text-anchor="middle">GitHub Stats</text>
+
+  <!-- スター -->
+  <rect x="64" y="120" width="160" height="60" rx="6" fill="#F6E9F0"/>
+  <text x="144" y="145" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">Stars</text>
+  <text x="144" y="172" font-size="26" font-weight="900" fill="#A51E6D" text-anchor="middle">8,800</text>
+
+  <!-- フォーク -->
+  <rect x="244" y="120" width="160" height="60" rx="6" fill="#F6E9F0"/>
+  <text x="324" y="145" font-size="11" font-weight="700" fill="#8C52FF" text-anchor="middle">Forks</text>
+  <text x="324" y="172" font-size="26" font-weight="900" fill="#8C52FF" text-anchor="middle">8,000+</text>
+
+  <!-- トレンド1位バッジ -->
+  <rect x="64" y="196" width="340" height="44" rx="6" fill="#A51E6D"/>
+  <text x="234" y="223" font-size="18" font-weight="900" fill="#FFFFFF" text-anchor="middle">GitHub Trend 1位</text>
+
+  <!-- 右パネル: 4原則 -->
+  <rect x="452" y="84" width="384" height="170" rx="8" fill="#FFFFFF" stroke="#DEDEDE" stroke-width="1.5"/>
+  <text x="644" y="110" font-size="13" font-weight="700" fill="#808080" text-anchor="middle">LLMに正しく書かせる 4原則</text>
+
+  <rect x="468" y="118" width="12" height="12" rx="2" fill="#A51E6D"/>
+  <text x="490" y="129" font-size="13" font-weight="700" fill="#1A1A1A">明確な役割とゴールを最初に定義する</text>
+
+  <rect x="468" y="148" width="12" height="12" rx="2" fill="#A51E6D"/>
+  <text x="490" y="159" font-size="13" font-weight="700" fill="#1A1A1A">出力フォーマットを具体的に指定する</text>
+
+  <rect x="468" y="178" width="12" height="12" rx="2" fill="#A51E6D"/>
+  <text x="490" y="189" font-size="13" font-weight="700" fill="#1A1A1A">制約条件・禁止事項を明示する</text>
+
+  <rect x="468" y="208" width="12" height="12" rx="2" fill="#A51E6D"/>
+  <text x="490" y="219" font-size="13" font-weight="700" fill="#1A1A1A">例示（Few-shot）で品質を引き上げる</text>
+
+  <!-- 下部メッセージ -->
+  <rect x="44" y="266" width="792" height="8" rx="4" fill="#A51E6D" opacity="0.3"/>
+  <text x="440" y="276" font-size="11" fill="#A51E6D" text-anchor="middle">依存関係ゼロ・1ファイルで完結 — Claude Codeにおけるプロジェクト設定の「標準フォーマット」として急速に拡散</text>
+</svg>

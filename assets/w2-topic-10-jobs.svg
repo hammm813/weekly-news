@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300">
+  <defs>
+    <style>
+      text { font-family: 'Noto Sans JP', 'Nunito Sans', sans-serif; }
+    </style>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="880" height="300" fill="#1A1A1A"/>
+  <rect x="0" y="0" width="880" height="6" fill="#FF5757"/>
+
+  <!-- ラベル -->
+  <text x="44" y="38" font-size="11" font-weight="700" letter-spacing="2" fill="#FF5757">TOPIC 10 — SOCIETY</text>
+
+  <!-- タイトル -->
+  <text x="44" y="66" font-size="17" font-weight="900" fill="#FFFFFF">AI雇用代替の実態 — 2024年調査・中国判決・日本の法整備</text>
+
+  <!-- イラストレーター データ -->
+  <rect x="44" y="84" width="260" height="140" rx="8" fill="#2A1A1A"/>
+  <text x="174" y="114" font-size="13" font-weight="700" fill="#888888" text-anchor="middle">イラストレーター</text>
+
+  <!-- 円グラフ代わりの視覚表示 -->
+  <!-- 全体 -->
+  <rect x="64" y="128" width="220" height="30" rx="4" fill="#333333"/>
+  <!-- AI代替分 1/4 -->
+  <rect x="64" y="128" width="55" height="30" rx="4" fill="#FF5757"/>
+  <text x="174" y="120" font-size="10" fill="#888888" text-anchor="middle">全体のうちAI代替</text>
+  <text x="174" y="176" font-size="28" font-weight="900" fill="#FF5757" text-anchor="middle">1/4</text>
+  <text x="174" y="202" font-size="13" fill="#AAAAAA" text-anchor="middle">が仕事を失った</text>
+
+  <!-- 翻訳者 データ -->
+  <rect x="324" y="84" width="260" height="140" rx="8" fill="#2A1A1A"/>
+  <text x="454" y="114" font-size="13" font-weight="700" fill="#888888" text-anchor="middle">翻訳者</text>
+
+  <!-- 全体 -->
+  <rect x="344" y="128" width="220" height="30" rx="4" fill="#333333"/>
+  <!-- AI代替分 1/3 -->
+  <rect x="344" y="128" width="73" height="30" rx="4" fill="#FF5757"/>
+  <text x="454" y="120" font-size="10" fill="#888888" text-anchor="middle">全体のうちAI代替</text>
+  <text x="454" y="176" font-size="28" font-weight="900" fill="#FF5757" text-anchor="middle">1/3</text>
+  <text x="454" y="202" font-size="13" fill="#AAAAAA" text-anchor="middle">が仕事を失った</text>
+
+  <!-- 右: 法・対策 -->
+  <rect x="604" y="84" width="232" height="140" rx="8" fill="#2A2A2A"/>
+  <text x="720" y="112" font-size="13" font-weight="700" fill="#888888" text-anchor="middle">法整備・対策動向</text>
+
+  <rect x="616" y="122" width="8" height="8" rx="2" fill="#A51E6D"/>
+  <text x="632" y="131" font-size="11" fill="#CCCCCC">中国: AI代替解雇を不当と判決</text>
+
+  <rect x="616" y="148" width="8" height="8" rx="2" fill="#A51E6D"/>
+  <text x="632" y="157" font-size="11" fill="#CCCCCC">日本: 文化庁が法的整理を推進</text>
+
+  <rect x="616" y="174" width="8" height="8" rx="2" fill="#A51E6D"/>
+  <text x="632" y="183" font-size="11" fill="#CCCCCC">AIヘビーユーザーの残業</text>
+  <text x="632" y="199" font-size="11" fill="#FF5757">週8.34h（非利用4.99h）</text>
+
+  <!-- 対策メッセージ -->
+  <rect x="44" y="238" width="792" height="40" rx="6" fill="#A51E6D"/>
+  <text x="440" y="258" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">AIを使って仕事を「変換」できるかどうかで明暗が分かれる</text>
+  <text x="440" y="274" font-size="11" fill="#F0C8DE" text-anchor="middle">単純代替ではなく「AIを正しく使う側に回る」ことが生き残りの鍵</text>
+</svg>

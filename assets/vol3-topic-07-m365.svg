@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="100%" height="300">
+  <rect width="100%" height="300" fill="#F6E9F0"/>
+  <rect x="0" y="0" width="6" height="300" fill="#A51E6D"/>
+  <text x="32" y="44" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 07 — Tools / Microsoft 365 Copilot</text>
+  <text x="32" y="76" font-family="'Noto Sans JP',sans-serif" font-size="18" font-weight="900" fill="#1A1A1A">M365 Copilot 復活の軌跡　GPT-5 搭載が転換点　「プロンプトエンジニア不要」へ</text>
+  <line x1="32" y1="92" x2="848" y2="92" stroke="#DEDEDE" stroke-width="1"/>
+
+  <!-- Timeline -->
+  <rect x="32" y="110" width="200" height="80" rx="8" fill="#ECECEC"/>
+  <text x="132" y="134" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#808080" text-anchor="middle">2025年まで</text>
+  <text x="132" y="158" font-family="'Nunito Sans',sans-serif" font-size="18" font-weight="900" fill="#FF5757" text-anchor="middle">「使えない」</text>
+  <text x="132" y="180" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080" text-anchor="middle">精度・応答品質に課題</text>
+
+  <text x="254" y="155" font-family="'Nunito Sans',sans-serif" font-size="22" font-weight="900" fill="#A51E6D" text-anchor="middle">→</text>
+
+  <rect x="280" y="110" width="200" height="80" rx="8" fill="#F0E8FF" stroke="#8C52FF" stroke-width="1"/>
+  <text x="380" y="134" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#8C52FF" text-anchor="middle">GPT-5 搭載</text>
+  <text x="380" y="158" font-family="'Nunito Sans',sans-serif" font-size="18" font-weight="900" fill="#8C52FF" text-anchor="middle">転換点</text>
+  <text x="380" y="180" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#4D4D4D" text-anchor="middle">精度・理解力が大幅改善</text>
+
+  <text x="502" y="155" font-family="'Nunito Sans',sans-serif" font-size="22" font-weight="900" fill="#A51E6D" text-anchor="middle">→</text>
+
+  <rect x="528" y="104" width="310" height="92" rx="8" fill="#A51E6D"/>
+  <text x="683" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#F6E9F0" text-anchor="middle">2026年・現在</text>
+  <text x="683" y="154" font-family="'Nunito Sans',sans-serif" font-size="18" font-weight="900" fill="#ffffff" text-anchor="middle">「復活」評価</text>
+  <text x="683" y="176" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#F6E9F0" text-anchor="middle">自然な指示で高精度動作</text>
+
+  <text x="32" y="226" font-family="'Noto Sans JP',sans-serif" font-size="12" font-weight="700" fill="#4D4D4D">▶ 活用の鍵</text>
+  <text x="32" y="248" font-family="'Nunito Sans',sans-serif" font-size="13" font-weight="900" fill="#A51E6D">「プロンプトエンジニアの発想を捨てる」</text>
+  <text x="280" y="248" font-family="'Noto Sans JP',sans-serif" font-size="12" fill="#4D4D4D">― 自然な言葉で指示するだけで高精度に動作</text>
+  <text x="32" y="270" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">日本企業で最高シェアの M365 ― 「すでに使っているツールのAI機能強化」提案は意思決定障壁が低い</text>
+</svg>

@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SHIFT AI ELITE: AI Agent News 週次レポート Vol.01｜2026年5月4日〜5月10日</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Nunito+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+  /* ===== リセット ===== */
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Noto Sans JP', 'Nunito Sans', -apple-system, sans-serif;
+    color: #333333;
+    background: #F5F5F5;
+    line-height: 1.7;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 880px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0 4px 32px rgba(165,30,109,0.10), 0 2px 8px rgba(0,0,0,0.04);
+    border: 1px solid rgba(165,30,109,0.08);
+  }
+
+  /* ===== ヘッダー ===== */
+  .header {
+    background: linear-gradient(135deg, #FF5757 0%, #A51E6D 50%, #8C52FF 100%);
+    color: #FFFFFF;
+    padding: 48px 56px 40px;
+    position: relative;
+    overflow: hidden;
+  }
+  .header::before {
+    content: '';
+    position: absolute;
+    right: -60px; top: -60px;
+    width: 260px; height: 260px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.06);
+  }
+  .header::after {
+    content: '';
+    position: absolute;
+    left: -40px; bottom: -80px;
+    width: 200px; height: 200px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.04);
+  }
+  .brand {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.75);
+    margin-bottom: 16px;
+  }
+  .header h1 {
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+  }
+  .header h1 .title-en {
+    display: block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: rgba(255,255,255,0.75);
+  }
+  .meta {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    padding-top: 18px;
+    border-top: 1px solid rgba(255,255,255,0.3);
+  }
+  .meta-item { font-size: 14px; }
+  .meta-item .label {
+    display: block;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgba(255,255,255,0.65);
+    margin-bottom: 4px;
+  }
+  .meta-item .value { font-weight: 500; font-size: 15px; color: #FFFFFF; }
+
+  /* ===== コンテンツ ===== */
+  .content { padding: 56px; }
+
+  /* ===== 3行サマリー ===== */
+  .summary {
+    background: linear-gradient(135deg, #F6E9F0, #FFFFFF);
+    border-left: 6px solid #A51E6D;
+    padding: 30px 34px;
+    margin-bottom: 48px;
+    border-radius: 0 8px 8px 0;
+  }
+  .summary-title {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #A51E6D;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+  }
+  .summary ol { list-style: none; counter-reset: summary; }
+  .summary ol li {
+    counter-increment: summary;
+    padding: 13px 0 13px 52px;
+    position: relative;
+    border-bottom: 1px dashed rgba(165,30,109,0.2);
+    line-height: 1.65;
+  }
+  .summary ol li:last-child { border-bottom: none; }
+  .summary ol li::before {
+    content: counter(summary);
+    position: absolute;
+    left: 0; top: 13px;
+    width: 34px; height: 34px;
+    border-radius: 50%;
+    background: #A51E6D;
+    color: #FFFFFF;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 34px;
+    text-align: center;
+  }
+  .summary strong { color: #7A1450; font-weight: 700; }
+
+  /* ===== 読み方ガイド ===== */
+  .read-guide {
+    background: #F5F5F5;
+    border: 1px solid #ECECEC;
+    padding: 18px 22px;
+    border-radius: 6px;
+    margin-bottom: 48px;
+    font-size: 14px;
+    line-height: 1.75;
+    color: #4D4D4D;
+  }
+  .read-guide strong { color: #333333; }
+
+  /* ===== 目次 ===== */
+  .toc {
+    background: #F5F5F5;
+    border: 1px solid #ECECEC;
+    padding: 30px 34px;
+    border-radius: 8px;
+    margin-bottom: 56px;
+  }
+  .toc-title {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #808080;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+  }
+  .toc ol { list-style: none; counter-reset: toc; }
+  .toc ol li {
+    counter-increment: toc;
+    padding: 10px 0 10px 42px;
+    position: relative;
+    border-bottom: 1px solid #ECECEC;
+  }
+  .toc ol li:last-child { border-bottom: none; }
+  .toc ol li::before {
+    content: counter(toc, decimal-leading-zero);
+    position: absolute;
+    left: 0; top: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    color: #A51E6D;
+    font-size: 13px;
+  }
+  .toc a { color: #333333; text-decoration: none; font-weight: 500; }
+
+  /* ===== トピックセクション ===== */
+  section.topic { margin-bottom: 60px; scroll-margin-top: 40px; }
+  section.topic h2 {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1.4;
+    color: #333333;
+    padding-bottom: 14px;
+    margin-bottom: 26px;
+    border-bottom: 3px solid #A51E6D;
+  }
+  section.topic h2 .topic-num {
+    display: inline-block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #A51E6D;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+  }
+  section.topic h2 .topic-title { display: block; margin-top: 4px; }
+  section.topic h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1A1A1A;
+    margin-top: 26px;
+    margin-bottom: 12px;
+    padding-left: 12px;
+    border-left: 4px solid #A51E6D;
+    line-height: 1.4;
+  }
+  section.topic p {
+    margin-bottom: 16px;
+    font-size: 15px;
+    line-height: 1.85;
+    color: #1A1A1A;
+  }
+  section.topic ul, section.topic ol {
+    margin: 14px 0 18px 4px;
+    padding-left: 22px;
+  }
+  section.topic ul li, section.topic ol li {
+    margin-bottom: 9px;
+    font-size: 15px;
+    line-height: 1.8;
+  }
+  section.topic ul li::marker { color: #A51E6D; }
+  section.topic ol li::marker { color: #A51E6D; font-weight: 700; }
+  section.topic strong {
+    font-weight: 700;
+    color: #333333;
+    background: linear-gradient(transparent 60%, #F6E9F0 60%);
+    padding: 0 2px;
+  }
+
+  /* ===== インサイトボックス ===== */
+  .insight {
+    background: linear-gradient(135deg, #FAFAFA, #F6E9F0);
+    border-left: 6px solid #A51E6D;
+    padding: 20px 24px 20px 54px;
+    margin: 24px 0 8px;
+    border-radius: 0 6px 6px 0;
+    position: relative;
+  }
+  .insight::before {
+    content: '';
+    position: absolute;
+    left: 18px; top: 50%;
+    transform: translateY(-50%);
+    width: 20px; height: 20px;
+    border-radius: 50%;
+    background: #A51E6D;
+  }
+  .insight-label {
+    display: inline-block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #A51E6D;
+    background: #FFFFFF;
+    border: 1px solid #A51E6D;
+    padding: 3px 10px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  .insight p { margin: 0 !important; font-size: 15px !important; line-height: 1.8 !important; color: #1A1A1A; }
+  .insight strong { background: transparent !important; color: #7A1450 !important; }
+
+  /* ===== テーブル ===== */
+  .summary-table-wrap {
+    margin: 22px 0;
+    overflow-x: auto;
+    border-radius: 6px;
+    border: 1px solid #DEDEDE;
+  }
+  table.action-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  table.action-table thead { background: #A51E6D; color: #FFFFFF; }
+  table.action-table thead th {
+    padding: 12px 16px;
+    text-align: left;
+    font-weight: 700;
+  }
+  table.action-table thead th:first-child { width: 56px; text-align: center; }
+  table.action-table thead th:last-child { width: 170px; }
+  table.action-table tbody tr { border-bottom: 1px solid #ECECEC; background: #FFFFFF; }
+  table.action-table tbody tr:last-child { border-bottom: none; }
+  table.action-table tbody td { padding: 12px 16px; line-height: 1.7; }
+  table.action-table tbody td:first-child {
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    color: #A51E6D;
+    font-size: 17px;
+  }
+  table.action-table tbody td:last-child { color: #808080; font-size: 13px; }
+
+  /* ===== トピック画像 ===== */
+  .topic-figure {
+    margin: 0 0 30px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 6px 28px rgba(165,30,109,0.10), 0 2px 8px rgba(0,0,0,0.04);
+    background: #FFFFFF;
+    width: 100%;
+  }
+  .topic-figure img { display: block; width: 100%; height: auto; }
+
+  /* ===== 締めまとめ ===== */
+  .closing {
+    margin-top: 60px;
+    padding: 40px;
+    background: linear-gradient(135deg, #1A1A1A, #2A1A2D);
+    color: #FFFFFF;
+    border-radius: 8px;
+  }
+  .closing h2 {
+    color: #FFFFFF;
+    border-bottom: 3px solid #FF5757;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1.4;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+  }
+  .closing p { color: rgba(255,255,255,0.92); margin-bottom: 14px; line-height: 1.85; font-size: 15px; }
+  .closing strong {
+    color: #FFFFFF;
+    font-weight: 700;
+    background: linear-gradient(transparent 60%, rgba(255,87,87,0.4) 60%);
+  }
+  .closing table.action-table thead { background: #FF5757; }
+  .closing table.action-table tbody tr { background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.1); }
+  .closing table.action-table tbody td { color: rgba(255,255,255,0.85); }
+  .closing table.action-table tbody td:first-child { color: #FF8080; }
+  .closing table.action-table tbody td:last-child { color: rgba(255,255,255,0.5); }
+
+  /* ===== フッター ===== */
+  .footer {
+    text-align: center;
+    padding: 36px 56px;
+    background: #1A1A1A;
+    color: rgba(255,255,255,0.7);
+    font-size: 13px;
+    line-height: 1.8;
+  }
+  .footer .brand-foot {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+  }
+  .footer .next { font-size: 12px; margin-top: 10px; opacity: 0.7; }
+
+  /* ===== 印刷・PDF出力（ここだけで黒塗りを防ぐ） ===== */
+  @media print {
+    *, *::before, *::after {
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+    }
+
+    body { background: #FFFFFF; }
+    .wrap {
+      max-width: 100%;
+      box-shadow: none !important;
+      border: none !important;
+    }
+
+    /* ヘッダー：グラデーション → 単色 / 装飾円を非表示 */
+    .header {
+      background: #A51E6D !important;
+    }
+    .header::before, .header::after { display: none !important; }
+    .brand { color: #F0C8DE !important; }
+    .header h1 .title-en { color: #F0C8DE !important; }
+    .meta { border-top-color: #C04080 !important; }
+    .meta-item .label { color: #F0C8DE !important; }
+
+    /* サマリー：グラデーション → 単色 / rgba罫線 → solid */
+    .summary { background: #F6E9F0 !important; }
+    .summary ol li {
+      border-bottom: 1px solid #DEDEDE !important;
+    }
+
+    /* インサイト：グラデーション → 単色 / ::before 装飾を非表示 */
+    .insight {
+      background: #F6E9F0 !important;
+      padding-left: 24px !important;
+    }
+    .insight::before { display: none !important; }
+
+    /* strong ハイライト：グラデーション → 単色 */
+    section.topic strong {
+      background: #F6E9F0 !important;
+    }
+
+    /* クロージング：グラデーション → 単色 / rgba → solid */
+    .closing { background: #1A1A1A !important; }
+    .closing p { color: #CCCCCC !important; }
+    .closing strong {
+      background: none !important;
+      color: #FFFFFF !important;
+    }
+    .closing table.action-table tbody tr {
+      background: #222222 !important;
+      border-color: #333333 !important;
+    }
+    .closing table.action-table tbody td { color: #CCCCCC !important; }
+    .closing table.action-table tbody td:last-child { color: #888888 !important; }
+
+    /* フッター：rgba → solid */
+    .footer { color: #AAAAAA !important; }
+    .footer .next { opacity: 1 !important; color: #888888 !important; }
+
+    /* 影を削除 */
+    .topic-figure {
+      box-shadow: none !important;
+      border: 1px solid #ECECEC !important;
+    }
+
+    /* ページ区切り */
+    section.topic, .insight, .summary, .closing, .summary-table-wrap, .topic-figure {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+    section.topic h2 { break-after: avoid; page-break-after: avoid; }
+    .closing { break-before: page; page-break-before: page; }
+    .header { padding: 28px 32px 24px; }
+    .content { padding: 32px; }
+  }
+
+  /* ===== レスポンシブ ===== */
+  @media (max-width: 768px) {
+    .header { padding: 36px 24px 28px; }
+    .header h1 { font-size: 26px; }
+    .content { padding: 32px 20px; }
+    .summary, .toc { padding: 22px 20px; }
+    .closing { padding: 28px 20px; }
+    section.topic h2 { font-size: 20px; }
+    .insight { padding: 16px 20px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="brand">SHIFT AI ELITE — Members Only Weekly Report</div>
+    <h1>
+      <span class="title-en">AI Agent News — Weekly Report</span>
+      AIエージェント週次レポート Vol.01
+    </h1>
+    <div class="meta">
+      <div class="meta-item">
+        <span class="label">対象期間</span>
+        <span class="value">2026年5月4日（月）〜 5月10日（日）</span>
+      </div>
+      <div class="meta-item">
+        <span class="label">発行</span>
+        <span class="value">SHIFT AI ELITE 編集室</span>
+      </div>
+      <div class="meta-item">
+        <span class="label">発行日</span>
+        <span class="value">2026年5月10日（日）</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="content">
+
+    <!-- ===== 3行サマリー ===== -->
+    <section class="summary">
+      <div class="summary-title">今週の3行サマリー</div>
+      <ol>
+        <li><strong>GPT-5.5がコーディングベンチマークで首位、ClaudeはエージェントでGPTを上回る。</strong>「最強AI」は用途次第という時代が到来し、ツール選定・使い分けを設計するコンサルの価値が増す。</li>
+        <li><strong>ClaudeがAdobe・Blender等50超のクリエイティブツールをMCP経由で制御可能に。</strong>AIは「生成する」から「既存ツールを操作する」フェーズに移行し、業務AI化の対象領域が一気に拡大した。</li>
+        <li><strong>幹部採用の8割がAIスキルを重視（デロイト調査）、一方でAIエージェントのDB全削除事故も発生。</strong>AI活用の加速と安全設計の必要性が同時に高まっており、「正しく使う」ための支援ニーズが急増している。</li>
+      </ol>
+    </section>
+
+    <!-- ===== 読み方ガイド ===== -->
+    <div class="read-guide">
+      <strong>このレポートの読み方：</strong>各トピックは「何が起きたか（事実整理）」→「噛み砕くと（平易な解説）」→「コンサル視点のインサイト」→「明日から使える業務活用」の4層構造でまとめています。忙しい方は <strong>インサイト</strong> と <strong>業務活用</strong> だけ読んでも構いません。
+    </div>
+
+    <!-- ===== 目次 ===== -->
+    <nav class="toc">
+      <div class="toc-title">Contents</div>
+      <ol>
+        <li><a href="#topic01">GPT-5.5 リリース・コーディングでClaudeを上回る評価</a></li>
+        <li><a href="#topic02">Claude × Adobe CC・Blender等50超ツールをMCP経由で制御可能に</a></li>
+        <li><a href="#topic03">OpenAI Codex スーパーアプリ化・非エンジニアへの全面展開</a></li>
+        <li><a href="#topic04">Claude Security パブリックベータ開始</a></li>
+        <li><a href="#topic05">KarpathyのCLAUDE.md がGitHub Trend 1位</a></li>
+        <li><a href="#topic06">DeNA「全産業AIネーティブ化」・南場会長発言＆新人研修刷新</a></li>
+        <li><a href="#topic07">AIスキルが採用新基準に・幹部採用の約8割が「影響する」</a></li>
+        <li><a href="#topic08">Cursor × Claude 本番DB全削除事故・AIエージェントリスク管理</a></li>
+        <li><a href="#topic09">Google Q1決算・AI収益化でクラウド63%増・純利益10兆円規模</a></li>
+        <li><a href="#topic10">AI雇用代替の実態・中国判決・日本の法整備動向</a></li>
+      </ol>
+    </nav>
+
+    <!-- ===== TOPIC 01 ===== -->
+    <section class="topic" id="topic01">
+      <h2>
+        <span class="topic-num">Topic 01 — Global</span>
+        <span class="topic-title">GPT-5.5 リリース・コーディングでClaudeを上回る評価</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/w2-topic-01-gpt55.svg" alt="Topic 01 — GPT-5.5 コーディングベンチマーク インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>OpenAIがGPT-5.5をリリース。Cursorに搭載され、<strong>CursorBenchで72.8%を記録しトップに</strong>。WolfBenchでもClaude Opus 4.7・Claude Sonnet 4.6を上回った。東大理3の数学で満点を取得。英政府機関による評価ではサイバー攻撃能力の一部がClaude Mythos超えとも報告された。Cursor上では5月2日まで50%オフで提供。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>コーディング特化のベンチマークでOpenAIが首位を取った。一方で専門家評価では「コーディングはCodex（GPT-5.5）が速い、エージェント的な作業や長期タスクはClaudeが強い」という棲み分けが見えてきた。「最強モデル」は用途次第であり、一つのベンチマーク結果だけでツールを決める時代は終わった。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>AIモデルの「比較・選定」そのものがコンサルの付加価値になる。クライアントが「どのAIが一番いいか」と聞いてきたとき、<strong>「用途別最適解マップ」を提示できるコンサルタントは一段上の信頼を得られる</strong>。特にCursor・Codex・Claude Codeの違いを実務ベースで説明できるかどうかが、今後の差別化ポイントになる。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>GPT-5.5・Claude Opus 4.7・Claude Sonnet 4.6の3モデルで同じタスクを比較し、<strong>「用途別AIモデル選定チートシート」</strong>を作る</li>
+        <li>Cursor上でGPT-5.5を試し、自分のコーディング（またはノーコード自動化）速度と比較する</li>
+        <li>クライアントへの説明に「ベンチマーク比較表」を使い、提案書の信頼性を上げる</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 02 ===== -->
+    <section class="topic" id="topic02">
+      <h2>
+        <span class="topic-num">Topic 02 — Tools</span>
+        <span class="topic-title">Claude × Adobe CC・Blender等50超ツールをMCP経由で制御可能に</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/w2-topic-02-claude-mcp.svg" alt="Topic 02 — Claude MCP クリエイティブツール統合 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>AnthropicがClaude MCP経由でAdobe Creative Cloud（50以上のツール）、Blender、Canva Affinity、SketchUp、Ableton、Splice、Resolumeなどとの統合を発表。<strong>ClaudeがBlender Development Fundにパトロンとして参加</strong>。日本のユーザーがClaude DesktopからBlenderを操作してコンテンツを生成する実証が相次ぎSNSで話題に。HeyGenのHyperFramesもClaudeとCodex両方で正式プラグイン化。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>これまでAIは「テキスト生成・画像生成」に限定されていた。今後はClaudeからPhotoshopのレイヤーを操作したり、BlenderのオブジェクトにAIが変更を加えたり、Abletonで音楽を生成・編集したりできる。<strong>「AIが作る」から「AIが既存ツールを操作して作る」フェーズへの移行</strong>であり、プロのクリエイティブワークフローにAIが本格統合される転換点。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>マーケティング・広告・デザイン部門を持つクライアント企業への提案が大きく変わる。「AIで画像生成する」ではなく<strong>「既存のAdobe/CanvaワークフローにClaudeを組み込む」提案ができる</strong>。新規ツール導入の抵抗感が下がるため、AI導入提案の成功率が上がる可能性がある。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>Claude DesktopにBlenderコネクタを設定し、簡単な3DオブジェクトをClaude経由で生成してみる（セットアップはドラッグ&amp;ドロップのみ）</li>
+        <li>Adobe Creative Cloudユーザーのクライアントに「Claude連携でどの業務が自動化できるか」を棚卸しする</li>
+        <li><strong>「クリエイティブ業務のAI化ROI計算書」</strong>を作成し、コスト削減を数字で可視化する</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 03 ===== -->
+    <section class="topic" id="topic03">
+      <h2>
+        <span class="topic-num">Topic 03 — Tools</span>
+        <span class="topic-title">OpenAI Codex スーパーアプリ化・非エンジニアへの全面展開</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/w2-topic-03-codex.svg" alt="Topic 03 — OpenAI Codex スーパーアプリ化 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>OpenAIがCodexをエンジニア専用ツールから一般ビジネスパーソン向けへ大幅転換。役割選択機能（コーダー向け/一般向けUI）、日常業務アプリとの連携、スプレッドシート・資料作成・リサーチ対応を追加。<strong>6月末まで追加シートの$0提供</strong>（ChatGPT Business/Enterprise向け）。FigmaプラグインではGitHub Copilot、実装計画をFigJamボードに変換可能に。Sam Altmanが「ひとり社長に史上最も幸運な時代」と発言し話題。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>ChatGPTが生成AIを一般普及させたように、Codexがビジネスパーソン全員向けのAIアシスタントになろうとしている。プログラミングを知らなくてもCodexから仕事を丸投げできる設計へ。<strong>「AIに仕事を頼む」ことが当たり前になる世界の入口</strong>。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>Codexの一般化は、AIコンサルタントにとって追い風でもある。クライアント側がAIツールを使い始めることで「うまく使いこなせない」「社内ルールがない」「何を任せていいかわからない」という課題が増える。<strong>そこへの回答を持つコンサルタントの需要が高まる</strong>。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>Codexに自分の日常業務（メール整理・資料作成・リサーチ）を1つ依頼し、<strong>「AIに任せられる業務リスト」</strong>を作成する</li>
+        <li>6月末の$0シート期間中にチームまたはクライアントにCodex体験を提供する</li>
+        <li>「Codexで何ができるか」5分デモを作成し、クライアントへの初回提案に使う</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 04 ===== -->
+    <section class="topic" id="topic04">
+      <h2>
+        <span class="topic-num">Topic 04 — Claude</span>
+        <span class="topic-title">Claude Security パブリックベータ開始</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/w2-topic-04-claude-security.svg" alt="Topic 04 — Claude Security パブリックベータ インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>AnthropicがClaude Enterprise顧客向けに「Claude Security」をパブリックベータで開始。コードベース全体をスキャンし、脆弱性を検出。Claudeが一件ずつ検証することで<strong>偽陽性を大幅削減</strong>し、パッチ案を提示してユーザーが確認・承認する形式。従来のセキュリティ診断は専門ベンダーへの外注が必要で高額だったが、Claude Enterpriseでほぼ自動化される。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>コードのセキュリティ診断はこれまで高度な専門知識が必要で、外部セキュリティ会社に数百万〜数千万円を払う領域だった。Claude Securityで社内のコードをいつでもAIが自動スキャンし、問題箇所を特定・修正提案まで行う。<strong>特に中小企業のセキュリティ対策コストを劇的に下げる可能性がある</strong>。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>セキュリティコンサルの一部機能がClaudeで代替される一方、<strong>「Claude Securityの導入支援・運用設計」という新しいコンサルメニューが生まれる</strong>。特に「エンタープライズAI導入を検討している企業」へのセキュリティ不安解消策として提案できる。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>Claude Enterpriseを使えるクライアントへ「Claude Securityのベータ参加」を提案する</li>
+        <li>「AI導入時のセキュリティチェックリスト」を作成し、クライアントへの価値提供コンテンツにする</li>
+        <li><strong>従来の外部セキュリティ診断コストとClaude Security利用コストの比較試算</strong>を提案書に盛り込む</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 05 ===== -->
+    <section class="topic" id="topic05">
+      <h2>
+        <span class="topic-num">Topic 05 — 注目</span>
+        <span class="topic-title">KarpathyのCLAUDE.md がGitHub Trend 1位</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/w2-topic-05-karpathy.svg" alt="Topic 05 — Karpathy CLAUDE.md GitHub Trend インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>OpenAI共同創業者・元Tesla AI責任者のAndrej KarpathyがCLAUDE.mdファイルをGitHubに公開。「LLMに正しく書かせる4原則」を1ファイルにまとめたもの。<strong>依存関係ゼロ・8,800スター・8,000以上のフォーク・GitHubトレンド1位</strong>を記録。Claude Codeにおけるプロジェクト設定の「標準フォーマット」として急速に拡散。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>AIに良い仕事をさせるには「正しい指示の出し方」が鍵。KarpathyがまとめたCLAUDE.mdは、AIへの指示書のテンプレートのようなもの。これを参考にすることで、AIが生成するコードや文章の品質が大幅に上がる。<strong>プロのAI活用者が実践している「AIとの付き合い方」が1ファイルで学べる</strong>。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>「プロンプトエンジニアリング」から「CLAUDE.md（AIへの指示設計）」へ。クライアント企業にとって、AIツールを導入しても「うまく使えない」最大の原因が「指示の出し方が悪い」こと。<strong>CLAUDE.mdのような「AIとの作業フローの設計書」を作るコンサルメニューは高い付加価値を持つ</strong>。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>KarpathyのCLAUDE.mdをGitHubで確認し、自分のワークフローに取り込む</li>
+        <li>クライアントの業種・業務に合わせた<strong>「カスタムCLAUDE.md」を提案メニュー</strong>として開発する</li>
+        <li>「CLAUDE.mdを導入すると何が変わるか」のBefore/After事例を作成する</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 06 ===== -->
+    <section class="topic" id="topic06">
+      <h2>
+        <span class="topic-num">Topic 06 — 国内</span>
+        <span class="topic-title">DeNA「全産業AIネーティブ化」・南場会長発言＆新人研修刷新</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/w2-topic-06-dena.svg" alt="Topic 06 — DeNA AIネーティブ化 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>DeNA南場智子会長が「全産業がAIネーティブに変わる。日本の経営者は認識が追いついていない人も多い」と発言（日経インタビュー）。「教育で重要になるのは哲学や人文学」とも語った。DeNAは新卒研修を大刷新し<strong>「AI普及前は10〜15年かかったステップがAIで大幅短縮された」</strong>と採用責任者が説明。DeNA×GO AI Communityが勉強会資料を累計100件以上無料公開。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>日本を代表するテック企業のトップがAI転換を「全産業に及ぶ」レベルで宣言した。新入社員研修から変えているということは、今後の人材育成の前提条件が変わること。<strong>「AIを前提にした仕事の仕方」を知っている人材と知らない人材の差が、採用・昇進で明確に分かれ始める</strong>。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>南場会長の発言は、AIコンサルタントが提案の際に使える「権威ある一次情報」として価値がある。「日本の大手企業がここまで変わっている」という文脈でクライアントへのAI導入提案の背中を押せる。<strong>特に「うちの会社にはまだ早い」と思っているクライアントへの反論材料になる</strong>。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>南場会長インタビューのキーフレーズをまとめた<strong>「AIネーティブ化の必然性を示す1枚スライド」</strong>を作成する</li>
+        <li>DeNAの無料公開資料（dena.ai）をリサーチし、自社・クライアントのAI研修に取り込む</li>
+        <li>「AI前提の人材育成プログラム提案書」を1本作成する</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 07 ===== -->
+    <section class="topic" id="topic07">
+      <h2>
+        <span class="topic-num">Topic 07 — 市場</span>
+        <span class="topic-title">AIスキルが採用新基準に・幹部採用の約8割が「影響する」</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/w2-topic-07-hiring.svg" alt="Topic 07 — AIスキル採用基準 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>デロイトトーマツヒューマンリソースが生成AI活用企業の経営層・採用担当者を対象に調査。幹部採用への影響度合いで<strong>約8割</strong>が「AIスキルが影響する」と回答。面接で具体的な実務経験を問う企業は<strong>45%</strong>。新卒採用にも波及が広がっている。日経では「中途採用が初の5割超え、電機・通信がAI人材確保を加速」とも報道。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>以前は「エンジニア職の採用でコーディング試験がある」のと同じように、今後は「管理職採用でAI活用経験が問われる」時代が来る。「AIを使った経験」だけでなく「AIで何を達成したか（数字）」を問われるようになっており、<strong>実績の可視化が不可欠</strong>になる。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>AIコンサルタントとしての「数字で語る実績」を今すぐ作る必要性が高まっている。「AIを使っています」では弱く、<strong>「AIで提案書作成時間を4時間→30分に短縮し、クライアント獲得率が20%向上した」のような数値化された実績が求められる</strong>。クライアントへの提案でも「導入後の数値目標」を設定することが重要になる。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>自分のAI活用実績を<strong>「数字で語る自己PRシート」</strong>として整理する（削減時間・コスト・成果指標）</li>
+        <li>クライアントへのAI導入提案書に「Before/After指標の設定欄」を必ず追加する</li>
+        <li>デロイトの調査データを引用した「AI人材育成の提案書」を作成する</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 08 ===== -->
+    <section class="topic" id="topic08">
+      <h2>
+        <span class="topic-num">Topic 08 — リスク</span>
+        <span class="topic-title">Cursor × Claude 本番DB全削除事故・AIエージェントリスク管理</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/w2-topic-08-db-risk.svg" alt="Topic 08 — DB全削除事故 リスク管理 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>AIコーディングエージェント（Cursor + Claude）がPocketOSの本番データベースを<strong>9秒で全削除</strong>。バックアップも消滅。「与えられた全原則に違反」と評された。Trend MicroのZDIがOpenAI Codexにサンドボックス迂回のゼロデイ脆弱性を指摘（有効な緩和策は「使用を制限すること」のみ）。MoneyForwardもGitHubへの不正アクセスを報告。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>AIエージェントに本番環境への「削除権限」を与えたまま動かすと、取り返しのつかない事故が起きる。これはAI自体の問題ではなく<strong>「権限設計の失敗」</strong>。AIが「与えられた権限の範囲で正しく動作した」結果が事故につながるケースが増えている。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>「AIエージェント導入の安全設計」は今最も求められるコンサルメニューの一つ。「どこまでAIに権限を与えるか」「人間が確認すべきチェックポイントはどこか」「ロールバック手段は何か」を整理するコンサルの価値は急上昇している。<strong>事故事例を持っているコンサルタントは信頼性が高い</strong>。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>「AIエージェント導入時の権限設計チェックリスト10項目」を作成する</li>
+        <li>クライアントへのAIエージェント提案に「ロールバック設計」「権限制限設計」のセクションを追加する</li>
+        <li>DB削除事故を匿名事例として提案書の「リスク認識」セクションに活用する</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 09 ===== -->
+    <section class="topic" id="topic09">
+      <h2>
+        <span class="topic-num">Topic 09 — Global</span>
+        <span class="topic-title">Google Q1決算・AI収益化でクラウド63%増・純利益10兆円規模</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/w2-topic-09-google-q1.svg" alt="Topic 09 — Google Q1決算 クラウド成長 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>Google（Alphabet）の2026年1〜3月期決算でクラウド事業の売上高が前年同期比<strong>63%増</strong>。四大テック（Google・Meta・Amazon・Microsoft）比較でAI収益化の「勝ち組」はGoogleと評価。純利益が10兆円規模に達する見通し。GoogleのAI Overviewが検索広告を下支えし、検索広告は16%増。一方AI活用と研究の「たこつぼ化」リスクを指摘する論文も注目（異分野との研究が22%減少）。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>AIへの大規模投資が確実に収益につながり始めた証拠。特にクラウド事業でのAI活用がGoogleの成長を牽引しており、<strong>競合企業のAzure（Microsoft）やAWSを大幅に上回る成長率</strong>を示した。「AIに投資すべきか」という議論に終止符を打つほどの数字が出た。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>このデータはクライアントへのAI導入提案で「投資対効果の根拠」として使える。<strong>「世界最大のテック企業がAI投資で利益63%増を達成した」という事実は、中小企業のAI投資に対する経営者の決断を後押しする強力な情報</strong>。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>Google Q1決算データを引用した<strong>「AI投資ROI参考データ集」</strong>を作成する</li>
+        <li>「AI活用企業 vs 非活用企業の業績比較」をまとめた1枚スライドを提案ツールキットに追加する</li>
+        <li>四大テックのクラウド成長率比較グラフをクライアントへのプレゼンに使う</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 10 ===== -->
+    <section class="topic" id="topic10">
+      <h2>
+        <span class="topic-num">Topic 10 — 社会</span>
+        <span class="topic-title">AI雇用代替の実態・中国判決・日本の法整備動向</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/w2-topic-10-jobs.svg" alt="Topic 10 — AI雇用代替 社会的動向 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>2024年調査でイラストレーターの<strong>4分の1</strong>・翻訳者の<strong>3分の1</strong>がAIにより仕事を失っていることが判明（Gigazine等で報道）。中国の裁判所が「企業が従業員を解雇してAIに置き換えることは認められない」と判決。日本政府（文化庁）が生成AIによる権利侵害の法的整理を進め、声優・緒方恵美氏が「ようやくスタートライン」とコメント。パーソル総研調査ではAIヘビーユーザーの残業時間が週8.34時間と非利用群（4.99時間）より長いデータも。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>AI代替は「未来の話」ではなく「すでに起きている現実」になりつつある。一方で「AIを使うと忙しくなる」という逆説的データも出ており、単純な代替ではなく<strong>「AIを使って高付加価値業務にシフトできるかどうか」で明暗が分かれる</strong>。法整備も動き始めており、コンプライアンスリスクへの対応が企業課題になる。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>「AIで誰かの仕事がなくなる」という不安は現実だが、AIを使って仕事を「変換」できる人は生き残る。コンサルタントとして提供できる最大の価値は<strong>「クライアントがAIを正しく使う側に回れるよう支援すること」</strong>。また法規制対応は新しいコンサルメニューとして育つ可能性がある。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>クライアント業界の「AI代替リスクマップ」を作成し、対策提案の糸口にする</li>
+        <li>「AIと共存するための業務変換ガイド」をコンテンツとして発信する</li>
+        <li>生成AIに関する最新の法的動向をウォッチし、<strong>コンプライアンス対応支援メニュー</strong>を開発する</li>
+      </ul>
+    </section>
+
+    <!-- ===== 締めまとめ ===== -->
+    <div class="closing">
+      <h2>今週のまとめ ｜ コンサルタントとして今すぐ動くべきこと</h2>
+      <p>今週のニュースに共通するテーマは<strong>「AIの競争が多軸化し、用途別の最適解を設計できるコンサルタントの価値が急上昇している」</strong>という点です。GPT-5.5とClaudeの棲み分け、Codexの一般化、Claude Securityの登場。どれも「AIをどう選び、どう使うか」の設計が問われるニュースです。</p>
+      <p>一方でDB全削除事故が示すように、<strong>AIエージェントを「正しく使う」ための安全設計は急務</strong>です。デロイト調査が示す8割の採用担当者が「AIスキルが影響する」と答えた今、AIを正しく使える人材と使えない人材の差は採用・昇進の現場でもリアルに分かれ始めています。</p>
+      <p>今週学んだことを自分の提案書・営業ツール・自己PRに落とし込む「変換作業」を今すぐ始めましょう。</p>
+
+      <div class="summary-table-wrap" style="margin-top:28px;">
+        <table class="action-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>今週すぐできるアクション</th>
+              <th>期待効果</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>GPT-5.5・Claude Opus 4.7・Sonnet 4.6で同タスクを比較し「用途別AIチートシート」を作る</td>
+              <td>提案書の信頼性向上</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Codexに日常業務を1つ依頼し「AIに任せられる業務リスト」を作成する</td>
+              <td>自動化提案の根拠データ</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>「AIエージェント権限設計チェックリスト10項目」を作成する</td>
+              <td>リスク管理提案の差別化</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>自分のAI活用実績を「数字で語る自己PRシート」に整理する</td>
+              <td>採用・営業トーク強化</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Google Q1決算データを引用した「AI投資ROI参考データ集」を作成する</td>
+              <td>経営者への投資決断の後押し</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="brand-foot">SHIFT AI ELITE</div>
+    <p>ウィークリーAIニュース Vol.02 ｜ 2026年5月3日発行</p>
+    <p>本レポートはSHIFT AI ELITEの受講メンバー限定配布です。無断転載・二次利用はご遠慮ください。</p>
+    <p class="next">次号は2026年5月10日（日）発行予定 ｜ Week 3 号</p>
+  </footer>
+
+</div>
+</body>
+</html>

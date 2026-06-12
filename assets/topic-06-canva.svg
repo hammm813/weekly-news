@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 260" width="100%" height="260">
+  <!-- Background -->
+  <rect width="100%" height="260" fill="#A51E6D"/>
+
+  <!-- Label -->
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#E0C0D0">TOPIC 06 — TOOLS</text>
+
+  <!-- Title -->
+  <text x="48" y="80" font-family="'Noto Sans JP',sans-serif" font-size="20" font-weight="900" fill="#ffffff">Canva x Claude　スモールビジネス向けに統合</text>
+
+  <line x1="48" y1="96" x2="832" y2="96" stroke="#CC5090" stroke-width="1"/>
+
+  <!-- Step 1 -->
+  <rect x="48" y="116" width="210" height="90" rx="10" fill="#B83070" stroke="#CC5090" stroke-width="1"/>
+  <text x="153" y="148" font-family="'Noto Sans JP',sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Claude</text>
+  <text x="153" y="168" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#E8D0DC" text-anchor="middle">テキスト・コピーを生成</text>
+  <text x="153" y="186" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D4B8C8" text-anchor="middle">キャッチコピー・説明文</text>
+
+  <!-- Plus -->
+  <text x="290" y="168" font-family="'Nunito Sans',sans-serif" font-size="32" font-weight="900" fill="#E8D0DC" text-anchor="middle">+</text>
+
+  <!-- Step 2 -->
+  <rect x="330" y="116" width="210" height="90" rx="10" fill="#B83070" stroke="#CC5090" stroke-width="1"/>
+  <text x="435" y="148" font-family="'Noto Sans JP',sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Canva</text>
+  <text x="435" y="168" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#E8D0DC" text-anchor="middle">ビジュアルをデザイン</text>
+  <text x="435" y="186" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D4B8C8" text-anchor="middle">SNS画像・チラシ・広告</text>
+
+  <!-- Arrow -->
+  <text x="572" y="168" font-family="'Nunito Sans',sans-serif" font-size="28" font-weight="900" fill="#E8D0DC" text-anchor="middle">→</text>
+
+  <!-- Result -->
+  <rect x="610" y="106" width="220" height="110" rx="10" fill="#C04888" stroke="#D06898" stroke-width="2"/>
+  <text x="720" y="140" font-family="'Noto Sans JP',sans-serif" font-size="13" font-weight="900" fill="#ffffff" text-anchor="middle">ワンストップで完結</text>
+  <text x="720" y="162" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#EEDDE8" text-anchor="middle">文章もデザインも</text>
+  <text x="720" y="180" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#EEDDE8" text-anchor="middle">同じ画面で完成</text>
+  <text x="720" y="200" font-family="'Noto Sans JP',sans-serif" font-size="18" font-weight="900" fill="#ffffff" text-anchor="middle">COMPLETE</text>
+
+  <!-- Note -->
+  <text x="48" y="238" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D4B8C8">対象：Claude for Small Business　中小企業オーナーのマーケティング内製化を強力に後押し</text>
+</svg>

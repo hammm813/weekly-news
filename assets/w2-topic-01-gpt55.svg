@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300">
+  <defs>
+    <style>
+      text { font-family: 'Noto Sans JP', 'Nunito Sans', sans-serif; }
+    </style>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="880" height="300" fill="#1A1A1A"/>
+
+  <!-- 左パネル: タイトルエリア -->
+  <rect x="0" y="0" width="280" height="300" fill="#2A1A1A"/>
+  <rect x="0" y="0" width="6" height="300" fill="#FF5757"/>
+
+  <text x="30" y="52" font-size="11" font-weight="700" letter-spacing="2" fill="#FF5757" text-anchor="start">TOPIC 01 — GLOBAL</text>
+  <text x="30" y="85" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="start">GPT-5.5</text>
+  <text x="30" y="112" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="start">コーディング</text>
+  <text x="30" y="139" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="start">ベンチマーク</text>
+  <text x="30" y="166" font-size="22" font-weight="900" fill="#FF5757" text-anchor="start">首位獲得</text>
+
+  <!-- 東大数学ハイライト -->
+  <rect x="20" y="195" width="240" height="60" rx="6" fill="#FF5757"/>
+  <text x="140" y="220" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">東大理3・数学</text>
+  <text x="140" y="244" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">満点 取得</text>
+
+  <!-- 右パネル: CursorBench Rankings -->
+  <text x="320" y="44" font-size="13" font-weight="700" letter-spacing="1" fill="#AAAAAA" text-anchor="start">CursorBench Rankings</text>
+
+  <!-- GPT-5.5 バー -->
+  <text x="320" y="80" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="start">GPT-5.5 (Codex)</text>
+  <rect x="320" y="88" width="468" height="32" rx="4" fill="#333333"/>
+  <rect x="320" y="88" width="428" height="32" rx="4" fill="#FF5757"/>
+  <text x="758" y="109" font-size="15" font-weight="900" fill="#FF5757" text-anchor="start">72.8%</text>
+  <text x="800" y="109" font-size="11" font-weight="700" fill="#FF5757" text-anchor="start">1位</text>
+
+  <!-- Claude Opus 4.7 バー -->
+  <text x="320" y="145" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="start">Claude Opus 4.7</text>
+  <rect x="320" y="153" width="468" height="32" rx="4" fill="#333333"/>
+  <rect x="320" y="153" width="370" height="32" rx="4" fill="#A51E6D"/>
+  <text x="700" y="174" font-size="15" font-weight="900" fill="#A51E6D" text-anchor="start">62.5%</text>
+  <text x="747" y="174" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="start">2位</text>
+
+  <!-- Claude Sonnet 4.6 バー -->
+  <text x="320" y="210" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="start">Claude Sonnet 4.6</text>
+  <rect x="320" y="218" width="468" height="32" rx="4" fill="#333333"/>
+  <rect x="320" y="218" width="330" height="32" rx="4" fill="#8C52FF"/>
+  <text x="660" y="239" font-size="15" font-weight="900" fill="#8C52FF" text-anchor="start">55.8%</text>
+  <text x="707" y="239" font-size="11" font-weight="700" fill="#8C52FF" text-anchor="start">3位</text>
+
+  <!-- 注釈 -->
+  <text x="320" y="285" font-size="11" fill="#888888" text-anchor="start">WolfBenchでもClaude Opus 4.7・Sonnet 4.6を上回る / Cursor上で5月2日まで50%OFF</text>
+</svg>

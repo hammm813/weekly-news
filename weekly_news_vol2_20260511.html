@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SHIFT AI ELITE: AI Agent News 週次レポート Vol.02｜2026年5月11日〜5月17日</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Nunito+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+  /* ===== リセット ===== */
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Noto Sans JP', 'Nunito Sans', -apple-system, sans-serif;
+    color: #333333;
+    background: #F5F5F5;
+    line-height: 1.7;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 880px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0 4px 32px rgba(165,30,109,0.10), 0 2px 8px rgba(0,0,0,0.04);
+    border: 1px solid rgba(165,30,109,0.08);
+  }
+
+  /* ===== ヘッダー ===== */
+  .header {
+    background: linear-gradient(135deg, #FF5757 0%, #A51E6D 50%, #8C52FF 100%);
+    color: #FFFFFF;
+    padding: 48px 56px 40px;
+    position: relative;
+    overflow: hidden;
+  }
+  .header::before {
+    content: '';
+    position: absolute;
+    right: -60px; top: -60px;
+    width: 260px; height: 260px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.06);
+  }
+  .header::after {
+    content: '';
+    position: absolute;
+    left: -40px; bottom: -80px;
+    width: 200px; height: 200px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.04);
+  }
+  .brand {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.75);
+    margin-bottom: 16px;
+  }
+  .header h1 {
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+  }
+  .header h1 .title-en {
+    display: block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: rgba(255,255,255,0.75);
+  }
+  .meta {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    padding-top: 18px;
+    border-top: 1px solid rgba(255,255,255,0.3);
+  }
+  .meta-item { font-size: 14px; }
+  .meta-item .label {
+    display: block;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgba(255,255,255,0.65);
+    margin-bottom: 4px;
+  }
+  .meta-item .value { font-weight: 500; font-size: 15px; color: #FFFFFF; }
+
+  /* ===== コンテンツ ===== */
+  .content { padding: 56px; }
+
+  /* ===== 3行サマリー ===== */
+  .summary {
+    background: linear-gradient(135deg, #F6E9F0, #FFFFFF);
+    border-left: 6px solid #A51E6D;
+    padding: 30px 34px;
+    margin-bottom: 48px;
+    border-radius: 0 8px 8px 0;
+  }
+  .summary-title {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #A51E6D;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+  }
+  .summary ol { list-style: none; counter-reset: summary; }
+  .summary ol li {
+    counter-increment: summary;
+    padding: 13px 0 13px 52px;
+    position: relative;
+    border-bottom: 1px dashed rgba(165,30,109,0.2);
+    line-height: 1.65;
+  }
+  .summary ol li:last-child { border-bottom: none; }
+  .summary ol li::before {
+    content: counter(summary);
+    position: absolute;
+    left: 0; top: 13px;
+    width: 34px; height: 34px;
+    border-radius: 50%;
+    background: #A51E6D;
+    color: #FFFFFF;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 34px;
+    text-align: center;
+  }
+  .summary strong { color: #7A1450; font-weight: 700; }
+
+  /* ===== 読み方ガイド ===== */
+  .read-guide {
+    background: #F5F5F5;
+    border: 1px solid #ECECEC;
+    padding: 18px 22px;
+    border-radius: 6px;
+    margin-bottom: 48px;
+    font-size: 14px;
+    line-height: 1.75;
+    color: #4D4D4D;
+  }
+  .read-guide strong { color: #333333; }
+
+  /* ===== 目次 ===== */
+  .toc {
+    background: #F5F5F5;
+    border: 1px solid #ECECEC;
+    padding: 30px 34px;
+    border-radius: 8px;
+    margin-bottom: 56px;
+  }
+  .toc-title {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #808080;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+  }
+  .toc ol { list-style: none; counter-reset: toc; }
+  .toc ol li {
+    counter-increment: toc;
+    padding: 10px 0 10px 42px;
+    position: relative;
+    border-bottom: 1px solid #ECECEC;
+  }
+  .toc ol li:last-child { border-bottom: none; }
+  .toc ol li::before {
+    content: counter(toc, decimal-leading-zero);
+    position: absolute;
+    left: 0; top: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    color: #A51E6D;
+    font-size: 13px;
+  }
+  .toc a { color: #333333; text-decoration: none; font-weight: 500; }
+
+  /* ===== トピックセクション ===== */
+  section.topic { margin-bottom: 60px; scroll-margin-top: 40px; }
+  section.topic h2 {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1.4;
+    color: #333333;
+    padding-bottom: 14px;
+    margin-bottom: 26px;
+    border-bottom: 3px solid #A51E6D;
+  }
+  section.topic h2 .topic-num {
+    display: inline-block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #A51E6D;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+  }
+  section.topic h2 .topic-title { display: block; margin-top: 4px; }
+  section.topic h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1A1A1A;
+    margin-top: 26px;
+    margin-bottom: 12px;
+    padding-left: 12px;
+    border-left: 4px solid #A51E6D;
+    line-height: 1.4;
+  }
+  section.topic p {
+    margin-bottom: 16px;
+    font-size: 15px;
+    line-height: 1.85;
+    color: #1A1A1A;
+  }
+  section.topic ul, section.topic ol {
+    margin: 14px 0 18px 4px;
+    padding-left: 22px;
+  }
+  section.topic ul li, section.topic ol li {
+    margin-bottom: 9px;
+    font-size: 15px;
+    line-height: 1.8;
+  }
+  section.topic ul li::marker { color: #A51E6D; }
+  section.topic ol li::marker { color: #A51E6D; font-weight: 700; }
+  section.topic strong {
+    font-weight: 700;
+    color: #333333;
+    background: linear-gradient(transparent 60%, #F6E9F0 60%);
+    padding: 0 2px;
+  }
+
+  /* ===== インサイトボックス ===== */
+  .insight {
+    background: linear-gradient(135deg, #FAFAFA, #F6E9F0);
+    border-left: 6px solid #A51E6D;
+    padding: 20px 24px 20px 54px;
+    margin: 24px 0 8px;
+    border-radius: 0 6px 6px 0;
+    position: relative;
+  }
+  .insight::before {
+    content: '';
+    position: absolute;
+    left: 18px; top: 50%;
+    transform: translateY(-50%);
+    width: 20px; height: 20px;
+    border-radius: 50%;
+    background: #A51E6D;
+  }
+  .insight-label {
+    display: inline-block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #A51E6D;
+    background: #FFFFFF;
+    border: 1px solid #A51E6D;
+    padding: 3px 10px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  .insight p { margin: 0 !important; font-size: 15px !important; line-height: 1.8 !important; color: #1A1A1A; }
+  .insight strong { background: transparent !important; color: #7A1450 !important; }
+
+  /* ===== テーブル ===== */
+  .summary-table-wrap {
+    margin: 22px 0;
+    overflow-x: auto;
+    border-radius: 6px;
+    border: 1px solid #DEDEDE;
+  }
+  table.action-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  table.action-table thead { background: #A51E6D; color: #FFFFFF; }
+  table.action-table thead th {
+    padding: 12px 16px;
+    text-align: left;
+    font-weight: 700;
+  }
+  table.action-table thead th:first-child { width: 56px; text-align: center; }
+  table.action-table thead th:last-child { width: 170px; }
+  table.action-table tbody tr { border-bottom: 1px solid #ECECEC; background: #FFFFFF; }
+  table.action-table tbody tr:last-child { border-bottom: none; }
+  table.action-table tbody td { padding: 12px 16px; line-height: 1.7; }
+  table.action-table tbody td:first-child {
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    color: #A51E6D;
+    font-size: 17px;
+  }
+  table.action-table tbody td:last-child { color: #808080; font-size: 13px; }
+
+  /* ===== トピック画像 ===== */
+  .topic-figure {
+    margin: 0 0 30px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 6px 28px rgba(165,30,109,0.10), 0 2px 8px rgba(0,0,0,0.04);
+    background: #FFFFFF;
+    width: 100%;
+  }
+  .topic-figure img { display: block; width: 100%; height: auto; }
+
+  /* ===== 締めまとめ ===== */
+  .closing {
+    margin-top: 60px;
+    padding: 40px;
+    background: linear-gradient(135deg, #1A1A1A, #2A1A2D);
+    color: #FFFFFF;
+    border-radius: 8px;
+  }
+  .closing h2 {
+    color: #FFFFFF;
+    border-bottom: 3px solid #FF5757;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1.4;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+  }
+  .closing p { color: rgba(255,255,255,0.92); margin-bottom: 14px; line-height: 1.85; font-size: 15px; }
+  .closing strong {
+    color: #FFFFFF;
+    font-weight: 700;
+    background: linear-gradient(transparent 60%, rgba(255,87,87,0.4) 60%);
+  }
+  .closing table.action-table thead { background: #FF5757; }
+  .closing table.action-table tbody tr { background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.1); }
+  .closing table.action-table tbody td { color: rgba(255,255,255,0.85); }
+  .closing table.action-table tbody td:first-child { color: #FF8080; }
+  .closing table.action-table tbody td:last-child { color: rgba(255,255,255,0.5); }
+
+  /* ===== フッター ===== */
+  .footer {
+    text-align: center;
+    padding: 36px 56px;
+    background: #1A1A1A;
+    color: rgba(255,255,255,0.7);
+    font-size: 13px;
+    line-height: 1.8;
+  }
+  .footer .brand-foot {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+  }
+  .footer .next { font-size: 12px; margin-top: 10px; opacity: 0.7; }
+
+  /* ===== 印刷・PDF出力（ここだけで黒塗りを防ぐ） ===== */
+  @media print {
+    *, *::before, *::after {
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+    }
+
+    body { background: #FFFFFF; }
+    .wrap {
+      max-width: 100%;
+      box-shadow: none !important;
+      border: none !important;
+    }
+
+    /* ヘッダー：グラデーション → 単色 / 装飾円を非表示 */
+    .header {
+      background: #A51E6D !important;
+    }
+    .header::before, .header::after { display: none !important; }
+    .brand { color: #F0C8DE !important; }
+    .header h1 .title-en { color: #F0C8DE !important; }
+    .meta { border-top-color: #C04080 !important; }
+    .meta-item .label { color: #F0C8DE !important; }
+
+    /* サマリー：グラデーション → 単色 / rgba罫線 → solid */
+    .summary { background: #F6E9F0 !important; }
+    .summary ol li {
+      border-bottom: 1px solid #DEDEDE !important;
+    }
+
+    /* インサイト：グラデーション → 単色 / ::before 装飾を非表示 */
+    .insight {
+      background: #F6E9F0 !important;
+      padding-left: 24px !important;
+    }
+    .insight::before { display: none !important; }
+
+    /* strong ハイライト：グラデーション → 単色 */
+    section.topic strong {
+      background: #F6E9F0 !important;
+    }
+
+    /* クロージング：グラデーション → 単色 / rgba → solid */
+    .closing { background: #1A1A1A !important; }
+    .closing p { color: #CCCCCC !important; }
+    .closing strong {
+      background: none !important;
+      color: #FFFFFF !important;
+    }
+    .closing table.action-table tbody tr {
+      background: #222222 !important;
+      border-color: #333333 !important;
+    }
+    .closing table.action-table tbody td { color: #CCCCCC !important; }
+    .closing table.action-table tbody td:last-child { color: #888888 !important; }
+
+    /* フッター：rgba → solid */
+    .footer { color: #AAAAAA !important; }
+    .footer .next { opacity: 1 !important; color: #888888 !important; }
+
+    /* 影を削除 */
+    .topic-figure {
+      box-shadow: none !important;
+      border: 1px solid #ECECEC !important;
+    }
+
+    /* ページ区切り */
+    section.topic, .insight, .summary, .closing, .summary-table-wrap, .topic-figure {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+    section.topic h2 { break-after: avoid; page-break-after: avoid; }
+    .closing { break-before: page; page-break-before: page; }
+    .header { padding: 28px 32px 24px; }
+    .content { padding: 32px; }
+  }
+
+  /* ===== レスポンシブ ===== */
+  @media (max-width: 768px) {
+    .header { padding: 36px 24px 28px; }
+    .header h1 { font-size: 26px; }
+    .content { padding: 32px 20px; }
+    .summary, .toc { padding: 22px 20px; }
+    .closing { padding: 28px 20px; }
+    section.topic h2 { font-size: 20px; }
+    .insight { padding: 16px 20px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="brand">SHIFT AI ELITE — Members Only Weekly Report</div>
+    <h1>
+      <span class="title-en">AI Agent News — Weekly Report</span>
+      AIエージェント週次レポート Vol.02
+    </h1>
+    <div class="meta">
+      <div class="meta-item">
+        <span class="label">対象期間</span>
+        <span class="value">2026年5月11日（月）〜 5月17日（日）</span>
+      </div>
+      <div class="meta-item">
+        <span class="label">発行</span>
+        <span class="value">SHIFT AI ELITE 編集室</span>
+      </div>
+      <div class="meta-item">
+        <span class="label">発行日</span>
+        <span class="value">2026年5月17日（日）</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="content">
+
+    <!-- ===== 3行サマリー ===== -->
+    <section class="summary">
+      <div class="summary-title">今週の3行サマリー</div>
+      <ol>
+        <li><strong>Runwayが東京上陸・約60億円を投資。</strong>海外AI大手が本格的に日本市場を取りにきた。マーケティング・クリエイティブ領域でのAI活用が企業レベルで加速する転換点。</li>
+        <li><strong>Claude Pro/Maxに6月15日からクレジット制導入。</strong>API・Agent SDK経由のヘビーユーザーは実質コストアップになる可能性があり、AIツールのコスト管理が企業課題に浮上する。</li>
+        <li><strong>帝国データバンク調査で65%の企業がまだAIを活用できていない。</strong>「社内ルールがない」「正確性が不安」が課題の本質であり、AIコンサルタントにとって最大の提案機会がここにある。</li>
+      </ol>
+    </section>
+
+    <!-- ===== 読み方ガイド ===== -->
+    <div class="read-guide">
+      <strong>このレポートの読み方：</strong>各トピックは「何が起きたか（事実整理）」→「噛み砕くと（平易な解説）」→「コンサル視点のインサイト」→「明日から使える業務活用」の4層構造でまとめています。忙しい方は <strong>インサイト</strong> と <strong>業務活用</strong> だけ読んでも構いません。
+    </div>
+
+    <!-- ===== 目次 ===== -->
+    <nav class="toc">
+      <div class="toc-title">Contents</div>
+      <ol>
+        <li><a href="#topic01">Runway、東京オフィス開設・約60億円（$40M）を日本市場に投資</a></li>
+        <li><a href="#topic02">Claude Pro / Max にプログラム使用クレジット導入（2026年6月15日〜）</a></li>
+        <li><a href="#topic03">GitHub Copilot、スタンドアロンアプリをテクニカルプレビュー開始</a></li>
+        <li><a href="#topic04">Notion、デベロッパープラットフォームを発表 ｜ CLI・Workers・Agent SDK</a></li>
+        <li><a href="#topic05">OpenAI Codex、Hooks機能追加 ＆ ChatGPTモバイルアプリから操作可能に</a></li>
+        <li><a href="#topic06">Canva × Claude、スモールビジネス向けに統合</a></li>
+        <li><a href="#topic07">国内AIエージェント動向（2026/5/12号）｜ "運用型"へ移行加速</a></li>
+        <li><a href="#topic08">帝国データバンク調査 ｜ 生成AI活用企業34.5%、65%は「活用できていない」</a></li>
+        <li><a href="#topic09">経産省・NEDO ｜ GENIAC：製造業データのAI-Ready化・ロボット基盤モデル11件採択</a></li>
+        <li><a href="#topic10">AIスキルで年収200万円超アップ ｜ 転職事例から学ぶ「数字で語る実績」</a></li>
+      </ol>
+    </nav>
+
+    <!-- ===== TOPIC 01 ===== -->
+    <section class="topic" id="topic01">
+      <h2>
+        <span class="topic-num">Topic 01 — Global</span>
+        <span class="topic-title">Runway、東京オフィス開設・約60億円（$40M）を日本市場に投資</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/topic-01-runway.svg" alt="Topic 01 — Runway 日本進出インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>映像生成AI大手のRunwayが、日本市場への本格参入を発表した。東京オフィスを開設し、初期投資として<strong>4,000万ドル（約60億円）</strong>を投じる。過去12ヶ月で日本の法人顧客数は<strong>3倍</strong>に増加し、グローバル市場で日本は<strong>第3位</strong>に位置する。ヤマハ・ソフトバンク・NHNがすでに導入済みで、今後はゲーム・メディア・ロボティクス分野の企業との連携を強化する方針。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>RunwayはAIで動画・映像をリアルタイムに生成するツールです。マーケティング用の商品動画やSNS広告を数分で作ることができ、これまで数十万円・数週間かかっていた動画制作が劇的に短縮・低コスト化されます。欧米の広告代理店やメディア企業では急速に普及しており、日本でも「ビジネス導入フェーズ」に正式に入ったことを告げるニュースです。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>海外AI大手が「日本を本気で取りにきた」シグナルとして非常に重要です。Runwayが東京オフィスを構えるほど日本市場のポテンシャルは高く、<strong>AIクリエイティブ領域でのコンサル需要も同時に拡大</strong>しています。マーケティング部門・広告代理店・EC事業者への提案において「動画制作コストの削減」は最も数字が出しやすいテーマです。今から得意領域として押さえておく価値があります。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>Runwayの無料プランで動画生成を試し、<strong>「従来の制作コストとの比較表」を数字で作成する</strong></li>
+        <li>既存・見込みクライアントの「動画・広告コンテンツ制作費」を確認し、削減提案書のたたき台を作る</li>
+        <li>ヤマハ・ソフトバンクなどの導入事例をリサーチし、業界別の提案トークに活かす</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 02 ===== -->
+    <section class="topic" id="topic02">
+      <h2>
+        <span class="topic-num">Topic 02 — 重要</span>
+        <span class="topic-title">Claude Pro / Max にプログラム使用クレジット導入（2026年6月15日〜）</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/topic-02-claude-credit.svg" alt="Topic 02 — Claude クレジット制度インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>Anthropicが2026年6月15日より、Claude有料プランに<strong>プログラム使用専用の月次クレジット</strong>を追加すると発表。プランごとに同額のクレジットが付与される（Pro $20・Max 5X $100・Max 20X $200）。対象はClaude Code・Agent SDK・GitHub Actions・サードパーティAgentツールなど「プログラム経由の利用」。<strong>非ロールオーバー型</strong>かつサブスクリプション枠と完全分離の設計で、発表後4時間でインプレッション<strong>400万超・引用ツイート1,044件</strong>の議論が拡散した。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>これまでClaudeを月$20で契約すると、チャットもAPIもまとめて使えていました。6月15日以降は、<strong>APIやClaude Code経由のプログラム的な利用が別枠に分離</strong>されます。毎月リセットされる使い切り型のため、APIヘビーユーザーは追加コストが発生する可能性があります。一方でチャットだけを使っている方への影響は限定的です。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>AIツールの料金体系が複雑化するほど、「<strong>自社に最適なAIツールのコスト設計を整理してくれるコンサルタント</strong>」の需要が生まれます。AIを本格導入する企業にとってランニングコストの試算は必須の検討事項です。このニュースを入口に「AIコスト最適化提案」を切り口として営業できます。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>自分のClaude利用状況を確認し、<strong>6月15日以降の月次費用を事前に試算しておく</strong></li>
+        <li>提案書に「AIツール導入後のランニングコスト概算」セクションを追加する</li>
+        <li>クライアントへの定期レポートでAIツールのコスト動向を共有するネタとして活用する</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 03 ===== -->
+    <section class="topic" id="topic03">
+      <h2>
+        <span class="topic-num">Topic 03 — Tools</span>
+        <span class="topic-title">GitHub Copilot、スタンドアロンアプリをテクニカルプレビュー開始</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/topic-03-github.svg" alt="Topic 03 — GitHub Copilot インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>GitHubがCopilotの独立したスタンドアロンアプリを発表し、テクニカルプレビューへの早期アクセスウェイトリストの受付を開始した。これまでVS CodeなどのIDEプラグインとして提供されていたCopilotが、IDE不要で使える独立アプリとして進化する。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>プログラマー向けのAIアシスタントが、<strong>エンジニア以外でも使いやすいアプリ形式</strong>になってきています。「コードを書く人だけのツール」から「業務でコードや自動化を活用したいすべての人のツール」へ進化する流れです。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>開発部門以外の社員（営業・企画・バックオフィス）がAIで自動化を実践する時代が迫っています。<strong>「エンジニアがいなくても自動化できる」提案の具体例</strong>として今後活用できる重要なツールです。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>ウェイトリストに登録し、リリース後に非エンジニア向けユースケースを検証する</li>
+        <li>「エンジニア不在の部署でも使えるAI自動化」を次の提案テーマとして検討する</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 04 ===== -->
+    <section class="topic" id="topic04">
+      <h2>
+        <span class="topic-num">Topic 04 — Tools</span>
+        <span class="topic-title">Notion、デベロッパープラットフォームを発表 ｜ CLI・Workers・Agent SDK</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/topic-04-notion.svg" alt="Topic 04 — Notion デベロッパープラットフォーム インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>Notionが大型の開発者向けアップデートを発表した。主な新機能は①Notion CLI（ntn）によるターミナル操作 ②Workers（Notion上でコード実行） ③Database Sync（外部データソースの同期） ④Agent Tools（ワークフロー構築） ⑤Webhook Triggers ⑥External Agents API ⑦Notion Agents SDK の7項目。「<strong>近い将来、開発者でなくてもエージェントが代わりにビルドしてくれる</strong>」と予告している。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>NotionがただのメモツールやWikiから、<strong>「AIエージェントを動かす基盤プラットフォーム」へ進化</strong>しています。Notionを使っている企業なら、そのデータをAIが自動で処理・更新・連携できる仕組みが組める時代になります。すでにNotionを使っているクライアントへの「追加提案」に最適な内容です。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>Notionの既存ユーザー企業への<strong>「AI自動化アドオン提案」</strong>の機会が広がります。ツール導入済みの企業は「新しいツールを入れる」心理的ハードルが低く、すでに使っているNotionの延長として提案できるため、受注率が高くなる可能性があります。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>Notion CLIをインストールし、ターミナルからの操作を試してみる</li>
+        <li>既存のNotionワークスペースにある「手作業で更新しているデータベース」を棚卸しし、自動化の提案ネタを探す</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 05 ===== -->
+    <section class="topic" id="topic05">
+      <h2>
+        <span class="topic-num">Topic 05 — Tools</span>
+        <span class="topic-title">OpenAI Codex、Hooks機能追加 ＆ ChatGPTモバイルアプリから操作可能に</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/topic-05-codex.svg" alt="Topic 05 — OpenAI Codex インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>OpenAI CodexにHooks機能が追加され、タスクの前後・途中でスクリプトを挿入してバリデーション・ログ記録・メモリ生成などを自動実行できるようになった。また別途、ChatGPTのスマートフォンアプリからCodexを操作できるプレビューが公開。外出先からタスク開始・出力確認・承認が可能になった。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>AIコーディングエージェントが「自動で決まった処理を挟める」ようになり、さらに<strong>スマートフォンから遠隔操作できる</strong>ようになりました。PCを会社においたまま外出先でAIに作業を指示・確認できるイメージです。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>コーディングエージェントの「自律性」が高まっています。エンジニアでなくてもAIに開発作業を委託しスマホで進捗確認できる働き方が現実になりつつある。<strong>非技術職向けの「AIに開発を任せる」提案が具体的に語れるようになる</strong>重要なマイルストーンです。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>ChatGPTモバイルアプリのCodexプレビューに登録して、スマホからの操作感を体験する</li>
+        <li>「移動中にAIに作業を依頼→帰社時に確認」というワークフローを自分で試し、クライアントへの説明材料にする</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 06 ===== -->
+    <section class="topic" id="topic06">
+      <h2>
+        <span class="topic-num">Topic 06 — Tools</span>
+        <span class="topic-title">Canva × Claude、スモールビジネス向けに統合 ｜ キャンペーン制作をワンストップ化</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/topic-06-canva.svg" alt="Topic 06 — Canva × Claude インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>CanvaがClaude for Small Businessへの統合を発表した。これにより、Claudeのインターフェース上でCanvaのデザイン機能が直接利用できるようになる。テキスト生成（Claude）とビジュアルデザイン（Canva）が<strong>ワンストップで完結</strong>する仕組みが中小企業オーナーを主なターゲットに提供される。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>「AIに文章を考えてもらいながら、同じ画面でデザインまで作れる」ようになります。これまでClaudeで文章→CanvaでSNS投稿を作るという2段階の作業が、<strong>1つのツールでできるようになる</strong>大きな時短です。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>中小企業の「マーケティングの内製化」支援が、よりシンプルな提案になります。<strong>Claude＋Canvaのセット活用法を提案パッケージとして組み込める</strong>ようになり、「SNS・広告コンテンツを社内で作れるようになりたい」というニーズに対して具体的なソリューションを示せます。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>Claude上でCanvaを連携し、SNS投稿やチラシ制作の流れをデモとして作成してみる</li>
+        <li>「マーケティングコスト削減×内製化」を切り口にした提案書テンプレートを1枚作る</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 07 ===== -->
+    <section class="topic" id="topic07">
+      <h2>
+        <span class="topic-num">Topic 07 — 国内</span>
+        <span class="topic-title">国内AIエージェント動向（2026/5/12号）｜ "作って終わり"から"運用型"へ移行加速</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/topic-07-domestic.svg" alt="Topic 07 — 国内AIエージェント動向 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>国内AIエージェント市場の最新動向レポート（2026年5月12日号）によると、生成AIの単純活用からPoC（概念実証）段階を超えた<strong>「業務プロセスへの深い組み込み＝運用型エージェント」</strong>へのシフトが進んでいる。注目プロダクトは以下の通り。</p>
+      <ul>
+        <li><strong>ブーストマーケティング</strong>：Dify活用・中小企業向け6段階支援・20種以上の業界特化エージェント</li>
+        <li><strong>Metrics「AI CFO」</strong>：中小企業向け経営管理AI・freee/マネーフォワード連携</li>
+        <li><strong>LayerX「バクラク契約管理」</strong>：契約業務自動化・リース会計基準対応</li>
+        <li><strong>アクセンチュア×Anthropic</strong>：Claude活用による企業全体のAI変革支援</li>
+        <li><strong>Twilio Japan</strong>：顧客接点の永続メモリ×マルチエージェント運用基盤</li>
+      </ul>
+
+      <h3>噛み砕くと</h3>
+      <p>「試しに使ってみた」段階から、「業務に完全に組み込んで毎日動かす」段階へ市場が進化しています。競争軸もAIの賢さ（モデル性能）から、<strong>「どれだけ現場に定着させられるか」「既存システムと繋げられるか」「セキュリティを担保できるか」</strong>に変わっています。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>「AIを導入する」だけでなく<strong>「定着・運用させる」ところまで支援できるコンサルタント</strong>の価値が急上昇します。提案書に「導入後3ヶ月の定着支援プラン」を盛り込むだけで、競合との差がつきます。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>自分の提案書に<strong>「導入後サポート・定着支援プラン」</strong>のセクションを追加する</li>
+        <li>ブーストマーケティング・Metrics・LayerXの事例を調べ、業界別の成功パターンを把握する</li>
+        <li>提案するAIエージェントの「業務フローへの組み込み方」を図で示せるようにする</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 08 ===== -->
+    <section class="topic" id="topic08">
+      <h2>
+        <span class="topic-num">Topic 08 — 市場データ</span>
+        <span class="topic-title">帝国データバンク調査 ｜ 生成AI活用企業34.5%、65%は「活用できていない」現実</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/topic-08-tdb.svg" alt="Topic 08 — 帝国データバンク調査 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>帝国データバンクが発表した「生成AIに関する企業の動向調査（2026年3月）」によると、生成AIを業務で活用している企業は<strong>34.5%</strong>。主な用途は文章校正・情報収集。効果実感は高い一方、<strong>出力の正確性への不安・社内運用ルールの未整備・検証負担の増加</strong>が課題として挙がっている。また、活用できる企業とできない企業の二極化拡大も懸念されている。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>日本企業の<strong>3社に2社はまだ生成AIを使えていない</strong>状態です。使えていない理由は「難しいから」ではなく、「AIの回答が合っているか自信がない」「社内でどう使っていいかルールがない」という<strong>運用面の課題</strong>が中心です。つまり、技術的な問題より組織・ルール・教育の問題なのです。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>この65%が、AIエージェントコンサルタントとして<strong>最大のターゲット市場</strong>です。彼らが求めているのは「最新AIツールの紹介」ではなく、「自社でどう使えばいいかを一緒に考えてくれる人」です。提案の切り口は「社内AI利用ガイドライン策定支援」「スモールスタートの業務自動化」「正確性を担保するAI活用フロー設計」が有効です。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>「<strong>生成AI社内利用ガイドライン策定パッケージ</strong>」として提案書のたたき台を1枚作る</li>
+        <li>「AI出力の正確性チェックフロー」を簡単な図で作り、提案資料に組み込む</li>
+        <li>34.5%という数字を営業トークで活用し、「同業他社がすでに動いている」という緊張感を引き出す</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 09 ===== -->
+    <section class="topic" id="topic09">
+      <h2>
+        <span class="topic-num">Topic 09 — 政策</span>
+        <span class="topic-title">経産省・NEDO ｜ GENIAC：製造業データのAI-Ready化・ロボット基盤モデル計11件採択</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/topic-09-geniac.svg" alt="Topic 09 — GENIAC インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>経済産業省とNEDOが推進する生成AI開発強化プロジェクト「GENIAC（Generative AI Accelerator Challenge）」にて、<strong>製造業データのAI-Ready化9件・ロボット基盤モデル2件</strong>の研究開発テーマを採択（2026年5月14日発表）。AI-Ready化は2026〜2027年度の1年間、ロボット基盤モデルは最大2029年度まで最大3年間の事業期間。対象は自動運転車・ドローン・自動運航船などを直接制御するロボット基盤モデルの開発支援。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>国がお金を出して「製造業の工場データをAIが使える形に整える研究」と「自動運転・ドローンなどを動かすAI開発」を支援します。「日本もAIを使いこなせる国になるぞ」という<strong>国家レベルの本気度</strong>を示すニュースです。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>製造業へのAI導入が国の追い風を受ける時代です。<strong>補助金・助成金を活用したAI導入支援</strong>という切り口が、製造業クライアントへの提案に説得力を持ちます。「国が支援するほど重要なテーマ」というフレーミングは、経営層の意思決定を後押しします。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>GENIACの採択企業・テーマ一覧を確認し、製造業クライアントへの提案時の参考資料にする</li>
+        <li>「NEDO補助金×AI導入」の組み合わせ提案を検討し、製造業向けの差別化ポイントにする</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 10 ===== -->
+    <section class="topic" id="topic10">
+      <h2>
+        <span class="topic-num">Topic 10 — キャリア</span>
+        <span class="topic-title">AIスキルで年収200万円超アップ ｜ 転職事例から学ぶ「数字で語る実績」の作り方</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/topic-10-career.svg" alt="Topic 10 — AIスキル転職事例 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>2025〜2026年にかけてAIスキルを武器に年収を大幅アップした転職事例が続出している。主な事例は以下の通り。</p>
+      <ul>
+        <li><strong>営業職（35歳）520万→780万円（+260万）</strong>：ChatGPTで提案書作成時間4時間→45分・顧客売上前年比138%達成</li>
+        <li><strong>人事職（32歳）450万→680万円（+230万）</strong>：AI活用で採用評価分析・内定承諾率62%→79%に改善</li>
+        <li><strong>フリーランス（38歳）600万→1,000万超</strong>：中小企業向けAI導入コンサルティングに転向</li>
+      </ul>
+      <p>採用市場では「AIを使った経験」より「業務改善の数字（時間削減・精度向上・売上改善）」が圧倒的に評価されている。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>「AIを使っています」と言うだけでは差がつきません。<strong>「AIを使って◯時間削減した」「◯%改善した」という数字</strong>があって初めて評価されます。エンジニアでなくても、営業・人事・企画職でAIを使った業務改善実績があれば年収が大きく動く時代です。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>このプログラムで作っているポートフォリオは、まさにこの「数字付き実績」になります。<strong>今から業務に使いながら「改善した数字」を記録しておくこと</strong>が、3ヶ月後の案件獲得・受注単価に直結します。クライアントへの提案でも同じ論理が使えます。「AIを導入しましょう」ではなく「導入後に◯%改善できます」という提案が刺さります。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>過去の業務でAIを使って改善したこと（時間・精度・コスト）を<strong>3つ書き出す</strong></li>
+        <li>今後の実践では必ず「Before / After」の数字を記録し、ポートフォリオに蓄積する</li>
+        <li>提案書のゴール設定に「◯%改善」「◯時間削減」の目標値を入れるクセをつける</li>
+      </ul>
+    </section>
+
+    <!-- ===== 締めまとめ ===== -->
+    <div class="closing">
+      <h2>今週のまとめ ｜ コンサルタントとして今すぐ動くべきこと</h2>
+      <p>今週のニュースに共通するテーマは<strong>「AIの社会実装が、確実に次のフェーズに進んでいる」</strong>という点です。Runwayの日本進出・経産省のGENIAC採択・帝国データバンクの調査データ、どれも同じ方向を示しています。</p>
+      <p>帝国データバンクの調査が示す通り、<strong>65%の企業はまだスタートラインにも立っていません。</strong>これはネガティブなデータではなく、AIコンサルタントとしての市場規模を示す数字です。今このプログラムで学んでいることは、その65%が必要としているものに直結しています。</p>
+      <p>「数字で語れる実績」「定着まで支援できるコンサル力」「ツールのコスト変化を素早くキャッチする情報感度」——この3つを今週から意識して積み上げていきましょう。</p>
+
+      <div class="summary-table-wrap" style="margin-top:28px;">
+        <table class="action-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>今週すぐできるアクション</th>
+              <th>期待効果</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Runwayで動画を1本生成し、制作時間を計測する</td>
+              <td>コスト削減提案の根拠データ</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Claude利用状況を確認し、6/15以降のコストを試算する</td>
+              <td>自社コスト最適化・提案ネタ</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>提案書に「定着支援プラン」セクションを追加する</td>
+              <td>競合差別化・受注率向上</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>AIで改善したBefore/Afterの数字を3つ書き出す</td>
+              <td>ポートフォリオ・営業トーク強化</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>「生成AI社内ガイドライン策定」の提案書たたき台を作る</td>
+              <td>65%の未活用企業へのアプローチ</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="brand-foot">SHIFT AI ELITE</div>
+    <p>ウィークリーAIニュース Vol.01 ｜ 2026年5月15日発行</p>
+    <p>本レポートはSHIFT AI ELITEの受講メンバー限定配布です。無断転載・二次利用はご遠慮ください。</p>
+    <p class="next">次号は2026年5月22日（金）発行予定 ｜ Week 3「リサーチャー＋経理AI」フェーズ突入号</p>
+  </footer>
+
+</div>
+</body>
+</html>

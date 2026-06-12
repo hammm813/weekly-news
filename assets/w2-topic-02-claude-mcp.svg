@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300">
+  <defs>
+    <style>
+      text { font-family: 'Noto Sans JP', 'Nunito Sans', sans-serif; }
+    </style>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="880" height="300" fill="#A51E6D"/>
+
+  <!-- 右上: ラベル -->
+  <text x="840" y="30" font-size="10" font-weight="700" letter-spacing="2" fill="#F0C8DE" text-anchor="end">TOPIC 02 — TOOLS</text>
+
+  <!-- 中央 Claude テキスト -->
+  <text x="440" y="90" font-size="52" font-weight="900" fill="#FFFFFF" text-anchor="middle">Claude</text>
+  <text x="440" y="120" font-size="15" font-weight="700" fill="#F0C8DE" text-anchor="middle">MCP経由でクリエイティブツールを制御</text>
+
+  <!-- 50+ 強調 -->
+  <rect x="370" y="132" width="120" height="44" rx="22" fill="#FFFFFF"/>
+  <text x="430" y="161" font-size="22" font-weight="900" fill="#A51E6D" text-anchor="middle">50+ ツール</text>
+
+  <!-- ツールタグ群 - 上段 -->
+  <rect x="30" y="30" width="130" height="34" rx="17" fill="#7A1450"/>
+  <text x="95" y="52" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">Adobe CC</text>
+
+  <rect x="175" y="30" width="110" height="34" rx="17" fill="#7A1450"/>
+  <text x="230" y="52" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">Blender</text>
+
+  <rect x="570" y="30" width="100" height="34" rx="17" fill="#7A1450"/>
+  <text x="620" y="52" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">Canva</text>
+
+  <rect x="685" y="30" width="120" height="34" rx="17" fill="#7A1450"/>
+  <text x="745" y="52" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">SketchUp</text>
+
+  <!-- ツールタグ群 - 下段 -->
+  <rect x="30" y="225" width="110" height="34" rx="17" fill="#7A1450"/>
+  <text x="85" y="247" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">Ableton</text>
+
+  <rect x="155" y="225" width="100" height="34" rx="17" fill="#7A1450"/>
+  <text x="205" y="247" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">Splice</text>
+
+  <rect x="270" y="225" width="120" height="34" rx="17" fill="#7A1450"/>
+  <text x="330" y="247" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">Resolume</text>
+
+  <rect x="540" y="225" width="120" height="34" rx="17" fill="#7A1450"/>
+  <text x="600" y="247" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">HeyGen</text>
+
+  <rect x="675" y="225" width="130" height="34" rx="17" fill="#7A1450"/>
+  <text x="740" y="247" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">Affinity</text>
+
+  <!-- 接続線 (Claude中央から各タグへ) -->
+  <line x1="160" y1="64" x2="340" y2="90" stroke="#F0C8DE" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.6"/>
+  <line x1="285" y1="64" x2="380" y2="88" stroke="#F0C8DE" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.6"/>
+  <line x1="620" y1="64" x2="500" y2="90" stroke="#F0C8DE" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.6"/>
+  <line x1="745" y1="64" x2="530" y2="90" stroke="#F0C8DE" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.6"/>
+
+  <line x1="140" y1="225" x2="360" y2="182" stroke="#F0C8DE" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.6"/>
+  <line x1="260" y1="225" x2="400" y2="182" stroke="#F0C8DE" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.6"/>
+  <line x1="390" y1="225" x2="435" y2="182" stroke="#F0C8DE" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.6"/>
+  <line x1="600" y1="225" x2="500" y2="182" stroke="#F0C8DE" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.6"/>
+  <line x1="740" y1="225" x2="520" y2="182" stroke="#F0C8DE" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.6"/>
+
+  <!-- 下部メッセージ -->
+  <text x="440" y="286" font-size="12" fill="#F0C8DE" text-anchor="middle">AIが「生成する」から「既存ツールを操作する」フェーズへ — プロのクリエイティブワークフローにAIが本格統合</text>
+</svg>
