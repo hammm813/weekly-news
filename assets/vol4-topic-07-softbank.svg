@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="100%" height="300">
+  <rect width="100%" height="300" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 07 — 市場 / ソフトバンクG フランスに14兆円・欧州最大AIデータセンター</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="19" font-weight="900" fill="#ffffff">ソフトバンクG、フランスへ14兆円投資 ― 欧州最大のAIデータセンター建設へ</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Key stat -->
+  <rect x="48" y="108" width="240" height="140" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="168" y="134" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">投資総額</text>
+  <text x="168" y="170" font-family="'Nunito Sans',sans-serif" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle">14兆円</text>
+  <text x="168" y="196" font-family="'Nunito Sans',sans-serif" font-size="14" fill="#8C52FF" text-anchor="middle">約 $93B</text>
+  <text x="168" y="222" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">フランス向け投資額</text>
+  <text x="168" y="240" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">欧州最大規模のAIインフラ投資</text>
+
+  <!-- Feature boxes -->
+  <rect x="308" y="108" width="250" height="64" rx="8" fill="#2A1A2A"/>
+  <text x="328" y="132" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">データセンター規模</text>
+  <text x="328" y="152" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">欧州最大級のAI計算基盤</text>
+  <text x="328" y="168" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">複数拠点・段階的な建設計画</text>
+
+  <rect x="308" y="182" width="250" height="66" rx="8" fill="#2A1A2A"/>
+  <text x="328" y="206" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">戦略的意図</text>
+  <text x="328" y="226" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">AI基盤投資の加速・欧州展開</text>
+  <text x="328" y="242" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">SBG ARMとの連携強化</text>
+
+  <!-- Right box -->
+  <rect x="578" y="108" width="254" height="140" rx="8" fill="#1E0E1E"/>
+  <text x="705" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">コスト影響の予測</text>
+  <text x="705" y="158" font-family="'Noto Sans JP',sans-serif" font-size="12" fill="#D9D9D9" text-anchor="middle">インフラ大型投資</text>
+  <text x="705" y="178" font-family="'Nunito Sans',sans-serif" font-size="13" font-weight="900" fill="#FF5757" text-anchor="middle">↓</text>
+  <text x="705" y="200" font-family="'Noto Sans JP',sans-serif" font-size="12" fill="#D9D9D9" text-anchor="middle">AI利用コスト低下</text>
+  <text x="705" y="220" font-family="'Nunito Sans',sans-serif" font-size="13" font-weight="900" fill="#FF5757" text-anchor="middle">↓</text>
+  <text x="705" y="240" font-family="'Noto Sans JP',sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">今が導入提案の最適タイミング</text>
+
+  <rect x="48" y="264" width="784" height="24" rx="4" fill="#350A20"/>
+  <text x="440" y="280" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">インフラ大型投資はAI活用コスト低下の前触れ ― 今が導入提案のタイミング</text>
+</svg>
