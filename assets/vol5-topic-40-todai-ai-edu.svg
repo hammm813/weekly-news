@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 280" width="100%" height="280">
+  <rect width="100%" height="280" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 40 — 国内・教育 / 東京大学 松尾・岩澤研究室「高校生 AI 教育プロジェクト」</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="19" font-weight="900" fill="#ffffff">東大が全高校生向け AI カリキュラムを開発　552名での試験授業の成果を全国展開へ</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: key stat -->
+  <rect x="48" y="108" width="220" height="140" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="158" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">試験授業の実績</text>
+  <text x="158" y="170" font-family="'Nunito Sans',sans-serif" font-size="36" font-weight="900" fill="#FFFFFF" text-anchor="middle">552</text>
+  <text x="158" y="194" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#B3B3B3" text-anchor="middle">名の高校生に試験実施</text>
+  <line x1="68" y1="206" x2="248" y2="206" stroke="#5A1035" stroke-width="1"/>
+  <text x="158" y="226" font-family="'Nunito Sans',sans-serif" font-size="22" font-weight="900" fill="#8C52FF" text-anchor="middle">3校</text>
+  <text x="158" y="244" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#B3B3B3" text-anchor="middle">パイロット校で実施</text>
+
+  <!-- Middle: what it is -->
+  <rect x="288" y="108" width="270" height="140" rx="8" fill="#2A1A2A"/>
+  <text x="308" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">プロジェクト概要</text>
+  <line x1="308" y1="142" x2="538" y2="142" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="308" y="164" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">主体：東大 松尾・岩澤研究室</text>
+  <text x="308" y="184" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">内容：AI の本質・仕組みを体系的に学ぶ</text>
+  <text x="308" y="204" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">　　　高校生向けカリキュラムを開発</text>
+  <text x="308" y="224" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">成果：教育雑誌に掲載・論文化</text>
+  <text x="308" y="244" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">全国パイロット校の募集準備中</text>
+
+  <!-- Right: significance -->
+  <rect x="578" y="108" width="254" height="140" rx="8" fill="#1E0E1E"/>
+  <text x="705" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">なぜ重要か</text>
+  <line x1="598" y1="142" x2="812" y2="142" stroke="#333333" stroke-width="1"/>
+  <text x="598" y="164" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">日本の AI 人材格差を</text>
+  <text x="598" y="184" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">高校段階から解消する取り組み</text>
+  <line x1="598" y1="198" x2="812" y2="198" stroke="#333333" stroke-width="1"/>
+  <text x="598" y="218" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">AI リテラシー教育の</text>
+  <text x="598" y="236" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">全国標準化への</text>
+  <text x="598" y="254" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">重要な一歩</text>
+
+  <rect x="48" y="260" width="784" height="16" rx="4" fill="#350A20"/>
+  <text x="440" y="272" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">AI 教育が「大学から高校へ」降りてくる ― 日本の次世代 AI 人材育成が本格始動</text>
+</svg>

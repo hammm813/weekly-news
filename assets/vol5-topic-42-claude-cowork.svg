@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 320" width="100%" height="320">
+  <rect width="100%" height="320" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 42 — Tips / 非エンジニアのための Claude Cowork 完全移行ガイド</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="18" font-weight="900" fill="#ffffff">コピペ作業がゼロになった日　ChatGPT から Claude Cowork へ移った非エンジニアの全手順</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: the core shift -->
+  <rect x="48" y="108" width="210" height="184" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="153" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">立ち位置の変化</text>
+  <line x1="68" y1="140" x2="238" y2="140" stroke="#5A1035" stroke-width="1"/>
+  <text x="153" y="162" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080" text-anchor="middle">ChatGPT 時代</text>
+  <text x="153" y="180" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080" text-anchor="middle">受け取り・コピペ作業者</text>
+  <text x="153" y="200" font-family="'Nunito Sans',sans-serif" font-size="20" font-weight="900" fill="#FF5757" text-anchor="middle">↓</text>
+  <text x="153" y="224" font-family="'Noto Sans JP',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">Cowork 移行後</text>
+  <text x="153" y="244" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#8C52FF" text-anchor="middle">ゴールを渡す指揮者</text>
+  <line x1="68" y1="258" x2="238" y2="258" stroke="#5A1035" stroke-width="1"/>
+  <text x="153" y="278" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">コピペ時間≒ゼロ</text>
+
+  <!-- Middle: Cowork vs Code + setup -->
+  <rect x="278" y="108" width="284" height="88" rx="8" fill="#2A1A2A"/>
+  <text x="298" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">Claude Code vs Cowork</text>
+  <line x1="298" y1="138" x2="542" y2="138" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="298" y="158" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">Code：ターミナル操作・エンジニア向け</text>
+  <text x="298" y="178" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">Cowork：チャットのまま・非エンジニア向け</text>
+  <text x="298" y="196" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">エンジンは同じ / 操作はチャット形式</text>
+
+  <rect x="278" y="206" width="284" height="86" rx="8" fill="#2A1A2A"/>
+  <text x="298" y="224" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">7分セットアップ</text>
+  <line x1="298" y1="234" x2="542" y2="234" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="298" y="252" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">① 有料プラン（Pro〜）に加入</text>
+  <text x="298" y="270" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">② デスクトップアプリをインストール</text>
+  <text x="298" y="288" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">③ 専用フォルダを作成しアクセス許可</text>
+
+  <!-- Right: 3 use cases + pitfalls -->
+  <rect x="582" y="108" width="250" height="184" rx="8" fill="#1E0E1E"/>
+  <text x="707" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">最初の1週間で試す3用途</text>
+  <line x1="602" y1="140" x2="812" y2="140" stroke="#333333" stroke-width="1"/>
+  <text x="602" y="160" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ データ集計・レポート化</text>
+  <text x="602" y="180" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ 定型業務の仕組み化</text>
+  <text x="602" y="200" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ プレゼン骨子の自動作成</text>
+  <line x1="602" y1="214" x2="812" y2="214" stroke="#333333" stroke-width="1"/>
+  <text x="707" y="232" font-family="'Noto Sans JP',sans-serif" font-size="10" font-weight="700" fill="#FF5757" text-anchor="middle">注意点</text>
+  <text x="602" y="250" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">コスト増・専用フォルダのみ許可・</text>
+  <text x="602" y="268" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">成果物は必ず自分でチェック</text>
+  <text x="602" y="286" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">著者：tatsuki @nobel_824</text>
+
+  <rect x="48" y="306" width="784" height="10" rx="4" fill="#350A20"/>
+  <rect x="48" y="300" width="784" height="16" rx="4" fill="#350A20"/>
+  <text x="440" y="313" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">「空のフォルダを1つ作る」が非エンジニアの AI 活用の分岐点 ― Cowork が入口を変える</text>
+</svg>

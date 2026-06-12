@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="100%" height="300">
+  <rect width="100%" height="300" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 33 — SEO / Google Search Console 「AI パフォーマンスレポート」追加</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="18" font-weight="900" fill="#ffffff">Google Search Console に AI パフォーマンスレポート登場　AI 検索の表示回数が初めて可視化</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: highlight -->
+  <rect x="48" y="108" width="210" height="140" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="153" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">史上最多リクエスト</text>
+  <line x1="68" y1="142" x2="238" y2="142" stroke="#5A1035" stroke-width="1"/>
+  <text x="153" y="164" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#B3B3B3" text-anchor="middle">Google Search Console</text>
+  <text x="153" y="184" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#B3B3B3" text-anchor="middle">AI パフォーマンス</text>
+  <text x="153" y="204" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#B3B3B3" text-anchor="middle">レポート</text>
+  <line x1="68" y1="216" x2="238" y2="216" stroke="#5A1035" stroke-width="1"/>
+  <text x="153" y="236" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">一部サイトから順次展開</text>
+
+  <!-- Middle: what's tracked -->
+  <rect x="278" y="108" width="270" height="64" rx="8" fill="#2A1A2A"/>
+  <text x="298" y="130" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">計測対象</text>
+  <text x="298" y="150" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ AI Overviews・AI Mode（検索）</text>
+  <text x="298" y="166" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ Discover の AI 機能内の表示回数</text>
+
+  <rect x="278" y="182" width="270" height="66" rx="8" fill="#2A1A2A"/>
+  <text x="298" y="204" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">初期段階の制限事項</text>
+  <text x="298" y="222" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">計測：インプレッションのみ（クリックなし）</text>
+  <text x="298" y="238" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">クエリ詳細は非表示・ページ/国/デバイス/日付のみ</text>
+
+  <!-- Right: significance -->
+  <rect x="568" y="108" width="264" height="140" rx="8" fill="#1E0E1E"/>
+  <text x="700" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">SEO への影響</text>
+  <line x1="588" y1="142" x2="812" y2="142" stroke="#333333" stroke-width="1"/>
+  <text x="588" y="164" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">AI 検索でのコンテンツ露出が</text>
+  <text x="588" y="184" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">初めてデータで確認可能に</text>
+  <line x1="588" y1="198" x2="812" y2="198" stroke="#333333" stroke-width="1"/>
+  <text x="588" y="218" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">「AI 検索に選ばれるコンテンツ」の</text>
+  <text x="588" y="236" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">最適化競争が本格化する</text>
+  <text x="588" y="254" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">正式展開後は SEO 戦略の必須指標に</text>
+
+  <rect x="48" y="264" width="784" height="24" rx="4" fill="#350A20"/>
+  <text x="440" y="280" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">AI 検索時代の SEO が始まった ― 「AI に選ばれる」コンテンツ設計が次の主戦場</text>
+</svg>

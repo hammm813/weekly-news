@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="100%" height="300">
+  <rect width="100%" height="300" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 11 — 市場 / GitHub Copilot トークン課金モデルへ移行</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="19" font-weight="900" fill="#ffffff">GitHub Copilot がトークン従量課金に移行　AI コスト管理が企業の新課題に</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: billing change highlight -->
+  <rect x="48" y="108" width="220" height="140" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="158" y="134" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">課金モデル変更</text>
+  <text x="158" y="162" font-family="'Noto Sans JP',sans-serif" font-size="12" fill="#808080" text-anchor="middle">月額定額制</text>
+  <text x="158" y="184" font-family="'Nunito Sans',sans-serif" font-size="18" font-weight="900" fill="#FF5757" text-anchor="middle">↓</text>
+  <text x="158" y="208" font-family="'Noto Sans JP',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">トークン従量課金</text>
+  <text x="158" y="234" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">GitHub Copilot 全プランで適用</text>
+
+  <!-- Middle: implications -->
+  <rect x="288" y="108" width="264" height="64" rx="8" fill="#2A1A2A"/>
+  <text x="308" y="132" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">① 使用量に応じてコストが変動</text>
+  <text x="308" y="152" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">ヘビーユーザーほど費用増加</text>
+  <text x="308" y="168" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">月末に想定外の請求が発生するリスク</text>
+
+  <rect x="288" y="182" width="264" height="66" rx="8" fill="#2A1A2A"/>
+  <text x="308" y="206" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">② AI コスト管理が必須に</text>
+  <text x="308" y="226" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">利用ポリシー・上限設定の整備</text>
+  <text x="308" y="242" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">部門ごとのコスト可視化が急務</text>
+
+  <!-- Right: industry context -->
+  <rect x="572" y="108" width="260" height="140" rx="8" fill="#1E0E1E"/>
+  <text x="702" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">業界へのインパクト</text>
+  <line x1="592" y1="142" x2="812" y2="142" stroke="#333333" stroke-width="1"/>
+  <text x="592" y="164" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">AI ツール導入 = コスト予測困難</text>
+  <text x="592" y="184" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">という課題が顕在化</text>
+  <line x1="592" y1="198" x2="812" y2="198" stroke="#333333" stroke-width="1"/>
+  <text x="592" y="218" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">「AI コスト最適化」コンサルは</text>
+  <text x="592" y="236" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">新たなビジネス機会になり得る</text>
+
+  <rect x="48" y="264" width="784" height="24" rx="4" fill="#350A20"/>
+  <text x="440" y="280" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">AI ツールの「使いすぎ」問題が企業に浮上 ― コスト管理なき AI 導入は逆効果になる</text>
+</svg>

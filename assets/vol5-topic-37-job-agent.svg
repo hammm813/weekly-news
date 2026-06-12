@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 320" width="100%" height="320">
+  <rect width="100%" height="320" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 37 — 活用事例 / Claude Code で就職活動を完全自動化（MIT ライセンス）</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="18" font-weight="900" fill="#ffffff">デンマークの博士研究者が Claude Code で就活パイプラインを自作・OSS 公開　489 stars</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: creator + stats -->
+  <rect x="48" y="108" width="200" height="184" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="148" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">作者</text>
+  <text x="148" y="152" font-family="'Nunito Sans',sans-serif" font-size="12" font-weight="900" fill="#FFFFFF" text-anchor="middle">Mads Lorentzen</text>
+  <text x="148" y="170" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">PhD 地球物理学者（デンマーク）</text>
+  <line x1="68" y1="182" x2="228" y2="182" stroke="#5A1035" stroke-width="1"/>
+  <text x="148" y="202" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#B3B3B3" text-anchor="middle">GitHub 実績</text>
+  <text x="148" y="226" font-family="'Nunito Sans',sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">489 ★</text>
+  <text x="148" y="246" font-family="'Nunito Sans',sans-serif" font-size="16" font-weight="900" fill="#8C52FF" text-anchor="middle">270 forks</text>
+  <text x="148" y="264" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">高 fork 率 = 実際に使用中</text>
+  <text x="148" y="282" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">MIT ライセンス / Claude Code 製</text>
+
+  <!-- Middle: 5-step pipeline -->
+  <rect x="268" y="108" width="294" height="184" rx="8" fill="#2A1A2A"/>
+  <text x="288" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">5ステップ自動パイプライン</text>
+  <line x1="288" y1="140" x2="542" y2="140" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="288" y="160" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">① 求人票を読み・適合度をスコアリング</text>
+  <text x="288" y="180" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">② 経験を絞り込み LaTeX で CV を草案</text>
+  <text x="288" y="200" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">③ ポジションに合わせた志望動機を執筆</text>
+  <text x="288" y="220" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#FF5757">④ 第2エージェントが弱点を指摘・修正</text>
+  <text x="288" y="240" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">⑤ CV と志望動機を PDF にコンパイル</text>
+  <line x1="288" y1="254" x2="542" y2="254" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="288" y="272" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">全設定は Markdown ファイルで管理・カスタマイズ容易</text>
+  <text x="288" y="288" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">求人検索はデンマーク発 / 応募フローは全国対応</text>
+
+  <!-- Right: philosophy -->
+  <rect x="582" y="108" width="250" height="184" rx="8" fill="#1E0E1E"/>
+  <text x="707" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">本質的なメッセージ</text>
+  <line x1="602" y1="140" x2="812" y2="140" stroke="#333333" stroke-width="1"/>
+  <text x="602" y="164" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">就活の未来は</text>
+  <text x="602" y="182" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">「お金を払うサービス」ではなく</text>
+  <text x="707" y="206" font-family="'Nunito Sans',sans-serif" font-size="13" font-weight="900" fill="#8C52FF" text-anchor="middle">「自分が所有する</text>
+  <text x="707" y="226" font-family="'Nunito Sans',sans-serif" font-size="13" font-weight="900" fill="#8C52FF" text-anchor="middle">ワークフロー」</text>
+  <line x1="602" y1="242" x2="812" y2="242" stroke="#333333" stroke-width="1"/>
+  <text x="602" y="264" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">自分のために作り</text>
+  <text x="602" y="280" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">世界に共有する文化</text>
+
+  <rect x="48" y="306" width="784" height="10" rx="4" fill="#350A20"/>
+  <rect x="48" y="300" width="784" height="16" rx="4" fill="#350A20"/>
+  <text x="440" y="313" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">AI エージェントが互いをレビューする設計 ― 「マルチエージェント品質管理」の実践例</text>
+</svg>

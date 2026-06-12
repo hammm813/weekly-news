@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="100%" height="300">
+  <rect width="100%" height="300" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 02 — ツール / OpenAI Codex ユーザー動向</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="19" font-weight="900" fill="#ffffff">Codex 週間アクティブ 500万人突破　コーディングを超えたナレッジワーク基盤へ</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Key stat -->
+  <rect x="48" y="108" width="220" height="140" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="158" y="136" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">週間アクティブユーザー</text>
+  <text x="158" y="184" font-family="'Nunito Sans',sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">5M+</text>
+  <text x="158" y="210" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#B3B3B3" text-anchor="middle">500万人以上</text>
+  <text x="158" y="238" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">（2026年6月時点）</text>
+
+  <!-- Use case boxes -->
+  <rect x="288" y="108" width="270" height="140" rx="8" fill="#2A1A2A"/>
+  <text x="308" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">ナレッジワークの主な活用領域</text>
+  <line x1="308" y1="142" x2="538" y2="142" stroke="#3A1A3A" stroke-width="1"/>
+  <text x="308" y="163" font-family="'Noto Sans JP',sans-serif" font-size="12" fill="#D9D9D9">▸ リサーチ・情報収集</text>
+  <text x="308" y="184" font-family="'Noto Sans JP',sans-serif" font-size="12" fill="#D9D9D9">▸ データ分析・レポート作成</text>
+  <text x="308" y="205" font-family="'Noto Sans JP',sans-serif" font-size="12" fill="#D9D9D9">▸ コンテンツ制作</text>
+  <text x="308" y="226" font-family="'Noto Sans JP',sans-serif" font-size="12" fill="#D9D9D9">▸ オペレーション業務</text>
+  <text x="308" y="240" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">＊コーディング以外の用途が急拡大</text>
+
+  <!-- Right: narrative shift -->
+  <rect x="578" y="108" width="254" height="140" rx="8" fill="#1E0E1E"/>
+  <text x="705" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">ポジション変化</text>
+  <line x1="598" y1="142" x2="812" y2="142" stroke="#333333" stroke-width="1"/>
+  <text x="705" y="168" font-family="'Noto Sans JP',sans-serif" font-size="12" fill="#808080" text-anchor="middle">コーディングツール</text>
+  <text x="705" y="192" font-family="'Nunito Sans',sans-serif" font-size="22" font-weight="900" fill="#FF5757" text-anchor="middle">↓</text>
+  <text x="705" y="216" font-family="'Noto Sans JP',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">ナレッジワーク</text>
+  <text x="705" y="236" font-family="'Noto Sans JP',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">生産性プラットフォーム</text>
+
+  <rect x="48" y="264" width="784" height="24" rx="4" fill="#350A20"/>
+  <text x="440" y="280" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">Codex はエンジニアだけのツールではない ― 全職種の「仕事をこなす AI」として普及フェーズへ</text>
+</svg>

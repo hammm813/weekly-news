@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 320" width="100%" height="320">
+  <rect width="100%" height="320" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 12 — Tips / Claude Code トークン使用量を半減させる設定</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="19" font-weight="900" fill="#ffffff">Claude Code のトークン消費を半減　モデル選択＋ツール最適化で同じ成果・半分のコスト</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: result stat -->
+  <rect x="48" y="108" width="180" height="184" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="138" y="136" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">実測結果（1週間）</text>
+  <text x="138" y="182" font-family="'Nunito Sans',sans-serif" font-size="48" font-weight="900" fill="#FFFFFF" text-anchor="middle">½</text>
+  <text x="138" y="210" font-family="'Noto Sans JP',sans-serif" font-size="12" font-weight="700" fill="#FF5757" text-anchor="middle">トークン消費</text>
+  <line x1="68" y1="224" x2="208" y2="224" stroke="#5A1035" stroke-width="1"/>
+  <text x="138" y="246" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">アウトプット品質は</text>
+  <text x="138" y="262" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">変わらず</text>
+  <text x="138" y="280" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">ファイル1枚の設定のみ</text>
+
+  <!-- Middle: 3-part setup -->
+  <rect x="248" y="108" width="286" height="56" rx="8" fill="#2A1A2A"/>
+  <text x="268" y="130" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">① タスク委譲ブロック（モデル選択）</text>
+  <text x="268" y="150" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#D9D9D9">Haiku=機械的作業 / Sonnet=調査・合成 / Opus=複雑推論のみ</text>
+
+  <rect x="248" y="174" width="286" height="56" rx="8" fill="#2A1A2A"/>
+  <text x="268" y="196" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">② ツール優先順位ブロック</text>
+  <text x="268" y="214" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#D9D9D9">WebFetch（無料）→ agent-browser CLI（82%削減）→ pdf-to-text</text>
+
+  <rect x="248" y="240" width="286" height="52" rx="8" fill="#2A1A2A"/>
+  <text x="268" y="262" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">③ settings.json 2行追記</text>
+  <text x="268" y="280" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#D9D9D9">1Mコンテキスト無効化 ＋ 80%で自動コンパクト</text>
+
+  <!-- Right: settings detail -->
+  <rect x="554" y="108" width="278" height="184" rx="8" fill="#1E0E1E"/>
+  <text x="693" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">settings.json（追記2行）</text>
+  <line x1="574" y1="142" x2="812" y2="142" stroke="#333333" stroke-width="1"/>
+  <text x="574" y="166" font-family="'Nunito Sans',sans-serif" font-size="10" fill="#8C52FF">"CLAUDE_CODE_DISABLE_1M_CONTEXT"</text>
+  <text x="574" y="182" font-family="'Nunito Sans',sans-serif" font-size="10" fill="#B3B3B3">　→ 不要な巨大コンテキストを読み込まない</text>
+  <line x1="574" y1="196" x2="812" y2="196" stroke="#2A2A2A" stroke-width="1"/>
+  <text x="574" y="216" font-family="'Nunito Sans',sans-serif" font-size="10" fill="#8C52FF">"CLAUDE_AUTOCOMPACT_PCT_OVERRIDE": "80"</text>
+  <text x="574" y="232" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#B3B3B3">　→ 満杯を待たず80%で自動圧縮</text>
+  <line x1="574" y1="248" x2="812" y2="248" stroke="#333333" stroke-width="1"/>
+  <text x="693" y="270" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">設定時間：約2分</text>
+  <text x="693" y="286" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">以降すべてのセッションで効果</text>
+
+  <rect x="48" y="306" width="784" height="0" rx="4" fill="#350A20"/>
+  <rect x="48" y="298" width="784" height="20" rx="4" fill="#350A20"/>
+  <text x="440" y="312" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">モデルを"選んで使う"だけでコストは半分になる ― AI 活用の次のステップはコスト設計</text>
+</svg>

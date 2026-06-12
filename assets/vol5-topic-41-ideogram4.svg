@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 280" width="100%" height="280">
+  <rect width="100%" height="280" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 41 — AI モデル / Ideogram 4.0「世界最高のオープン画像モデル」</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="19" font-weight="900" fill="#ffffff">Ideogram 4.0 登場　ウェイト公開・ファインチューニング・自社ハードで動かせる画像 AI</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: model highlight -->
+  <rect x="48" y="108" width="210" height="140" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="153" y="132" font-family="'Nunito Sans',sans-serif" font-size="14" font-weight="900" fill="#FFFFFF" text-anchor="middle">Ideogram 4.0</text>
+  <text x="153" y="154" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">世界最高のオープン画像モデル</text>
+  <line x1="68" y1="166" x2="238" y2="166" stroke="#5A1035" stroke-width="1"/>
+  <text x="153" y="188" font-family="'Nunito Sans',sans-serif" font-size="13" font-weight="900" fill="#34A853" text-anchor="middle">Open Weights</text>
+  <text x="153" y="208" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#B3B3B3" text-anchor="middle">ウェイト無料公開</text>
+  <text x="153" y="228" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">全プラン＋API で即利用可</text>
+  <text x="153" y="244" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">本日公開</text>
+
+  <!-- Middle: key capabilities -->
+  <rect x="278" y="108" width="274" height="44" rx="8" fill="#2A1A2A"/>
+  <text x="298" y="126" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">① ウェイトをダウンロード・自己所有</text>
+  <text x="298" y="144" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">モデルを手元に置いて完全管理・プライベート実行</text>
+
+  <rect x="278" y="162" width="274" height="44" rx="8" fill="#2A1A2A"/>
+  <text x="298" y="180" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">② 自社データでファインチューニング</text>
+  <text x="298" y="198" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">ブランド・スタイル・製品に最適化した画像 AI を構築</text>
+
+  <rect x="278" y="216" width="274" height="32" rx="8" fill="#2A1A2A"/>
+  <text x="298" y="236" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">③ 自社ハードウェアで動作</text>
+
+  <!-- Right: significance -->
+  <rect x="572" y="108" width="260" height="140" rx="8" fill="#1E0E1E"/>
+  <text x="702" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">タグライン</text>
+  <line x1="592" y1="140" x2="812" y2="140" stroke="#333333" stroke-width="1"/>
+  <text x="702" y="166" font-family="'Nunito Sans',sans-serif" font-size="14" font-weight="900" fill="#FFFFFF" text-anchor="middle">Think it.</text>
+  <text x="702" y="190" font-family="'Nunito Sans',sans-serif" font-size="14" font-weight="900" fill="#FFFFFF" text-anchor="middle">Make it.</text>
+  <text x="702" y="214" font-family="'Nunito Sans',sans-serif" font-size="14" font-weight="900" fill="#A51E6D" text-anchor="middle">Own it.</text>
+  <line x1="592" y1="228" x2="812" y2="228" stroke="#333333" stroke-width="1"/>
+  <text x="592" y="246" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">画像生成 AI の「所有権」が</text>
+  <text x="592" y="262" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">ユーザーの手に渡る時代へ</text>
+
+  <rect x="48" y="262" width="784" height="16" rx="4" fill="#350A20"/>
+  <text x="440" y="274" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">画像 AI も「使うもの」から「所有するもの」へ ― オープン化の波が画像生成にも到来</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="100%" height="340">
+  <rect width="100%" height="340" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 19 — AI モデル / Microsoft MAI 7モデル同時発表 @ Build</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="18" font-weight="900" fill="#ffffff">Microsoft「MAI」7モデル発表　自社チップ最適化＋Frontier Tuning で企業特化 AI が構築可能に</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- MAI-Thinking-1 -->
+  <rect x="48" y="108" width="240" height="140" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="168" y="130" font-family="'Nunito Sans',sans-serif" font-size="12" font-weight="900" fill="#FFFFFF" text-anchor="middle">MAI-Thinking-1</text>
+  <text x="168" y="148" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">35B MoE · 256K context</text>
+  <line x1="68" y1="158" x2="268" y2="158" stroke="#5A1035" stroke-width="1"/>
+  <text x="68" y="178" font-family="'Nunito Sans',sans-serif" font-size="11" fill="#D9D9D9">AIME 2025　</text>
+  <text x="185" y="178" font-family="'Nunito Sans',sans-serif" font-size="16" font-weight="900" fill="#FF5757">97%</text>
+  <text x="68" y="200" font-family="'Nunito Sans',sans-serif" font-size="11" fill="#D9D9D9">SWE Bench Pro　</text>
+  <text x="195" y="200" font-family="'Nunito Sans',sans-serif" font-size="16" font-weight="900" fill="#FF5757">53%</text>
+  <text x="68" y="222" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#B3B3B3">Sonnet 4.6 を人間評価で上回る</text>
+  <line x1="68" y1="232" x2="268" y2="232" stroke="#5A1035" stroke-width="1"/>
+  <text x="68" y="248" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">MAIA 200 最適化: GB200比 +30%/$ · 1.4x/W</text>
+
+  <!-- MAI-Code-1-Flash + Image -->
+  <rect x="308" y="108" width="240" height="140" rx="8" fill="#2A1A2A"/>
+  <text x="428" y="130" font-family="'Nunito Sans',sans-serif" font-size="12" font-weight="900" fill="#8C52FF" text-anchor="middle">MAI-Code-1-Flash</text>
+  <text x="428" y="148" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">5B params · VS Code / Copilot CLI 最適化</text>
+  <line x1="328" y1="158" x2="528" y2="158" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="328" y="178" font-family="'Nunito Sans',sans-serif" font-size="11" fill="#D9D9D9">SWE Bench Pro　</text>
+  <text x="467" y="178" font-family="'Nunito Sans',sans-serif" font-size="16" font-weight="900" fill="#8C52FF">51%</text>
+  <text x="328" y="198" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#B3B3B3">Haiku 相当サイズ・低コスト</text>
+  <line x1="328" y1="212" x2="528" y2="212" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="428" y="230" font-family="'Nunito Sans',sans-serif" font-size="12" font-weight="900" fill="#1A73E8" text-anchor="middle">MAI-Image-2.5</text>
+  <text x="428" y="248" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#B3B3B3" text-anchor="middle">画像編集リーダーボード 2位</text>
+
+  <!-- Frontier Tuning -->
+  <rect x="568" y="108" width="264" height="140" rx="8" fill="#1E0E1E"/>
+  <text x="700" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">Microsoft Frontier Tuning</text>
+  <line x1="588" y1="140" x2="812" y2="140" stroke="#333333" stroke-width="1"/>
+  <text x="588" y="160" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">自社データで企業特化 AI を構築</text>
+  <text x="588" y="178" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">「Your data. Your agents. Your moat.」</text>
+  <line x1="588" y1="192" x2="812" y2="192" stroke="#333333" stroke-width="1"/>
+  <text x="700" y="212" font-family="'Noto Sans JP',sans-serif" font-size="10" font-weight="700" fill="#A51E6D" text-anchor="middle">McKinsey 導入事例</text>
+  <text x="588" y="230" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#FFFFFF">GPT-5.5 比　品質で上回り</text>
+  <text x="700" y="248" font-family="'Nunito Sans',sans-serif" font-size="16" font-weight="900" fill="#34A853" text-anchor="middle">コスト 1/10</text>
+
+  <!-- Bottom bar: Mayo Clinic + insight -->
+  <rect x="48" y="262" width="784" height="32" rx="8" fill="#2A1A2A"/>
+  <text x="68" y="278" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">Mayo Clinic と共同で医療特化フロンティア AI を開発中</text>
+  <text x="68" y="294" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">目標：「ヒューマニスト的な超知能（humanist superintelligence）」</text>
+
+  <rect x="48" y="308" width="784" height="22" rx="4" fill="#350A20"/>
+  <text x="440" y="323" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">自社チップ×自社モデル×Frontier Tuning ― Microsoft が AI スタック垂直統合で本気を見せた</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="100%" height="300">
+  <rect width="100%" height="300" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 04 — ツール / Google NotebookLM モバイル強化</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="19" font-weight="900" fill="#ffffff">NotebookLM モバイルアプリ強化　移動中にブリーフィング・学習ガイド・ブログを作成可能に</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: platform highlight -->
+  <rect x="48" y="108" width="200" height="140" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="148" y="138" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">NotebookLM</text>
+  <text x="148" y="162" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#B3B3B3" text-anchor="middle">by Google</text>
+  <text x="148" y="196" font-family="'Nunito Sans',sans-serif" font-size="32" font-weight="900" fill="#FFFFFF" text-anchor="middle">📱</text>
+  <text x="148" y="224" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#B3B3B3" text-anchor="middle">モバイルアプリ</text>
+  <text x="148" y="242" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">新フォーマット追加</text>
+
+  <!-- Middle: 3 new output types -->
+  <rect x="268" y="108" width="264" height="44" rx="8" fill="#2A1A2A"/>
+  <text x="288" y="128" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">① ブリーフィングドキュメント</text>
+  <text x="288" y="144" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">要点を素早く整理してまとめる</text>
+
+  <rect x="268" y="162" width="264" height="44" rx="8" fill="#2A1A2A"/>
+  <text x="288" y="182" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">② スタディガイド</text>
+  <text x="288" y="198" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">資料から学習用ガイドを自動生成</text>
+
+  <rect x="268" y="216" width="264" height="32" rx="8" fill="#2A1A2A"/>
+  <text x="288" y="232" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">③ ブログ記事</text>
+  <text x="408" y="232" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">　移動中に下書きまで完成</text>
+
+  <!-- Right: context -->
+  <rect x="552" y="108" width="280" height="140" rx="8" fill="#1E0E1E"/>
+  <text x="692" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">活用シーン</text>
+  <line x1="572" y1="142" x2="812" y2="142" stroke="#333333" stroke-width="1"/>
+  <text x="572" y="164" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">通勤・移動中にリサーチ整理</text>
+  <text x="572" y="184" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">会議前のブリーフィング作成</text>
+  <text x="572" y="204" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">隙間時間でSNS・ブログ執筆</text>
+  <line x1="572" y1="218" x2="812" y2="218" stroke="#333333" stroke-width="1"/>
+  <text x="692" y="238" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080" text-anchor="middle">追加フォーマットはユーザー募集中</text>
+
+  <rect x="48" y="264" width="784" height="24" rx="4" fill="#350A20"/>
+  <text x="440" y="280" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">AI アウトプットがスマホで完結する時代 ― 移動時間もアウトプット時間に変わる</text>
+</svg>

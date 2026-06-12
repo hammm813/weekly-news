@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="100%" height="300">
+  <rect width="100%" height="300" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 15 — Tips / Anthropic エンジニアの Claude 活用哲学</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="18" font-weight="900" fill="#ffffff">「プロンプトを書くな、仕組みを作れ」― Anthropic 流・チームエージェント運用の本質</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: key quote -->
+  <rect x="48" y="108" width="240" height="140" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="168" y="132" font-family="'Noto Sans JP',sans-serif" font-size="10" font-weight="700" fill="#A51E6D" text-anchor="middle">Anthropic エンジニアの言葉</text>
+  <line x1="68" y1="142" x2="268" y2="142" stroke="#5A1035" stroke-width="1"/>
+  <text x="168" y="166" font-family="'Noto Sans JP',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">「Claude に</text>
+  <text x="168" y="186" font-family="'Noto Sans JP',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">プロンプトするな」</text>
+  <text x="168" y="210" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#B3B3B3" text-anchor="middle">「Claude が自分自身に</text>
+  <text x="168" y="228" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#B3B3B3" text-anchor="middle">プロンプトする仕組みを</text>
+  <text x="168" y="244" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#B3B3B3" text-anchor="middle">作れ」</text>
+
+  <!-- Middle: what most users miss -->
+  <rect x="308" y="108" width="258" height="140" rx="8" fill="#2A1A2A"/>
+  <text x="328" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">多くのユーザーが見逃していること</text>
+  <line x1="328" y1="140" x2="546" y2="140" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="328" y="162" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ CLAUDE.md で14%のトークンを消費</text>
+  <text x="328" y="182" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ 自動化ワークフローの存在</text>
+  <text x="328" y="202" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ キーボード不要の日次タスク処理</text>
+  <text x="328" y="222" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ 社内エンジニアが先行自動化済み</text>
+  <text x="328" y="242" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">　　のワークフローが存在する</text>
+
+  <!-- Right: the shift -->
+  <rect x="586" y="108" width="246" height="140" rx="8" fill="#1E0E1E"/>
+  <text x="709" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">使い方のステージ差</text>
+  <line x1="606" y1="142" x2="812" y2="142" stroke="#333333" stroke-width="1"/>
+  <text x="709" y="166" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080" text-anchor="middle">チャット画面から出ない</text>
+  <text x="709" y="184" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080" text-anchor="middle">＝ エージェント1体を使用</text>
+  <text x="709" y="202" font-family="'Nunito Sans',sans-serif" font-size="16" font-weight="900" fill="#FF5757" text-anchor="middle">↓ 本来の姿</text>
+  <text x="709" y="224" font-family="'Noto Sans JP',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">エージェントの</text>
+  <text x="709" y="244" font-family="'Noto Sans JP',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">チームを動かす</text>
+
+  <rect x="48" y="264" width="784" height="24" rx="4" fill="#350A20"/>
+  <text x="440" y="280" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">Claude の真の使い方は「対話」ではなく「設計」― 仕組みを作った人だけが差をつける</text>
+</svg>

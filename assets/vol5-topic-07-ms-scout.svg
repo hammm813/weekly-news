@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="100%" height="300">
+  <rect width="100%" height="300" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 07 — ツール / Microsoft Scout · PC 操作 AI 自動化</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="19" font-weight="900" fill="#ffffff">Microsoft「Scout」発表　OpenClaw 技術で PC 操作を AI が自律実行</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: product highlight -->
+  <rect x="48" y="108" width="210" height="140" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="153" y="136" font-family="'Nunito Sans',sans-serif" font-size="16" font-weight="900" fill="#FFFFFF" text-anchor="middle">Scout</text>
+  <text x="153" y="156" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">by Microsoft</text>
+  <line x1="68" y1="168" x2="238" y2="168" stroke="#5A1035" stroke-width="1"/>
+  <text x="153" y="188" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#B3B3B3" text-anchor="middle">採用技術</text>
+  <text x="153" y="210" font-family="'Nunito Sans',sans-serif" font-size="14" font-weight="900" fill="#A51E6D" text-anchor="middle">OpenClaw</text>
+  <text x="153" y="234" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">CEO サティア・ナデラ発表</text>
+
+  <!-- Middle: capabilities -->
+  <rect x="278" y="108" width="264" height="64" rx="8" fill="#2A1A2A"/>
+  <text x="298" y="132" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">① PC 操作の AI 自動化</text>
+  <text x="298" y="152" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">アプリ操作・ファイル管理など</text>
+  <text x="298" y="168" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">反復タスクを AI チームが代行</text>
+
+  <rect x="278" y="182" width="264" height="66" rx="8" fill="#2A1A2A"/>
+  <text x="298" y="206" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">② フォーカス時間の創出</text>
+  <text x="298" y="226" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">「退屈なタスクを大幅削減し</text>
+  <text x="298" y="242" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">　本当の仕事に集中できる」</text>
+
+  <!-- Right: context -->
+  <rect x="562" y="108" width="270" height="140" rx="8" fill="#1E0E1E"/>
+  <text x="697" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">Windows × AI の次のステージ</text>
+  <line x1="582" y1="142" x2="812" y2="142" stroke="#333333" stroke-width="1"/>
+  <text x="582" y="164" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">Copilot に続く第二波</text>
+  <text x="582" y="184" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">OS レベルで AI が常駐・実行</text>
+  <line x1="582" y1="198" x2="812" y2="198" stroke="#333333" stroke-width="1"/>
+  <text x="582" y="218" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">競合：Apple Intelligence /</text>
+  <text x="582" y="236" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">Google Gemini on Chrome OS</text>
+
+  <rect x="48" y="264" width="784" height="24" rx="4" fill="#350A20"/>
+  <text x="440" y="280" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">PC の「使い方」が変わる ― 操作は AI、人間は意思決定に専念する時代が目前に</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="100%" height="300">
+  <rect width="100%" height="300" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 18 — 政策 / 米ホワイトハウス AI 大統領令</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="19" font-weight="900" fill="#ffffff">米大統領令「AI リーダーシップ強化」発令　主要 AI 企業がホワイトハウスとの連携を表明</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: policy highlight -->
+  <rect x="48" y="108" width="210" height="140" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="153" y="134" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">大統領令の目的</text>
+  <line x1="68" y1="144" x2="238" y2="144" stroke="#5A1035" stroke-width="1"/>
+  <text x="153" y="168" font-family="'Noto Sans JP',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">アメリカの</text>
+  <text x="153" y="190" font-family="'Noto Sans JP',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">AI 覇権維持</text>
+  <text x="153" y="214" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#B3B3B3" text-anchor="middle">Executive Order</text>
+  <text x="153" y="234" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">ホワイトハウス主導</text>
+
+  <!-- Middle: key points -->
+  <rect x="278" y="108" width="270" height="140" rx="8" fill="#2A1A2A"/>
+  <text x="298" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">大統領令のポイント</text>
+  <line x1="298" y1="142" x2="528" y2="142" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="298" y="164" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ 米国の AI リーダーシップを国策化</text>
+  <text x="298" y="184" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ 主要 AI 企業との官民連携推進</text>
+  <text x="298" y="204" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ 実装に向けてホワイトハウスが主導</text>
+  <text x="298" y="228" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">「重要な一歩」として各社が評価</text>
+  <text x="298" y="244" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">連携・支援を積極的に表明</text>
+
+  <!-- Right: global implications -->
+  <rect x="568" y="108" width="264" height="140" rx="8" fill="#1E0E1E"/>
+  <text x="700" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">グローバルへの影響</text>
+  <line x1="588" y1="142" x2="812" y2="142" stroke="#333333" stroke-width="1"/>
+  <text x="588" y="164" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">米 vs 中の AI 覇権競争が</text>
+  <text x="588" y="184" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">政策レベルで本格化</text>
+  <line x1="588" y1="198" x2="812" y2="198" stroke="#333333" stroke-width="1"/>
+  <text x="588" y="218" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">日本・欧州も</text>
+  <text x="588" y="236" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">対応する規制・政策の</text>
+  <text x="588" y="254" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">整備を迫られる展開に</text>
+
+  <rect x="48" y="264" width="784" height="24" rx="4" fill="#350A20"/>
+  <text x="440" y="280" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">AI は技術競争から国家戦略へ ― 政府と企業が一体となる時代の幕開け</text>
+</svg>

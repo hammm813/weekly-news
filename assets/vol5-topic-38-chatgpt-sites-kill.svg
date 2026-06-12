@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 280" width="100%" height="280">
+  <rect width="100%" height="280" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 38 — 市場 / ChatGPT「Sites」がスタートアップを駆逐する構図</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="19" font-weight="900" fill="#ffffff">「Sites」公開でまたスタートアップが死ぬ　誰でも無料で Web サイト・アプリを作れる時代へ</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: the pattern -->
+  <rect x="48" y="108" width="220" height="140" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="158" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">繰り返されるパターン</text>
+  <line x1="68" y1="142" x2="248" y2="142" stroke="#5A1035" stroke-width="1"/>
+  <text x="158" y="164" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#B3B3B3" text-anchor="middle">スタートアップが</text>
+  <text x="158" y="182" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#B3B3B3" text-anchor="middle">領域を開拓</text>
+  <text x="158" y="202" font-family="'Nunito Sans',sans-serif" font-size="18" font-weight="900" fill="#FF5757" text-anchor="middle">↓</text>
+  <text x="158" y="222" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">OpenAI が無料機能として</text>
+  <text x="158" y="240" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">同機能を搭載</text>
+
+  <!-- Middle: Sites feature -->
+  <rect x="288" y="108" width="264" height="140" rx="8" fill="#2A1A2A"/>
+  <text x="308" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">ChatGPT「Sites」の破壊力</text>
+  <line x1="308" y1="142" x2="532" y2="142" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="308" y="164" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ 誰でも Web サイト・アプリを作成</text>
+  <text x="308" y="184" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ プログラミング知識不要</text>
+  <text x="308" y="204" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ OpenAI がホスティングまで提供</text>
+  <text x="308" y="224" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ @Sites コマンドで URL まで自動発行</text>
+  <text x="308" y="244" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">ノーコード系スタートアップへの直撃</text>
+
+  <!-- Right: implications for startups -->
+  <rect x="572" y="108" width="260" height="140" rx="8" fill="#1E0E1E"/>
+  <text x="702" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">起業家・事業者への教訓</text>
+  <line x1="592" y1="142" x2="812" y2="142" stroke="#333333" stroke-width="1"/>
+  <text x="592" y="164" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">OpenAI / Google が参入しても</text>
+  <text x="592" y="184" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">代替されない差別化が必要</text>
+  <line x1="592" y1="198" x2="812" y2="198" stroke="#333333" stroke-width="1"/>
+  <text x="592" y="218" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">▸ 深い業界特化（垂直展開）</text>
+  <text x="592" y="238" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">▸ 独自データ・関係性の構築</text>
+  <text x="592" y="256" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">▸ プラットフォーム上に乗る戦略</text>
+
+  <rect x="48" y="260" width="784" height="16" rx="4" fill="#350A20"/>
+  <text x="440" y="272" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">汎用ツールは巨人が飲み込む ― AI 時代の差別化は「深さ」と「関係性」にしかない</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="100%" height="300">
+  <rect width="100%" height="300" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 34 — 考察 / AI が奪うのは「仕事」ではなく「経験を積む入口」</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="18" font-weight="900" fill="#ffffff">AI が奪うのは仕事ではなく「経験の入口」― エンタメ産業の人材パイプラインが消えていく</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: core insight -->
+  <rect x="48" y="108" width="240" height="140" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="168" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">核心の構造</text>
+  <line x1="68" y1="142" x2="268" y2="142" stroke="#5A1035" stroke-width="1"/>
+  <text x="168" y="164" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080" text-anchor="middle">AI が奪うもの</text>
+  <text x="168" y="186" font-family="'Nunito Sans',sans-serif" font-size="13" font-weight="900" fill="#FF5757" text-anchor="middle">× 仕事そのもの</text>
+  <line x1="88" y1="198" x2="248" y2="198" stroke="#3A1020" stroke-width="1"/>
+  <text x="168" y="218" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#B3B3B3" text-anchor="middle">本当に奪われるもの</text>
+  <text x="168" y="238" font-family="'Nunito Sans',sans-serif" font-size="13" font-weight="900" fill="#8C52FF" text-anchor="middle">◎ 経験を積む入口</text>
+
+  <!-- Middle: the problem -->
+  <rect x="308" y="108" width="264" height="64" rx="8" fill="#2A1A2A"/>
+  <text x="328" y="130" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">何が起きているか</text>
+  <text x="328" y="150" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">雑務・初級作業が AI に代替される</text>
+  <text x="328" y="166" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">→ 若手が経験を積む機会が消滅</text>
+
+  <rect x="308" y="182" width="264" height="66" rx="8" fill="#2A1A2A"/>
+  <text x="328" y="204" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">エンタメ産業への3年越しの警告</text>
+  <text x="328" y="224" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">人材パイプラインが壊れると</text>
+  <text x="328" y="242" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#FF5757">産業全体が衰退するリスク</text>
+
+  <!-- Right: broader implication -->
+  <rect x="592" y="108" width="240" height="140" rx="8" fill="#1E0E1E"/>
+  <text x="712" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">他業界への示唆</text>
+  <line x1="612" y1="142" x2="812" y2="142" stroke="#333333" stroke-width="1"/>
+  <text x="612" y="164" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">初級タスクが AI 化される</text>
+  <text x="612" y="182" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">すべての職種で同様の</text>
+  <text x="612" y="200" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">構造変化が起きている</text>
+  <line x1="612" y1="214" x2="812" y2="214" stroke="#333333" stroke-width="1"/>
+  <text x="712" y="234" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">「育成設計」の見直しが</text>
+  <text x="712" y="250" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">組織に急務となる</text>
+
+  <rect x="48" y="264" width="784" height="24" rx="4" fill="#350A20"/>
+  <text x="440" y="280" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">AI 活用と人材育成は両立させなければならない ― 入口がなければ未来の専門家は育たない</text>
+</svg>

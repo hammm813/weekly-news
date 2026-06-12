@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="100%" height="300">
+  <rect width="100%" height="300" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 29 — ツール / MAI-Code-1-Flash が GitHub Copilot 全プラン無料提供</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="19" font-weight="900" fill="#ffffff">Microsoft 製コーディング AI が Copilot 全プランで無料に　OpenAI 非依存の自社モデルが本番投入</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: FREE highlight -->
+  <rect x="48" y="108" width="200" height="140" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="148" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">提供条件</text>
+  <text x="148" y="164" font-family="'Nunito Sans',sans-serif" font-size="28" font-weight="900" fill="#34A853" text-anchor="middle">FREE</text>
+  <text x="148" y="184" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#B3B3B3" text-anchor="middle">GitHub Copilot 全プラン対象</text>
+  <line x1="68" y1="196" x2="228" y2="196" stroke="#5A1035" stroke-width="1"/>
+  <text x="68" y="214" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#B3B3B3">✅ Free / Pro / Pro+ / Max</text>
+  <text x="68" y="232" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">クレジットカード不要（Free プラン）</text>
+  <text x="68" y="248" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">OpenAI 非依存・Microsoft 自社製</text>
+
+  <!-- Middle: benchmarks -->
+  <rect x="268" y="108" width="274" height="64" rx="8" fill="#2A1A2A"/>
+  <text x="288" y="128" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">ベンチマーク実績</text>
+  <text x="288" y="148" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">MS 敵対的コーディング評価：</text>
+  <text x="540" y="148" font-family="'Nunito Sans',sans-serif" font-size="14" font-weight="900" fill="#FF5757"> 85.8%</text>
+  <text x="288" y="166" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">複雑タスクのトークン消費：同等比</text>
+  <text x="540" y="166" font-family="'Nunito Sans',sans-serif" font-size="14" font-weight="900" fill="#8C52FF"> 60%減</text>
+
+  <rect x="268" y="182" width="274" height="66" rx="8" fill="#2A1A2A"/>
+  <text x="288" y="204" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">設計の差別化</text>
+  <text x="288" y="222" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">Copilot 本番環境内で訓練</text>
+  <text x="288" y="240" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">256K コンテキストウィンドウ</text>
+
+  <!-- Right: model family recap -->
+  <rect x="562" y="108" width="270" height="140" rx="8" fill="#1E0E1E"/>
+  <text x="697" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">MAI モデルファミリー</text>
+  <line x1="582" y1="140" x2="812" y2="140" stroke="#333333" stroke-width="1"/>
+  <text x="582" y="160" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">Code-1-Flash　　コーディング</text>
+  <text x="582" y="180" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">Thinking-1　　　推論（35B）</text>
+  <text x="582" y="200" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">Image-2.5　　　画像生成</text>
+  <text x="582" y="220" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">Transcribe-1.5　音声認識（43言語）</text>
+  <line x1="582" y1="234" x2="812" y2="234" stroke="#333333" stroke-width="1"/>
+  <text x="697" y="252" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">全モデルが Copilot に順次統合予定</text>
+
+  <rect x="48" y="264" width="784" height="24" rx="4" fill="#350A20"/>
+  <text x="440" y="280" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">無料でプロ級 AI コーディングが手に入る時代 ― コーディング AI の民主化が一気に加速</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="100%" height="300">
+  <rect width="100%" height="300" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 05 — 活用事例 / 法律 AI · Legora × Claude</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="19" font-weight="900" fill="#ffffff">法解釈を次の時代へ　Legora が Claude で「法律 AI プラットフォーム」を構築</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: company highlight -->
+  <rect x="48" y="108" width="220" height="140" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="158" y="134" font-family="'Nunito Sans',sans-serif" font-size="14" font-weight="900" fill="#FFFFFF" text-anchor="middle">Legora</text>
+  <text x="158" y="156" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">CEO: Max Junestrand</text>
+  <line x1="68" y1="168" x2="248" y2="168" stroke="#5A1035" stroke-width="1"/>
+  <text x="158" y="190" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#B3B3B3" text-anchor="middle">採用 AI モデル</text>
+  <text x="158" y="214" font-family="'Nunito Sans',sans-serif" font-size="20" font-weight="900" fill="#A51E6D" text-anchor="middle">Claude</text>
+  <text x="158" y="236" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">新モデルのたびに自動強化</text>
+
+  <!-- Middle: value proposition -->
+  <rect x="288" y="108" width="264" height="64" rx="8" fill="#2A1A2A"/>
+  <text x="308" y="132" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">① モデルアップデートが即戦力に</text>
+  <text x="308" y="152" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">新モデルリリース = 製品性能アップ</text>
+  <text x="308" y="168" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">開発コスト追加なしで自動恩恵</text>
+
+  <rect x="288" y="182" width="264" height="66" rx="8" fill="#2A1A2A"/>
+  <text x="308" y="206" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">② 法律という"難解ドメイン"を攻略</text>
+  <text x="308" y="226" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">複雑な法解釈・判例調査を自動化</text>
+  <text x="308" y="242" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">弁護士の生産性を根本から変える</text>
+
+  <!-- Right: strategy insight -->
+  <rect x="572" y="108" width="260" height="140" rx="8" fill="#1E0E1E"/>
+  <text x="702" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">ビジネス戦略の本質</text>
+  <line x1="592" y1="142" x2="812" y2="142" stroke="#333333" stroke-width="1"/>
+  <text x="592" y="164" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">「波が来るたびに</text>
+  <text x="592" y="182" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">　船が高くなる」設計</text>
+  <line x1="592" y1="196" x2="812" y2="196" stroke="#333333" stroke-width="1"/>
+  <text x="592" y="216" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">AI モデルの進化を</text>
+  <text x="592" y="234" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">自社の競争優位に変換する構造</text>
+
+  <rect x="48" y="264" width="784" height="24" rx="4" fill="#350A20"/>
+  <text x="440" y="280" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">AI モデルの進化に乗る設計こそが次世代の競争戦略 ― 専門職×Claude の勝ちパターン</text>
+</svg>

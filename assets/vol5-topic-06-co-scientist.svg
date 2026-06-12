@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="100%" height="300">
+  <rect width="100%" height="300" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 06 — AI研究 / Google Co-Scientist · Gemini マルチエージェント</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="19" font-weight="900" fill="#ffffff">Google「Co-Scientist」登場　仮説の生成・討論・進化を担う AI 研究パートナー</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: system highlight -->
+  <rect x="48" y="108" width="210" height="140" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="153" y="134" font-family="'Nunito Sans',sans-serif" font-size="13" font-weight="900" fill="#FFFFFF" text-anchor="middle">Co-Scientist</text>
+  <text x="153" y="154" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">by Google · Gemini 基盤</text>
+  <line x1="68" y1="166" x2="238" y2="166" stroke="#5A1035" stroke-width="1"/>
+  <text x="153" y="186" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#B3B3B3" text-anchor="middle">マルチエージェント</text>
+  <text x="153" y="204" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#B3B3B3" text-anchor="middle">システム</text>
+  <text x="153" y="232" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">複雑な科学問題に特化</text>
+
+  <!-- Middle: 3 core capabilities -->
+  <rect x="278" y="108" width="264" height="44" rx="8" fill="#2A1A2A"/>
+  <text x="298" y="128" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">① 仮説の生成（Generate）</text>
+  <text x="298" y="144" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">科学問題に対し新たな仮説を自動生成</text>
+
+  <rect x="278" y="162" width="264" height="44" rx="8" fill="#2A1A2A"/>
+  <text x="298" y="182" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">② エージェント間討論（Debate）</text>
+  <text x="298" y="198" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">複数エージェントが仮説を批評・検証</text>
+
+  <rect x="278" y="216" width="264" height="32" rx="8" fill="#2A1A2A"/>
+  <text x="298" y="232" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">③ 仮説の進化（Evolve）</text>
+  <text x="444" y="232" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">　討論を通じて精度向上</text>
+
+  <!-- Right: vision -->
+  <rect x="562" y="108" width="270" height="140" rx="8" fill="#1E0E1E"/>
+  <text x="697" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">AI が担う役割の変化</text>
+  <line x1="582" y1="142" x2="812" y2="142" stroke="#333333" stroke-width="1"/>
+  <text x="582" y="164" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">これまで：ツール・アシスタント</text>
+  <text x="697" y="188" font-family="'Nunito Sans',sans-serif" font-size="16" font-weight="900" fill="#FF5757" text-anchor="middle">↓</text>
+  <text x="582" y="210" font-family="'Noto Sans JP',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">これから：共同研究者</text>
+  <text x="582" y="232" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">次のブレークスルーを</text>
+  <text x="582" y="248" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">AIと一緒に発見する時代へ</text>
+
+  <rect x="48" y="264" width="784" height="24" rx="4" fill="#350A20"/>
+  <text x="440" y="280" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">AI が「仮説を出す人」になる ― 科学・研究職の働き方が根本から変わるターニングポイント</text>
+</svg>

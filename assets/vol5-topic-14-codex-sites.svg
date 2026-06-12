@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="100%" height="300">
+  <rect width="100%" height="300" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 14 — ツール / OpenAI Codex「Sites」機能発表</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="19" font-weight="900" fill="#ffffff">Codex に「Sites」登場　アプリ・Webサイトをワークスペース内から即デプロイ＆URL共有</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: feature highlight -->
+  <rect x="48" y="108" width="200" height="140" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="148" y="136" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">新機能</text>
+  <text x="148" y="170" font-family="'Nunito Sans',sans-serif" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle">Sites</text>
+  <text x="148" y="192" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">by OpenAI Codex</text>
+  <line x1="68" y1="204" x2="228" y2="204" stroke="#5A1035" stroke-width="1"/>
+  <text x="148" y="224" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#B3B3B3" text-anchor="middle">ChatGPT</text>
+  <text x="148" y="240" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#B3B3B3" text-anchor="middle">Business / Enterprise 向け</text>
+
+  <!-- Middle: capabilities -->
+  <rect x="268" y="108" width="274" height="56" rx="8" fill="#2A1A2A"/>
+  <text x="288" y="130" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">① Codex 内から即デプロイ</text>
+  <text x="288" y="150" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">Webサイト・アプリをワークスペース内で</text>
+  <text x="288" y="166" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">そのまま公開・共有可能に</text>
+
+  <rect x="268" y="174" width="274" height="56" rx="8" fill="#2A1A2A"/>
+  <text x="288" y="196" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">② OpenAI ホスト URL で即共有</text>
+  <text x="288" y="216" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">作成物にURLが発行され</text>
+  <text x="288" y="232" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">リンク1本でチームに共有</text>
+
+  <rect x="268" y="240" width="274" height="28" rx="8" fill="#2A1A2A"/>
+  <text x="288" y="259" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#A51E6D">③ @Sites コマンド</text>
+  <text x="390" y="259" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">　デプロイURLまで全自動</text>
+
+  <!-- Right: impact -->
+  <rect x="562" y="108" width="270" height="160" rx="8" fill="#1E0E1E"/>
+  <text x="697" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">何が変わるか</text>
+  <line x1="582" y1="142" x2="812" y2="142" stroke="#333333" stroke-width="1"/>
+  <text x="582" y="164" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">これまで：コード生成 → 別途デプロイ</text>
+  <text x="697" y="186" font-family="'Nunito Sans',sans-serif" font-size="14" font-weight="900" fill="#FF5757" text-anchor="middle">↓</text>
+  <text x="582" y="208" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">これから：生成＋公開が一体化</text>
+  <line x1="582" y1="222" x2="812" y2="222" stroke="#333333" stroke-width="1"/>
+  <text x="582" y="242" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">プロトタイプ共有の速度が</text>
+  <text x="582" y="258" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">劇的に短縮される</text>
+
+  <rect x="48" y="276" width="784" height="20" rx="4" fill="#350A20"/>
+  <text x="440" y="290" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">「作る」と「届ける」が1ステップに ― ノーコードで本番 URL まで完結する時代へ</text>
+</svg>

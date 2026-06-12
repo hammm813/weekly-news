@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 280" width="100%" height="280">
+  <rect width="100%" height="280" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 35 — AI モデル / Anthropic「Mythos クラス」AI 一般公開へ</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="19" font-weight="900" fill="#ffffff">Anthropic が「Mythos クラス」AI を数週間以内に一般公開　Project Glasswing が次フェーズへ</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: model highlight -->
+  <rect x="48" y="108" width="220" height="140" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="158" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">リリース情報</text>
+  <line x1="68" y1="142" x2="248" y2="142" stroke="#5A1035" stroke-width="1"/>
+  <text x="158" y="168" font-family="'Nunito Sans',sans-serif" font-size="16" font-weight="900" fill="#FFFFFF" text-anchor="middle">Mythos クラス</text>
+  <text x="158" y="190" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#B3B3B3" text-anchor="middle">by Anthropic</text>
+  <line x1="68" y1="204" x2="248" y2="204" stroke="#5A1035" stroke-width="1"/>
+  <text x="158" y="224" font-family="'Nunito Sans',sans-serif" font-size="13" font-weight="900" fill="#FF5757" text-anchor="middle">数週間以内</text>
+  <text x="158" y="242" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">一般公開予定</text>
+
+  <!-- Middle: context -->
+  <rect x="288" y="108" width="280" height="140" rx="8" fill="#2A1A2A"/>
+  <text x="308" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">背景：Project Glasswing との連続性</text>
+  <line x1="308" y1="142" x2="548" y2="142" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="308" y="164" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">先行：150+ 組織・15カ国以上に</text>
+  <text x="308" y="182" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">　　　Mythos Preview を提供済み</text>
+  <text x="308" y="204" font-family="'Nunito Sans',sans-serif" font-size="16" font-weight="900" fill="#FF5757" text-anchor="middle">↓ 次フェーズ</text>
+  <text x="308" y="226" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">一般ユーザーへの公開開始</text>
+  <text x="308" y="244" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">先行組織の知見を反映した完成版</text>
+
+  <!-- Right: implications -->
+  <rect x="588" y="108" width="244" height="140" rx="8" fill="#1E0E1E"/>
+  <text x="710" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">業界へのインパクト</text>
+  <line x1="608" y1="142" x2="812" y2="142" stroke="#333333" stroke-width="1"/>
+  <text x="608" y="164" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">GPT-5.5 / Gemini との</text>
+  <text x="608" y="184" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">次世代モデル競争が激化</text>
+  <line x1="608" y1="198" x2="812" y2="198" stroke="#333333" stroke-width="1"/>
+  <text x="608" y="218" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">採用タイミングが</text>
+  <text x="608" y="236" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">競争優位を大きく左右する</text>
+
+  <rect x="48" y="262" width="784" height="0" rx="4"/>
+  <rect x="48" y="256" width="784" height="20" rx="4" fill="#350A20"/>
+  <text x="440" y="270" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">次世代 Claude の幕開け ― Mythos 公開で AI 競争は新たなステージへ突入する</text>
+</svg>

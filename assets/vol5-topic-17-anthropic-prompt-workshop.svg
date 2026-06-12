@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="100%" height="300">
+  <rect width="100%" height="300" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 17 — 学習 / Anthropic 公式プロンプト講座（無料公開）</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="19" font-weight="900" fill="#ffffff">Anthropic が27分の無料ワークショップを公開　Claude 開発者が直接教えるプロンプト術</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: key stats -->
+  <rect x="48" y="108" width="210" height="140" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="153" y="134" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">コンテンツ概要</text>
+  <text x="153" y="168" font-family="'Nunito Sans',sans-serif" font-size="36" font-weight="900" fill="#FFFFFF" text-anchor="middle">27分</text>
+  <text x="153" y="192" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#B3B3B3" text-anchor="middle">ワークショップ形式</text>
+  <line x1="68" y1="206" x2="238" y2="206" stroke="#5A1035" stroke-width="1"/>
+  <text x="153" y="228" font-family="'Nunito Sans',sans-serif" font-size="14" font-weight="900" fill="#34A853" text-anchor="middle">完全無料</text>
+  <text x="153" y="244" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">登録不要・ペイウォールなし</text>
+
+  <!-- Middle: why special -->
+  <rect x="278" y="108" width="270" height="140" rx="8" fill="#2A1A2A"/>
+  <text x="298" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">なぜ特別なのか</text>
+  <line x1="298" y1="142" x2="528" y2="142" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="298" y="164" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ 講師：Claude を作った Anthropic 社員</text>
+  <text x="298" y="184" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ 最初の8分で$300講座を超える内容</text>
+  <text x="298" y="204" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ 理論ではなく実践的なプロンプト術</text>
+  <text x="298" y="224" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ 内部設計者だからわかる"本当の癖"</text>
+  <text x="298" y="244" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">「Claude の作り手が教えるプロンプト」</text>
+
+  <!-- Right: access & recommendation -->
+  <rect x="568" y="108" width="264" height="140" rx="8" fill="#1E0E1E"/>
+  <text x="700" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">活用のすすめ</text>
+  <line x1="588" y1="142" x2="812" y2="142" stroke="#333333" stroke-width="1"/>
+  <text x="588" y="164" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">今すぐ視聴してブックマーク</text>
+  <text x="588" y="184" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">チームメンバーへの共有に最適</text>
+  <line x1="588" y1="198" x2="812" y2="198" stroke="#333333" stroke-width="1"/>
+  <text x="700" y="220" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080" text-anchor="middle">有料講座より先に見るべき</text>
+  <text x="700" y="240" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080" text-anchor="middle">「公式が一番詳しい」</text>
+
+  <rect x="48" y="264" width="784" height="24" rx="4" fill="#350A20"/>
+  <text x="440" y="280" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">プロンプトを学ぶなら「作った人に聞く」が最短 ― 無料・27分で差がつく学習投資</text>
+</svg>
