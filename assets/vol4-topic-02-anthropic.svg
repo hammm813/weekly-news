@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="100%" height="300">
+  <rect width="100%" height="300" fill="#F6E9F0"/>
+  <rect x="0" y="0" width="6" height="300" fill="#A51E6D"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 02 — 市場 / Anthropic 評価額154兆円・ARR $470億・OpenAI超え</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="19" font-weight="900" fill="#1A1A1A">Anthropic が初めて OpenAI を評価額で上回る ― 154兆円・ARR $470億突破</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#DEDEDE" stroke-width="1"/>
+
+  <!-- Key stat -->
+  <rect x="48" y="108" width="260" height="140" rx="8" fill="#FFFFFF" stroke="#A51E6D" stroke-width="1.5"/>
+  <text x="178" y="134" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">企業評価額</text>
+  <text x="178" y="168" font-family="'Nunito Sans',sans-serif" font-size="30" font-weight="900" fill="#A51E6D" text-anchor="middle">$1 TRILLION</text>
+  <text x="178" y="194" font-family="'Noto Sans JP',sans-serif" font-size="14" font-weight="700" fill="#1A1A1A" text-anchor="middle">154兆円</text>
+  <text x="178" y="218" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080" text-anchor="middle">史上初のOpenAI超え達成</text>
+  <text x="178" y="238" font-family="'Nunito Sans',sans-serif" font-size="11" fill="#808080" text-anchor="middle">2026年5月時点</text>
+
+  <!-- ARR box -->
+  <rect x="328" y="108" width="230" height="64" rx="8" fill="#FFFFFF" stroke="#DEDEDE" stroke-width="1"/>
+  <text x="443" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#808080" text-anchor="middle">年間経常収益（ARR）</text>
+  <text x="443" y="162" font-family="'Nunito Sans',sans-serif" font-size="26" font-weight="900" fill="#1A1A1A" text-anchor="middle">$47B</text>
+  <text x="443" y="184" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">（約$470億）前年比 大幅成長</text>
+
+  <!-- Comparison -->
+  <rect x="328" y="182" width="230" height="66" rx="8" fill="#FFFFFF" stroke="#DEDEDE" stroke-width="1"/>
+  <text x="348" y="206" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">評価額比較</text>
+  <text x="348" y="228" font-family="'Nunito Sans',sans-serif" font-size="12" fill="#333333">Anthropic</text>
+  <text x="440" y="228" font-family="'Nunito Sans',sans-serif" font-size="12" font-weight="900" fill="#A51E6D">$1T</text>
+  <text x="348" y="244" font-family="'Nunito Sans',sans-serif" font-size="12" fill="#333333">OpenAI</text>
+  <text x="440" y="244" font-family="'Nunito Sans',sans-serif" font-size="12" fill="#808080">$300B</text>
+
+  <!-- Right insight -->
+  <rect x="578" y="108" width="254" height="140" rx="8" fill="#F9F0F5" stroke="#E8D0E0" stroke-width="1"/>
+  <text x="705" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">成長の背景</text>
+  <text x="705" y="158" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#333333" text-anchor="middle">Claude活用実績が</text>
+  <text x="705" y="176" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#333333" text-anchor="middle">そのまま企業価値に直結</text>
+  <text x="705" y="200" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">示唆</text>
+  <text x="705" y="218" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#333333" text-anchor="middle">Claude提案・活用支援は</text>
+  <text x="705" y="236" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#333333" text-anchor="middle">最も確度の高い投資先</text>
+
+  <rect x="48" y="264" width="784" height="24" rx="4" fill="#F0D8E8" stroke="#C06090" stroke-width="1"/>
+  <text x="440" y="280" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">OpenAIを初めて上回る評価額 ― Claude活用実績がそのまま企業価値に直結する時代</text>
+</svg>
