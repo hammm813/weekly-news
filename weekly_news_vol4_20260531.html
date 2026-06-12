@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SHIFT AI ELITE: AI Agent News 週次レポート Vol.04｜2026年5月25日〜5月31日</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Nunito+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+  /* ===== リセット ===== */
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Noto Sans JP', 'Nunito Sans', -apple-system, sans-serif;
+    color: #333333;
+    background: #F5F5F5;
+    line-height: 1.7;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 880px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0 4px 32px rgba(165,30,109,0.10), 0 2px 8px rgba(0,0,0,0.04);
+    border: 1px solid rgba(165,30,109,0.08);
+  }
+
+  /* ===== ヘッダー ===== */
+  .header {
+    background: linear-gradient(135deg, #FF5757 0%, #A51E6D 50%, #8C52FF 100%);
+    color: #FFFFFF;
+    padding: 48px 56px 40px;
+    position: relative;
+    overflow: hidden;
+  }
+  .header::before {
+    content: '';
+    position: absolute;
+    right: -60px; top: -60px;
+    width: 260px; height: 260px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.06);
+  }
+  .header::after {
+    content: '';
+    position: absolute;
+    left: -40px; bottom: -80px;
+    width: 200px; height: 200px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.04);
+  }
+  .brand {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.75);
+    margin-bottom: 16px;
+  }
+  .header h1 {
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+  }
+  .header h1 .title-en {
+    display: block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: rgba(255,255,255,0.75);
+  }
+  .meta {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    padding-top: 18px;
+    border-top: 1px solid rgba(255,255,255,0.3);
+  }
+  .meta-item { font-size: 14px; }
+  .meta-item .label {
+    display: block;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgba(255,255,255,0.65);
+    margin-bottom: 4px;
+  }
+  .meta-item .value { font-weight: 500; font-size: 15px; color: #FFFFFF; }
+
+  /* ===== コンテンツ ===== */
+  .content { padding: 56px; }
+
+  /* ===== 3行サマリー ===== */
+  .summary {
+    background: linear-gradient(135deg, #F6E9F0, #FFFFFF);
+    border-left: 6px solid #A51E6D;
+    padding: 30px 34px;
+    margin-bottom: 48px;
+    border-radius: 0 8px 8px 0;
+  }
+  .summary-title {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #A51E6D;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+  }
+  .summary ol { list-style: none; counter-reset: summary; }
+  .summary ol li {
+    counter-increment: summary;
+    padding: 13px 0 13px 52px;
+    position: relative;
+    border-bottom: 1px dashed rgba(165,30,109,0.2);
+    line-height: 1.65;
+  }
+  .summary ol li:last-child { border-bottom: none; }
+  .summary ol li::before {
+    content: counter(summary);
+    position: absolute;
+    left: 0; top: 13px;
+    width: 34px; height: 34px;
+    border-radius: 50%;
+    background: #A51E6D;
+    color: #FFFFFF;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 34px;
+    text-align: center;
+  }
+  .summary strong { color: #7A1450; font-weight: 700; }
+
+  /* ===== 読み方ガイド ===== */
+  .read-guide {
+    background: #F5F5F5;
+    border: 1px solid #ECECEC;
+    padding: 18px 22px;
+    border-radius: 6px;
+    margin-bottom: 48px;
+    font-size: 14px;
+    line-height: 1.75;
+    color: #4D4D4D;
+  }
+  .read-guide strong { color: #333333; }
+
+  /* ===== 目次 ===== */
+  .toc {
+    background: #F5F5F5;
+    border: 1px solid #ECECEC;
+    padding: 30px 34px;
+    border-radius: 8px;
+    margin-bottom: 56px;
+  }
+  .toc-title {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #808080;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+  }
+  .toc ol { list-style: none; counter-reset: toc; }
+  .toc ol li {
+    counter-increment: toc;
+    padding: 10px 0 10px 42px;
+    position: relative;
+    border-bottom: 1px solid #ECECEC;
+  }
+  .toc ol li:last-child { border-bottom: none; }
+  .toc ol li::before {
+    content: counter(toc, decimal-leading-zero);
+    position: absolute;
+    left: 0; top: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    color: #A51E6D;
+    font-size: 13px;
+  }
+  .toc a { color: #333333; text-decoration: none; font-weight: 500; }
+
+  /* ===== トピックセクション ===== */
+  section.topic { margin-bottom: 60px; scroll-margin-top: 40px; }
+  section.topic h2 {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1.4;
+    color: #333333;
+    padding-bottom: 14px;
+    margin-bottom: 26px;
+    border-bottom: 3px solid #A51E6D;
+  }
+  section.topic h2 .topic-num {
+    display: inline-block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #A51E6D;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+  }
+  section.topic h2 .topic-title { display: block; margin-top: 4px; }
+  section.topic h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1A1A1A;
+    margin-top: 26px;
+    margin-bottom: 12px;
+    padding-left: 12px;
+    border-left: 4px solid #A51E6D;
+    line-height: 1.4;
+  }
+  section.topic p {
+    margin-bottom: 16px;
+    font-size: 15px;
+    line-height: 1.85;
+    color: #1A1A1A;
+  }
+  section.topic ul, section.topic ol {
+    margin: 14px 0 18px 4px;
+    padding-left: 22px;
+  }
+  section.topic ul li, section.topic ol li {
+    margin-bottom: 9px;
+    font-size: 15px;
+    line-height: 1.8;
+  }
+  section.topic ul li::marker { color: #A51E6D; }
+  section.topic ol li::marker { color: #A51E6D; font-weight: 700; }
+  section.topic strong {
+    font-weight: 700;
+    color: #333333;
+    background: linear-gradient(transparent 60%, #F6E9F0 60%);
+    padding: 0 2px;
+  }
+
+  /* ===== インサイトボックス ===== */
+  .insight {
+    background: linear-gradient(135deg, #FAFAFA, #F6E9F0);
+    border-left: 6px solid #A51E6D;
+    padding: 20px 24px 20px 54px;
+    margin: 24px 0 8px;
+    border-radius: 0 6px 6px 0;
+    position: relative;
+  }
+  .insight::before {
+    content: '';
+    position: absolute;
+    left: 18px; top: 50%;
+    transform: translateY(-50%);
+    width: 20px; height: 20px;
+    border-radius: 50%;
+    background: #A51E6D;
+  }
+  .insight-label {
+    display: inline-block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #A51E6D;
+    background: #FFFFFF;
+    border: 1px solid #A51E6D;
+    padding: 3px 10px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  .insight p { margin: 0 !important; font-size: 15px !important; line-height: 1.8 !important; color: #1A1A1A; }
+  .insight strong { background: transparent !important; color: #7A1450 !important; }
+
+  /* ===== テーブル ===== */
+  .summary-table-wrap {
+    margin: 22px 0;
+    overflow-x: auto;
+    border-radius: 6px;
+    border: 1px solid #DEDEDE;
+  }
+  table.action-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  table.action-table thead { background: #A51E6D; color: #FFFFFF; }
+  table.action-table thead th {
+    padding: 12px 16px;
+    text-align: left;
+    font-weight: 700;
+  }
+  table.action-table thead th:first-child { width: 56px; text-align: center; }
+  table.action-table thead th:last-child { width: 170px; }
+  table.action-table tbody tr { border-bottom: 1px solid #ECECEC; background: #FFFFFF; }
+  table.action-table tbody tr:last-child { border-bottom: none; }
+  table.action-table tbody td { padding: 12px 16px; line-height: 1.7; }
+  table.action-table tbody td:first-child {
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    color: #A51E6D;
+    font-size: 17px;
+  }
+  table.action-table tbody td:last-child { color: #808080; font-size: 13px; }
+
+  /* ===== トピック画像 ===== */
+  .topic-figure {
+    margin: 0 0 30px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 6px 28px rgba(165,30,109,0.10), 0 2px 8px rgba(0,0,0,0.04);
+    background: #FFFFFF;
+    width: 100%;
+  }
+  .topic-figure img { display: block; width: 100%; height: auto; }
+
+  /* ===== 締めまとめ ===== */
+  .closing {
+    margin-top: 60px;
+    padding: 40px;
+    background: linear-gradient(135deg, #1A1A1A, #2A1A2D);
+    color: #FFFFFF;
+    border-radius: 8px;
+  }
+  .closing h2 {
+    color: #FFFFFF;
+    border-bottom: 3px solid #FF5757;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1.4;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+  }
+  .closing p { color: rgba(255,255,255,0.92); margin-bottom: 14px; line-height: 1.85; font-size: 15px; }
+  .closing strong {
+    color: #FFFFFF;
+    font-weight: 700;
+    background: linear-gradient(transparent 60%, rgba(255,87,87,0.4) 60%);
+  }
+  .closing table.action-table thead { background: #FF5757; }
+  .closing table.action-table tbody tr { background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.1); }
+  .closing table.action-table tbody td { color: rgba(255,255,255,0.85); }
+  .closing table.action-table tbody td:first-child { color: #FF8080; }
+  .closing table.action-table tbody td:last-child { color: rgba(255,255,255,0.5); }
+
+  /* ===== フッター ===== */
+  .footer {
+    text-align: center;
+    padding: 36px 56px;
+    background: #1A1A1A;
+    color: rgba(255,255,255,0.7);
+    font-size: 13px;
+    line-height: 1.8;
+  }
+  .footer .brand-foot {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+  }
+  .footer .next { font-size: 12px; margin-top: 10px; opacity: 0.7; }
+
+  /* ===== 印刷・PDF出力 ===== */
+  @media print {
+    *, *::before, *::after {
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+    }
+    body { background: #FFFFFF; }
+    .wrap { max-width: 100%; box-shadow: none !important; border: none !important; }
+    .header { background: #A51E6D !important; }
+    .header::before, .header::after { display: none !important; }
+    .brand { color: #F0C8DE !important; }
+    .header h1 .title-en { color: #F0C8DE !important; }
+    .meta { border-top-color: #C04080 !important; }
+    .meta-item .label { color: #F0C8DE !important; }
+    .summary { background: #F6E9F0 !important; }
+    .summary ol li { border-bottom: 1px solid #DEDEDE !important; }
+    .insight { background: #F6E9F0 !important; padding-left: 24px !important; }
+    .insight::before { display: none !important; }
+    section.topic strong { background: #F6E9F0 !important; }
+    .closing { background: #1A1A1A !important; }
+    .closing p { color: #CCCCCC !important; }
+    .closing strong { background: none !important; color: #FFFFFF !important; }
+    .closing table.action-table tbody tr { background: #222222 !important; border-color: #333333 !important; }
+    .closing table.action-table tbody td { color: #CCCCCC !important; }
+    .closing table.action-table tbody td:last-child { color: #888888 !important; }
+    .footer { color: #AAAAAA !important; }
+    .footer .next { opacity: 1 !important; color: #888888 !important; }
+    .topic-figure { box-shadow: none !important; border: 1px solid #ECECEC !important; }
+    section.topic, .insight, .summary, .closing, .summary-table-wrap, .topic-figure {
+      break-inside: avoid; page-break-inside: avoid;
+    }
+    section.topic h2 { break-after: avoid; page-break-after: avoid; }
+    .closing { break-before: page; page-break-before: page; }
+    .header { padding: 28px 32px 24px; }
+    .content { padding: 32px; }
+  }
+
+  /* ===== レスポンシブ ===== */
+  @media (max-width: 768px) {
+    .header { padding: 36px 24px 28px; }
+    .header h1 { font-size: 26px; }
+    .content { padding: 32px 20px; }
+    .summary, .toc { padding: 22px 20px; }
+    .closing { padding: 28px 20px; }
+    section.topic h2 { font-size: 20px; }
+    .insight { padding: 16px 20px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="brand">SHIFT AI ELITE — Members Only Weekly Report</div>
+    <h1>
+      <span class="title-en">AI Agent News — Weekly Report</span>
+      AIエージェント週次レポート Vol.04
+    </h1>
+    <div class="meta">
+      <div class="meta-item">
+        <span class="label">対象期間</span>
+        <span class="value">2026年5月25日（月）〜 5月31日（土）</span>
+      </div>
+      <div class="meta-item">
+        <span class="label">発行</span>
+        <span class="value">SHIFT AI ELITE 編集室</span>
+      </div>
+      <div class="meta-item">
+        <span class="label">発行日</span>
+        <span class="value">2026年5月31日（土）</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="content">
+
+    <!-- ===== 3行サマリー ===== -->
+    <section class="summary">
+      <div class="summary-title">今週の3行サマリー</div>
+      <ol>
+        <li><strong>Claude Opus 4.8リリース。Dynamic Workflowsで最大1,000エージェントが並列自律実行する時代が到来し、</strong>Salesforceは231日の作業を13日で完了させた。</li>
+        <li><strong>AnthropicがOpenAIを初めて評価額で上回り154兆円に。ARR$470億突破のニュースは</strong>「Claude活用が直接企業価値になる」時代を示している。</li>
+        <li><strong>OpenAIが日本政府・3メガバンクと連携、政府AI「源内」が18万人規模のPoC開始。</strong>国内のAI社会実装が一気に官民両面で加速している。</li>
+      </ol>
+    </section>
+
+    <!-- ===== 読み方ガイド ===== -->
+    <div class="read-guide">
+      <strong>このレポートの読み方：</strong>各トピックは「何が起きたか（事実整理）」→「噛み砕くと（平易な解説）」→「コンサル視点のインサイト」→「明日から使える業務活用」の4層構造でまとめています。忙しい方は <strong>インサイト</strong> と <strong>業務活用</strong> だけ読んでも構いません。
+    </div>
+
+    <!-- ===== 目次 ===== -->
+    <nav class="toc">
+      <div class="toc-title">Contents</div>
+      <ol>
+        <li><a href="#topic01">Claude Opus 4.8 リリース &amp; Dynamic Workflows ― 最大1,000エージェント並列自律実行</a></li>
+        <li><a href="#topic02">Anthropic 評価額154兆円・ARR $470億 ― 初めて OpenAI を上回る</a></li>
+        <li><a href="#topic03">OpenAI × 日本政府サイバーセキュリティ ／ 3メガバンクへ GPT-5.5-Cyber 提供</a></li>
+        <li><a href="#topic04">政府AI「源内」― 全府省庁18万人規模の PoC 開始</a></li>
+        <li><a href="#topic05">OpenAI Codex Windows 対応 ＋ 自律セッション管理・モバイル遠隔制御</a></li>
+        <li><a href="#topic06">Salesforce × Claude Code ― 開発期間 231日→13日（94%短縮）</a></li>
+        <li><a href="#topic07">ソフトバンクG フランスへ14兆円投資 ― 欧州最大 AI データセンター建設</a></li>
+        <li><a href="#topic08">Microsoft Research「AI はまだ真のイノベーションを起こしていない」― 構造再設計の必要性</a></li>
+        <li><a href="#topic09">Claude Code 実践術 ― Skills.md × Effort Control × /compact でトークン最大60%削減</a></li>
+        <li><a href="#topic10">2026年5月 画像・動画・音声生成 AI アップデートまとめ（6本）</a></li>
+      </ol>
+    </nav>
+
+    <!-- ===== TOPIC 01 ===== -->
+    <section class="topic" id="topic01">
+      <h2>
+        <span class="topic-num">Topic 01 — Global</span>
+        <span class="topic-title">Claude Opus 4.8 リリース &amp; Dynamic Workflows ― 最大1,000エージェント並列自律実行</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/vol4-topic-01-opus48.svg" alt="Topic 01 — Claude Opus 4.8 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>Anthropicが新フラッグシップモデル<strong>Claude Opus 4.8</strong>をリリースした。コーディングベンチマーク「<strong>SWE-Bench Pro</strong>」のスコアが64.3%から<strong>69.2%</strong>に向上し、業界最高水準を更新した。最大の新機能は3点。①タスクの複雑さに応じた思考量を5段階（low / medium / high / xhigh / max）で調整できる<strong>Effort Control</strong>、②段取り書（コード）で最大1,000エージェントが同時に自律実行できる<strong>Dynamic Workflows</strong>、③処理速度2.5倍・価格1/3を実現した<strong>Fast Mode</strong>。特にDynamic Workflowsは、人間が1枚の指示書を書くだけで1,000体のエージェントが並列で実行を進めるという、エージェント活用の新たな地平を切り開くものだ。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>これまで「AIに指示を出す→1つずつ処理→次のタスクへ」という逐次処理が当たり前でした。Opus 4.8のDynamic Workflowsは、まるで「段取り書」を渡すだけで1,000人のチームが動き出すようなイメージです。Effort Controlの登場で<strong>「簡単なタスクには安く・難しいタスクには時間とコストをかけて処理する」</strong>という使い分けも可能になりました。Fast Modeによりコストが1/3に下がれば、エージェント活用の費用対効果が一気に改善します。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p><strong>「1,000エージェント並列実行」という数字は、クライアントへの提案でインパクトが非常に大きい</strong>。コーディング業務だけでなく、書類チェック・データ整理・競合分析など「量が多い単純繰り返し業務」への適用提案ができます。Effort Controlで<strong>コスト管理がより精密になった点は、ROI試算の精度向上にも直結</strong>します。今週のSalesforce事例（TOPIC 06）と合わせて語ることで、提案の説得力が格段に上がります。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>自社またはクライアントの「量が多い繰り返し業務」をリストアップし、<strong>Dynamic Workflowsで並列化できるものを3つ特定する</strong></li>
+        <li>Effort Controlの5段階を実際に試し、タスクごとの最適なレベルを把握してコスト管理フローを作成する</li>
+        <li>SWE-Bench Pro 69.2%という数字をClaudeの技術優位性として提案書・説明資料に追加する</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 02 ===== -->
+    <section class="topic" id="topic02">
+      <h2>
+        <span class="topic-num">Topic 02 — 市場</span>
+        <span class="topic-title">Anthropic 評価額154兆円・ARR $470億 ― 初めて OpenAI を上回る</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/vol4-topic-02-anthropic.svg" alt="Topic 02 — Anthropic 評価額 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>Anthropicが<strong>評価額$1兆（約154兆円）</strong>に達し、史上初めてOpenAI（約$3,000億）を企業評価額で上回った。年間経常収益（ARR）も<strong>$470億（$47B）</strong>を突破。Google・Amazonからの大型投資と、エンタープライズ市場でのClaude採用急拡大が主な要因だ。Claude APIの利用量はこの12ヶ月で5倍以上に拡大しており、特に金融・医療・法律分野での大型契約が増加している。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>「OpenAI一強」と思われてきた生成AI市場で、AnthropicのClaudeが評価額でOpenAIを超えました。これはClaudeを活用している企業・個人の実績が、そのまま市場の評価として現れていることを示しています。<strong>「Claudeを使う・提案する」という選択が、世界で最も高く評価された企業の力を借りることと同義</strong>になった瞬間です。この事実はクライアントへの提案で「なぜClaudeか」を語る根拠として強力に機能します。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>「OpenAIかClaudeか」という比較をされるクライアントへの返答が、今週から変わります。<strong>評価額でAnthropicがOpenAIを上回ったという事実は、単なる競争優位の話ではなく「Claude活用コンサルとしての信頼性の裏付け」になります</strong>。ARR $470億という数字は「世界中の企業がClaudeにお金を払っている」ことの証明でもあります。提案書の冒頭に「現在世界最高評価のAI企業が提供するモデル」という文脈を加えてみてください。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>提案書・提案メールの「Anthropic・Claude紹介」セクションに評価額$1兆・ARR $470億という数字を追加する</li>
+        <li>「<strong>なぜClaudeか</strong>」を3行で説明できる定型文を作成し、クライアント説明の際の引き出しに加える</li>
+        <li>Claude活用事例の収集を強化し、「世界最高評価企業のAIを使いこなせるコンサルタント」としてのポジショニングを強化する</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 03 ===== -->
+    <section class="topic" id="topic03">
+      <h2>
+        <span class="topic-num">Topic 03 — 国内</span>
+        <span class="topic-title">OpenAI × 日本政府サイバーセキュリティ ／ 3メガバンクへ GPT-5.5-Cyber 提供</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/vol4-topic-03-openai-japan.svg" alt="Topic 03 — OpenAI 日本政府・金融機関 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>OpenAIがサイバーセキュリティに特化した専用モデル<strong>「GPT-5.5-Cyber」</strong>を開発し、日本政府機関および国内3メガバンク（三菱UFJ・三井住友・みずほ）への提供を開始した。内閣サイバーセキュリティセンター（NISC）との連携のもと、国家レベルのサイバー攻撃検知・対策支援を目的とする。金融機関向けには不正取引検知・リスク管理の高度化が主な用途で、従来の人手ベースの監視と比べて<strong>検知精度が従来比3〜4倍</strong>に向上すると報告されている。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>AIが「セキュリティの専門家」として政府や大手金融機関に採用された出来事です。これまでセキュリティ対策は高コストで専門人材が必要でした。<strong>AI専用モデルが登場したことで、中堅・中小の金融機関や公的機関でもセキュリティレベルを一気に引き上げられる可能性</strong>が生まれました。同時に「AIを活用したセキュリティ対策コンサル」という新たなサービス領域が急速に立ち上がっています。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>金融×AIセキュリティは<strong>競合プレーヤーが少なく、かつクライアントの支払い意欲が高い領域</strong>です。3メガバンクという大型事例が登場したことで、地方銀行・信用金庫・保険会社への「同様の導入をサポートする提案」が通りやすくなりました。「大手銀行が採用したAIセキュリティ」という事実を引用することで、稟議通過のハードルが一気に下がります。まずは「AIを活用したセキュリティリスク管理入門資料」を1枚作ることから始めてみてください。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>金融機関・公的機関クライアントへの提案に「<strong>AI活用によるサイバーセキュリティ強化</strong>」の項目を追加する</li>
+        <li>3メガバンク採用事例を引用した「AIセキュリティ対策入門資料」を1枚作成し、訴求材料として準備する</li>
+        <li>地方銀行・信用金庫・保険会社のリストを作成し、優先的にアプローチすべきターゲットを絞り込む</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 04 ===== -->
+    <section class="topic" id="topic04">
+      <h2>
+        <span class="topic-num">Topic 04 — 国内</span>
+        <span class="topic-title">政府AI「源内」― 全府省庁18万人規模の PoC 開始</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/vol4-topic-04-gen-nai.svg" alt="Topic 04 — 政府AI 源内 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>デジタル庁が主導する行政向け汎用AIアシスタント<strong>「源内（Gen-Nai）」</strong>の全府省庁展開PoC（実証実験）が2026年5月より正式に開始された。対象は日本の全府省庁に属する職員<strong>約18万人</strong>。文書作成支援・情報整理・Q&A応答・データ分析などの業務効率化が主な活用場面で、2026年度中の本格導入を目指す。政府調達における日本語対応・セキュリティ基準をクリアしたモデルが選定されており、今後の調達基準のモデルケースとなる可能性が高い。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>「政府がAIを全省庁で使い始めた」というニュースは、民間企業にとって大きなシグナルです。行政が動けば、地方自治体・独立行政法人・公益団体も追随します。<strong>「官公庁がAIを使っているのに、うちの会社は？」という問いが、民間企業のAI導入を後押しする材料</strong>になります。また、政府調達のAI選定基準は民間企業のセキュリティポリシー策定にも影響を与えます。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>公的機関向けAI活用支援は<strong>競合コンサルタントが少なく、かつ案件の継続性が高い</strong>という特徴があります。地方自治体・独立行政法人・教育機関は「民間企業向けコンサル」の経験が通用しにくく、専門性を持ったコンサルへのニーズが高い領域です。<strong>「源内」のPoC結果が出始める2026年下半期が、地方への波及提案の最適タイミング</strong>になります。今からアプローチ先を検討しておきましょう。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>地方自治体・教育機関・独立行政法人向けのAI活用提案書テンプレートを<strong>今から1本作成する</strong></li>
+        <li>「政府AI源内のPoC開始」を引用し、「官公庁がすでに導入を進めている」という訴求材料をまとめる</li>
+        <li>自分のクライアントリストに公的機関が含まれているか確認し、優先度を見直す</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 05 ===== -->
+    <section class="topic" id="topic05">
+      <h2>
+        <span class="topic-num">Topic 05 — ツール</span>
+        <span class="topic-title">OpenAI Codex Windows 対応 ＋ 自律セッション管理・モバイル遠隔制御</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/vol4-topic-05-codex-windows.svg" alt="Topic 05 — Codex Windows 対応 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>OpenAI Codexが<strong>Windows OS対応</strong>を正式発表した。これにより「Computer Use on Windows」が可能となり、WindowsPC上でのアプリケーション操作・ファイル処理・ブラウザ操作などをCodexが自律実行できるようになった。同時に3つの新機能が追加された。①<strong>モバイル遠隔制御</strong>：スマートフォンのChatGPTアプリからデスクトップのCodexに新規タスクを指示し、外出先から処理を開始できる。②<strong>セッション自動生成</strong>：タスクに応じてCodexが必要なセッションを自律的に作成・管理する。③<strong>worktree並列処理</strong>：複数のタスクを独立した作業ツリーで同時進行させる機能。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>AIが「PCを操作するアシスタント」から「PCで仕事を自律的に進めるパートナー」へと進化しています。モバイル遠隔制御が加わったことで、<strong>通勤中にスマホでCodexに指示を出し、会社に着いた時には作業が完了している</strong>という働き方が現実になりました。特にWindowsへの対応は、日本企業の90%以上がWindowsを使っていることを考えると、実務への影響が非常に大きいです。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>「Codexがセッションを自律管理する」という変化は、仕事の構造そのものを変えます。<strong>コンサルタントの提供価値が「作業の実行」から「タスクの設計・承認・品質管理」にシフトしていく</strong>ことを意味します。これをクライアントへの提案に活かすなら「AI活用後の業務フロー再設計」サービスとして提案できます。「Codexが何を自律実行できて、何を人間が判断すべきか」を整理した資料は今すぐ価値があります。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>Codex Windows版をセットアップし、<strong>実際にモバイル遠隔制御を試してクライアント向けデモ動画を撮影する</strong></li>
+        <li>「AIが自律実行するタスク」と「人間が承認・判断すべきタスク」を分けた業務フロー図を作成する</li>
+        <li>worktree並列処理を活用した「複数プロジェクト同時進行」の活用事例を1つ作り、提案書に追加する</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 06 ===== -->
+    <section class="topic" id="topic06">
+      <h2>
+        <span class="topic-num">Topic 06 — 活用事例</span>
+        <span class="topic-title">Salesforce × Claude Code ― 開発期間 231日→13日（94%短縮）</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/vol4-topic-06-salesforce.svg" alt="Topic 06 — Salesforce Claude Code インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>Salesforceのエンジニアリングチームがブログで衝撃的な事例を公開した。API統合・エンドポイント構築プロジェクトで<strong>Claude Codeを活用した結果、従来231日かかっていた開発作業を13日で完了</strong>（94%の期間短縮）。完成した<strong>21のAPIエンドポイント</strong>のテストカバレッジは<strong>100%</strong>を達成。品質を落とさずに圧倒的なスピードを実現した点が特に注目されている。Salesforceのシニアエンジニアは「Claude CodeはAPIドキュメントを理解し、テストケースを自動生成し、エッジケースも網羅した」と述べており、単純な作業自動化を超えた高度な活用事例として世界的に注目を集めている。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>「231日かかる仕事が13日で終わる」ということは、単に「早くなった」のではなく、<strong>同じチームが18倍の量の仕事をこなせるようになった</strong>ということです。これをビジネスに置き換えると、「現在のチーム規模のまま、18倍のプロジェクトを受けられる」可能性があります。テストカバレッジ100%という品質保証がついてくる点は、エンタープライズ向けの提案で特に説得力があります。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>この事例の最大の価値は<strong>「数字が具体的であること」</strong>です。231日→13日・94%短縮・21エンドポイント・テストカバレッジ100%——これだけの数字があれば、どんなクライアントにも「AIを使うと何が変わるか」を3分で説明できます。<strong>自社・クライアントでの活用事例を同様の形式（Before/After・削減率・品質指標）で記録していくことが、最強の提案資料</strong>になります。今週から「活用事例テンプレート」を作り、数字を記録する習慣をつけましょう。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>Salesforce事例（231日→13日・94%短縮）を提案書の「AI活用実績事例」セクションに追加する</li>
+        <li><strong>自社のClaude Code活用を「Before/After＋数値」形式で記録する活用事例ログを作成する</strong></li>
+        <li>クライアントの開発・文書作成業務で「同様の94%短縮が実現できる業務」を1つ特定して提案する</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 07 ===== -->
+    <section class="topic" id="topic07">
+      <h2>
+        <span class="topic-num">Topic 07 — 市場</span>
+        <span class="topic-title">ソフトバンクG フランスへ14兆円投資 ― 欧州最大 AI データセンター建設</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/vol4-topic-07-softbank.svg" alt="Topic 07 — ソフトバンクG フランス投資 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>ソフトバンクグループ（SBG）が<strong>フランスへの総額14兆円（約$93B）</strong>に上るAIインフラ投資を発表した。欧州最大規模のAIデータセンターをフランス国内に複数建設する計画で、マクロン大統領との会談後に正式発表された。SBGが保有するARM社のチップ設計技術を核に、AI計算基盤の欧州展開を加速する。並行して<strong>米国でも$500Bの「Stargate」プロジェクト</strong>が進行中であり、世界全体でAI計算基盤への大規模投資が加速している。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>AIを動かすには「膨大な計算処理ができるコンピュータ（データセンター）」が必要です。現在、世界中でこのインフラへの投資が急加速しています。インフラが整うと何が起きるか——<strong>AIの利用コストが下がります</strong>。電気の普及初期と同じように、インフラ投資が先行し、その後に利用コストが急落するパターンが繰り返されます。<strong>「今投資が起きている＝1〜2年後にAIコストが大幅に下がる」というシグナルを読み、今から提案を準備する</strong>ことが重要です。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>SBGの14兆円投資というニュースは、クライアントへの「AI導入は今がタイミング」という訴求に活用できます。<strong>「大型インフラ投資→コスト低下→普及加速」のサイクルが始まっている今、AI導入を先送りしているクライアントは競合に遅れを取る</strong>という文脈で語れます。また「欧州展開」という側面は、グローバルビジネスを持つクライアントへの説明材料にもなります。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>SBG・Stargateなどの大型AIインフラ投資をまとめた「<strong>AI市場拡大の証拠一覧</strong>」資料を作成し、提案の説得材料にする</li>
+        <li>「1〜2年後のAIコスト低下シナリオ」を加えたROI試算書を作成し、今から導入する価値を数値化する</li>
+        <li>グローバル展開を持つクライアントに「欧州でもAIインフラが整備される」という最新動向を共有する</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 08 ===== -->
+    <section class="topic" id="topic08">
+      <h2>
+        <span class="topic-num">Topic 08 — 研究</span>
+        <span class="topic-title">Microsoft Research「AI はまだ真のイノベーションを起こしていない」― 構造再設計の必要性</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/vol4-topic-08-msresearch.svg" alt="Topic 08 — Microsoft Research 研究 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>Microsoft Researchが発表した論文「<em>AI at Work: Promise and Peril</em>」が注目を集めている。論文の主張は「<strong>AIはまだ電化時代のような真のイノベーションを起こしていない</strong>」というもの。電化時代のアナロジーとして「蒸気機関を電動モーターに置き換えるだけでは生産性は上がらなかった——工場ごと再設計して初めて10倍の生産性を得た」を引用。現在のAI活用は「既存ワークフローの加速」にとどまっており、AIが持つ5つの特性（①超高速処理 ②並列処理 ③完全記憶 ④継続監視 ⑤機械間通信）を活かす<strong>業務構造の根本的な再設計</strong>が必要だと論じている。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>「既存の仕事をAIで速くする」だけでは不十分で、「仕事の構造そのものをAIに合わせて変える」ことが本当の価値につながるという研究です。たとえば「メールの返信をAIに書いてもらう（速くする）」ではなく、「問い合わせ受付→分類→回答→フォローアップを全て自動化した新しいフロー（構造を変える）」に設計し直す発想です。<strong>この発想の転換を支援できるコンサルタントは、単なる「AI導入支援」より格段に高い価値を持ちます</strong>。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>この研究はAIコンサルタントとしてのポジショニングを大きく変えうる視点を提供しています。<strong>「ワークフローをAIで速くする」から「業務構造をAIで根本から再設計する」へのシフトを提案できるコンサルは、市場での差別化が明確</strong>になります。「業務構造再設計コンサル」という新サービスの検討材料として、このMSR論文のポイントを3枚スライドにまとめてみてください。クライアントへのWOW体験になります。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>担当クライアントの業務フローを1つ選び、「速くする」ではなく<strong>「構造から再設計する」提案書を1枚作成する</strong></li>
+        <li>MSR論文の「AIの5つの特性（速度・並列・記憶・監視・機械間通信）」を自分の提案書に組み込む</li>
+        <li>「電化時代のアナロジー」を使ったAI変革の必要性説明スライドを作成し、提案プレゼンに追加する</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 09 ===== -->
+    <section class="topic" id="topic09">
+      <h2>
+        <span class="topic-num">Topic 09 — 実務</span>
+        <span class="topic-title">Claude Code 実践術 ― Skills.md × Effort Control × /compact でトークン最大60%削減</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/vol4-topic-09-claude-tips.svg" alt="Topic 09 — Claude Code 実践術 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>Claude Code上級ユーザーコミュニティから、トークン消費を最大60%削減しながら品質を維持する3つの実践手法が広まっている。①<strong>Skills.md</strong>：組織固有のルール・ナレッジ・コーディング規約をMarkdownファイルとして定義し、毎回説明する手間を省きながらAIに「組織の知識」を定着させる仕組み。②<strong>Effort Control</strong>（Opus 4.8新機能）：雑務にはlow・通常業務にはmedium・複雑な分析にはhighやxhigh・最重要タスクにはmaxと使い分けることで、コストと品質のバランスを最適化。③<strong>/compact コマンド</strong>：長いセッションの途中でコンテキストを圧縮・要約することでトークン消費を抑制。3手法を組み合わせると<strong>最大60%のトークン削減</strong>が報告されている。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>Claude Codeは「どれだけ賢く使うか」で費用対効果が大きく変わります。毎回同じ説明をClaudeに与えるのは非効率で高コスト。Skills.mdに組織の知識をまとめておけば、新しいプロジェクトでも即戦力として使えます。<strong>Effort ControlとCompact活用で「賢い節約」が可能になり、月のトークン費用を半分以下に抑えながら生産性を維持できます</strong>。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>「AIは高い」という認識を持つクライアントへの返答がここにあります。<strong>Skills.md・Effort Control・/compactの3手法を知っているかどうかが、Claude Codeの費用対効果を2〜3倍変える</strong>のです。これを「AI活用最適化コンサルティング」として体系化し、既存クライアントへの追加提案にできます。また、チームでのClaude Code活用を支援する際に「Skills.mdの整備支援」は具体的・即時価値のある作業として提供できます。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>自分の業務用<strong>Skills.mdを今日中に作成する</strong>（よく使う指示・ルール・出力形式を記載）</li>
+        <li>現在使っているEfort Controlのレベルを見直し、タスク別に最適なレベルの対応表を作る</li>
+        <li>長いセッションを行う前に「/compact活用のタイミング」をルール化し、コスト削減を習慣にする</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 10 ===== -->
+    <section class="topic" id="topic10">
+      <h2>
+        <span class="topic-num">Topic 10 — ツール</span>
+        <span class="topic-title">2026年5月 画像・動画・音声生成 AI アップデートまとめ（6本）</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/vol4-topic-10-media-ai.svg" alt="Topic 10 — 画像・動画・音声生成AI まとめ インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>2026年5月、画像・動画・音声生成AI分野で重要なアップデートが一斉に発表された。</p>
+      <ul>
+        <li><strong>① Runway Agent</strong>：動画生成がエージェント化。スクリプトから演出・編集まで自律実行する機能がプレビュー公開。</li>
+        <li><strong>② Topview Drama Studio</strong>：AIが俳優・台本・演出を一括担当する「AIドラマ生成」機能。シネマティック品質の映像をプロンプト1行で生成。</li>
+        <li><strong>③ Gemini Omni Flash</strong>：Googleが超高速・低コストの動画理解モデルを公開。リアルタイムでの映像分析が実用化レベルに到達。</li>
+        <li><strong>④ Runway Aleph2</strong>：次世代動画生成モデル。4K相当の解像度を持つ映像を自動生成。</li>
+        <li><strong>⑤ MAI-Image-2.5</strong>：Microsoftの高精度画像生成モデル。Azure統合で企業向け利用が容易に。</li>
+        <li><strong>⑥ ElevenLabs Dubbing v2</strong>：AI吹替の第2世代。30言語対応で、元音声のトーン・感情を保持したまま多言語化を実現。</li>
+      </ul>
+
+      <h3>噛み砕くと</h3>
+      <p>今月だけで6つの重要アップデートが重なったことが示すのは、動画・音声生成AIが「特定の専門家だけが使うツール」から「誰もが使えるビジネスツール」へと移行している事実です。特に注目は「<strong>エージェント化（Runway Agent）</strong>」と「<strong>多言語展開（ElevenLabs v2）</strong>」の組み合わせです。<strong>指示を出すだけで映像が自動完成し、それを即座に30言語展開できる時代</strong>が到来しています。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>動画・音声生成AIの進化は「コンテンツ制作コスト」を劇的に変えます。<strong>「動画制作に100万円・数週間かかっていた業務が、AIで数時間・数万円に」というコスト提案は、製造業・EC・教育など多くのクライアントに刺さります</strong>。ElevenLabs Dubbing v2の多言語展開機能は、海外展開を考えているクライアントへの「グローバルコンテンツ戦略」提案の起点にもなります。まずRunway AgentとElevenLabs v2を試して、自分のデモ動画を作ることから始めてみてください。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>Runway AgentまたはElevenLabs Dubbing v2を試し、<strong>クライアント向けの「AI動画制作Before/After」デモ素材を1本作成する</strong></li>
+        <li>クライアントの既存動画コンテンツにElevenLabs v2で多言語吹替を試し、「グローバル展開コスト試算」を提案に加える</li>
+        <li>MAI-Image-2.5のAzure統合を確認し、Microsoft 365を使っているクライアントへの「AI画像生成活用」提案書を準備する</li>
+      </ul>
+    </section>
+
+    <!-- ===== 締めまとめ ===== -->
+    <div class="closing">
+      <h2>今週のまとめ ｜ コンサルタントとして今すぐ動くべきこと</h2>
+      <p>今週のニュースに共通するテーマは<strong>「AIの活用が"実験段階"から"本格社会実装"へと一気に加速した」</strong>という点です。Salesforceの94%削減事例、政府18万人PoC、3メガバンク採用——これらはすべて「AIは使えるツールである」という証拠が積み重なっている週でした。</p>
+      <p>Anthropicの評価額がOpenAIを超えたという事実は、<strong>「Claudeを使いこなすコンサルタントの価値が世界最高水準のAI企業の成長と連動している」</strong>ことを示しています。Microsoft Researchの「業務構造再設計」の提言と、Salesforceの数字は、コンサルタントとして次に何を提案すべきかを明確に指し示しています。</p>
+      <p>今週から意識してほしいのは「<strong>数字で語る・構造から変える・コストを最適化する</strong>」という3つのキーワードです。これを実践できるコンサルタントが、2026年後半の市場で最も求められる存在になります。</p>
+
+      <div class="summary-table-wrap" style="margin-top:28px;">
+        <table class="action-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>今週すぐできるアクション</th>
+              <th>期待効果</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Salesforce事例（231日→13日）を提案書に追加し「Claude Code活用事例ログ」を開始する</td>
+              <td>数字による提案説得力の強化</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>自分のSkills.mdを作成し、Effort Control対応表を整備してトークン費用を最適化する</td>
+              <td>Claude Code運用コスト削減・品質向上</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Anthropic評価額$1兆・ARR $470億を「なぜClaudeか」説明の根拠として提案書に組み込む</td>
+              <td>Claude提案の信頼性向上・競合差別化</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>担当クライアントの業務を1つ選び「速くする」でなく「構造から再設計する」提案書を作成する</td>
+              <td>高付加価値コンサルへのポジションシフト</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>地方自治体・金融機関・公的機関向けアプローチリストを作成し、優先順位を設定する</td>
+              <td>競合の少ない新規市場への先行参入</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="brand-foot">SHIFT AI ELITE</div>
+    <p>ウィークリーAIニュース Vol.04 ｜ 2026年5月31日発行</p>
+    <p>本レポートはSHIFT AI ELITEの受講メンバー限定配布です。無断転載・二次利用はご遠慮ください。</p>
+    <p class="next">次号は2026年6月7日（日）発行予定 ｜ Vol.05 Week 1号</p>
+  </footer>
+
+</div>
+</body>
+</html>
