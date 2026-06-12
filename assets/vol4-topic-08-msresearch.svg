@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="100%" height="300">
+  <rect width="100%" height="300" fill="#F6E9F0"/>
+  <rect x="0" y="0" width="6" height="300" fill="#A51E6D"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 08 — 研究 / Microsoft Research「AIはまだ真のイノベーションを起こしていない」</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="18" font-weight="900" fill="#1A1A1A">MS Research：「AIはまだ電化時代レベルの変革を起こしていない ― 構造再設計が必要」</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#DEDEDE" stroke-width="1"/>
+
+  <!-- Analogy box -->
+  <rect x="48" y="108" width="250" height="140" rx="8" fill="#FFFFFF" stroke="#A51E6D" stroke-width="1.5"/>
+  <text x="173" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">電化時代のアナロジー</text>
+  <text x="173" y="156" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#555555" text-anchor="middle">蒸気機関→電動モーター置換</text>
+  <text x="173" y="174" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#555555" text-anchor="middle">だけでは生産性向上せず</text>
+  <text x="173" y="196" font-family="'Noto Sans JP',sans-serif" font-size="13" font-weight="700" fill="#1A1A1A" text-anchor="middle">工場ごと再設計して</text>
+  <text x="173" y="216" font-family="'Nunito Sans',sans-serif" font-size="20" font-weight="900" fill="#A51E6D" text-anchor="middle">10倍の生産性</text>
+  <text x="173" y="238" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">業務構造再設計が鍵</text>
+
+  <!-- 5 AI characteristics -->
+  <rect x="318" y="108" width="250" height="140" rx="8" fill="#FFFFFF" stroke="#DEDEDE" stroke-width="1"/>
+  <text x="338" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">AIの5つの特性</text>
+  <text x="338" y="152" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#333333">① 処理速度（人間比100倍以上）</text>
+  <text x="338" y="170" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#333333">② 並列処理（同時多タスク）</text>
+  <text x="338" y="188" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#333333">③ 完全記憶（忘却なし）</text>
+  <text x="338" y="206" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#333333">④ 継続監視（24時間稼働）</text>
+  <text x="338" y="224" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#333333">⑤ 機械間通信（自律連携）</text>
+  <text x="338" y="244" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#A51E6D">→ これを活かす業務設計が必要</text>
+
+  <!-- Right box -->
+  <rect x="588" y="108" width="244" height="140" rx="8" fill="#F9F0F5" stroke="#E8D0E0" stroke-width="1"/>
+  <text x="710" y="132" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">コンサルへの示唆</text>
+  <text x="710" y="156" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#333333" text-anchor="middle">ワークフロー加速だけでは</text>
+  <text x="710" y="174" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#333333" text-anchor="middle">真の価値は出ない</text>
+  <text x="710" y="198" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">業務構造ごと再設計</text>
+  <text x="710" y="218" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#555555" text-anchor="middle">できるコンサルの価値が</text>
+  <text x="710" y="238" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#555555" text-anchor="middle">急増する</text>
+
+  <rect x="48" y="264" width="784" height="24" rx="4" fill="#F0D8E8" stroke="#C06090" stroke-width="1"/>
+  <text x="440" y="280" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">ワークフロー加速だけでは不十分 ― 業務構造ごと再設計できるコンサルの価値が増す</text>
+</svg>
