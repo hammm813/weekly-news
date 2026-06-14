@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="100%" height="300">
+  <rect width="100%" height="300" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 04 — Tips / Anthropic 公式「knowledge-work-plugins」で Claude を部門チームに変える</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="17" font-weight="900" fill="#ffffff">無料OSSで Claude を営業・マーケ・財務・法務に分化　スラッシュコマンドで即日ワークフロー起動</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: what it is -->
+  <rect x="48" y="108" width="210" height="158" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="153" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">リポジトリ概要</text>
+  <line x1="68" y1="140" x2="238" y2="140" stroke="#5A1035" stroke-width="1"/>
+  <text x="153" y="160" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#FFFFFF" text-anchor="middle">anthropics/</text>
+  <text x="153" y="178" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" fill="#FFFFFF" text-anchor="middle">knowledge-work-plugins</text>
+  <text x="153" y="198" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">無料・オープンソース</text>
+  <line x1="68" y1="210" x2="238" y2="210" stroke="#5A1035" stroke-width="1"/>
+  <text x="153" y="228" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#B3B3B3" text-anchor="middle">各プラグイン構成：</text>
+  <text x="153" y="246" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#D9D9D9" text-anchor="middle">Skills／Commands／Connections</text>
+
+  <!-- Middle: roles + commands -->
+  <rect x="278" y="108" width="284" height="76" rx="8" fill="#2A1A2A"/>
+  <text x="298" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">導入できる職種（抜粋）</text>
+  <line x1="298" y1="138" x2="542" y2="138" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="298" y="157" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">営業 / マーケ / カスタマーサポート</text>
+  <text x="298" y="175" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">プロダクト / 財務 / 法務 / データ分析</text>
+
+  <rect x="278" y="194" width="284" height="72" rx="8" fill="#2A1A2A"/>
+  <text x="298" y="214" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">スラッシュコマンド例</text>
+  <line x1="298" y1="224" x2="542" y2="224" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="298" y="243" font-family="'Nunito Sans',sans-serif" font-size="10" fill="#8C52FF">/sales:call-prep　/data:write-query</text>
+  <text x="298" y="261" font-family="'Nunito Sans',sans-serif" font-size="10" fill="#8C52FF">/marketing:seo-audit</text>
+
+  <!-- Right: setup + significance -->
+  <rect x="582" y="108" width="250" height="158" rx="8" fill="#1E0E1E"/>
+  <text x="707" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">セットアップ（3ステップ）</text>
+  <line x1="602" y1="140" x2="812" y2="140" stroke="#333333" stroke-width="1"/>
+  <text x="602" y="160" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">① Claude Cowork をインストール</text>
+  <text x="602" y="178" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">② marketplace add で登録</text>
+  <text x="602" y="196" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">③ plugin install で職種を追加</text>
+  <line x1="602" y1="210" x2="812" y2="210" stroke="#333333" stroke-width="1"/>
+  <text x="602" y="228" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">外部ツール接続で真価を発揮</text>
+  <text x="602" y="246" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">著者：@undefinedKi</text>
+
+  <rect x="48" y="278" width="784" height="16" rx="4" fill="#350A20"/>
+  <text x="440" y="290" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">チャット1個から「部門チーム」へ ― 無料OSSが Claude の使い方を根本から変える</text>
+</svg>

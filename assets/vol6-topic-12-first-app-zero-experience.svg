@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 320" width="100%" height="320">
+  <rect width="100%" height="320" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 12 — Tips / 開発経験ゼロで土曜に始め月曜に公開　Claude Code 完全初心者ガイド</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="17" font-weight="900" fill="#ffffff">コードが読めない私が2日でアプリを出荷した　5つの失敗と12のルール（非エンジニア向け実録）</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: 5 mistakes -->
+  <rect x="48" y="108" width="230" height="178" rx="8" fill="#2A1A2A"/>
+  <text x="68" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">5つの失敗と教訓</text>
+  <line x1="68" y1="138" x2="258" y2="138" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="68" y="158" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#FF5757">× 計画なしで始める</text>
+  <text x="68" y="173" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">→ Plan Mode（Shift+Tab）で設計から</text>
+  <text x="68" y="193" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#FF5757">× 全機能を一度に作ろうとする</text>
+  <text x="68" y="208" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">→ 1機能・1会話の原則を守る</text>
+  <text x="68" y="228" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#FF5757">× CLAUDE.md を作らない</text>
+  <text x="68" y="243" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">→ Day1で作成、毎回更新が最強武器</text>
+  <text x="68" y="263" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#FF5757">× 言葉でビジュアルを説明する</text>
+  <text x="68" y="278" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">→ スクリーンショットを貼る方が10倍速い</text>
+
+  <!-- Middle: 12 rules (condensed) -->
+  <rect x="294" y="108" width="280" height="178" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="314" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">厳選ルール（12条）</text>
+  <line x1="314" y1="138" x2="554" y2="138" stroke="#5A1035" stroke-width="1"/>
+  <text x="314" y="157" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">1. 毎回 Plan Mode（Shift+Tab）から</text>
+  <text x="314" y="174" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">2. 機能ごとに会話をリセット</text>
+  <text x="314" y="191" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">3. CLAUDE.md を Day1 で作る</text>
+  <text x="314" y="208" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">4. ビジュアルはスクショで伝える</text>
+  <text x="314" y="225" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">5. 最初はシンプルに、後から追加</text>
+  <text x="314" y="242" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">7. 長くなったら /compact を使う</text>
+  <text x="314" y="259" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">9. エラーは原因診断を先に依頼</text>
+  <text x="314" y="276" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#8C52FF">12. 完璧でなくていい、まず出荷する</text>
+
+  <!-- Right: result + mindset -->
+  <rect x="590" y="108" width="242" height="178" rx="8" fill="#1E0E1E"/>
+  <text x="711" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">2日間の成果と心構え</text>
+  <line x1="610" y1="138" x2="812" y2="138" stroke="#333333" stroke-width="1"/>
+  <text x="610" y="158" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">土曜9時：Claude Code 初起動</text>
+  <text x="610" y="176" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">日曜夕方：Vercel でライブ公開</text>
+  <text x="610" y="196" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">その後3週間でさらに4アプリ出荷</text>
+  <line x1="610" y1="210" x2="812" y2="210" stroke="#333333" stroke-width="1"/>
+  <text x="610" y="230" font-family="'Noto Sans JP',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">あなた = PM</text>
+  <text x="610" y="250" font-family="'Noto Sans JP',sans-serif" font-size="12" font-weight="700" fill="#8C52FF">Claude = エンジニア</text>
+  <text x="610" y="270" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">著者：@eng_khairallah1</text>
+
+  <!-- Bottom bar -->
+  <rect x="48" y="298" width="784" height="16" rx="4" fill="#350A20"/>
+  <text x="440" y="310" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">「コードが読めない」は言い訳にならない ― 今週末ターミナルを開いた人が月曜にアプリを持つ</text>
+</svg>

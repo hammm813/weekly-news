@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 280" width="100%" height="280">
+  <rect width="100%" height="280" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 22 — Tips / Claude Code の /loop が流行中　OpenClaw 作者も Claude Code 作者も「ループ設計せよ」</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="17" font-weight="900" fill="#ffffff">AI に同じタスクを永続反復させる /loop　E2E テスト完了まで回し続けるが月 $200 では足りなくなる</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: who's saying it -->
+  <rect x="48" y="108" width="214" height="140" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="155" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">推奨者</text>
+  <line x1="68" y1="138" x2="242" y2="138" stroke="#5A1035" stroke-width="1"/>
+  <text x="68" y="160" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">Peter（OpenClaw 作者）</text>
+  <text x="68" y="180" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">Boris（Claude Code 作者）</text>
+  <line x1="68" y1="194" x2="242" y2="194" stroke="#5A1035" stroke-width="1"/>
+  <text x="155" y="216" font-family="'Noto Sans JP',sans-serif" font-size="12" font-weight="900" fill="#FFFFFF" text-anchor="middle">「これからはループ設計」</text>
+  <text x="155" y="236" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">開発者コミュニティで急速に浸透中</text>
+
+  <!-- Middle: what loop is + use case -->
+  <rect x="282" y="108" width="274" height="64" rx="8" fill="#2A1A2A"/>
+  <text x="302" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">/loop とは</text>
+  <line x1="302" y1="138" x2="536" y2="138" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="302" y="158" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">時間を指定して同じタスクを無限反復</text>
+  <text x="302" y="172" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">例：「E2E テストが完了するまで回し続ける」</text>
+
+  <rect x="282" y="182" width="274" height="66" rx="8" fill="#2A1A2A"/>
+  <text x="302" y="200" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">代償</text>
+  <line x1="302" y1="210" x2="536" y2="210" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="302" y="228" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#FF5757">トークン消費が激しく月$200では不足</text>
+  <text x="302" y="246" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">3アカウント運用が現実的な回避策に</text>
+
+  <!-- Right: insight -->
+  <rect x="576" y="108" width="256" height="140" rx="8" fill="#1E0E1E"/>
+  <text x="704" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">インサイト</text>
+  <line x1="596" y1="138" x2="812" y2="138" stroke="#333333" stroke-width="1"/>
+  <text x="596" y="158" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">AI は「一回答える」ものから</text>
+  <text x="596" y="176" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">「完了まで動き続ける」ものへ</text>
+  <line x1="596" y1="190" x2="812" y2="190" stroke="#333333" stroke-width="1"/>
+  <text x="596" y="210" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">Anthropic 視点ではループ普及は</text>
+  <text x="596" y="228" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">ARR 拡大の最強エンジン</text>
+  <text x="596" y="246" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#8C52FF">Topic 06 の「Opus 自律稼働」とセット</text>
+
+  <rect x="48" y="260" width="784" height="16" rx="4" fill="#350A20"/>
+  <text x="440" y="272" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">「ループ設計」が AI 活用の次のパラダイム ― 完了まで動き続けるエージェントが普通になる</text>
+</svg>

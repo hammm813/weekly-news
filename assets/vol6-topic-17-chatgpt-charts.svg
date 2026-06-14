@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 240" width="100%" height="240">
+  <rect width="100%" height="240" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 17 — ツール / ChatGPT がデータをグラフに変換する機能を追加</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="18" font-weight="900" fill="#ffffff">ChatGPT でデータ・比較をそのままグラフ化　モバイル・ウェブ両対応で即利用可能に</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: feature -->
+  <rect x="48" y="108" width="200" height="102" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="148" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">新機能</text>
+  <line x1="68" y1="140" x2="228" y2="140" stroke="#5A1035" stroke-width="1"/>
+  <text x="148" y="163" font-family="'Noto Sans JP',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">チャット内でグラフ生成</text>
+  <text x="148" y="183" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#B3B3B3" text-anchor="middle">データ・比較 → グラフに変換</text>
+  <text x="148" y="202" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#34A853" text-anchor="middle">モバイル・ウェブ 即利用可</text>
+
+  <!-- Middle: what it means -->
+  <rect x="268" y="108" width="290" height="102" rx="8" fill="#2A1A2A"/>
+  <text x="288" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">できること</text>
+  <line x1="288" y1="140" x2="538" y2="140" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="288" y="162" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ 数値データをそのままグラフ化</text>
+  <text x="288" y="180" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ 複数項目の比較を視覚化</text>
+  <text x="288" y="198" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">　Excel・外部ツール不要でチャット完結</text>
+
+  <!-- Right: insight -->
+  <rect x="578" y="108" width="254" height="102" rx="8" fill="#1E0E1E"/>
+  <text x="705" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">インサイト</text>
+  <line x1="598" y1="140" x2="812" y2="140" stroke="#333333" stroke-width="1"/>
+  <text x="598" y="162" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">会話の流れでデータ分析・可視化が完結</text>
+  <text x="598" y="180" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">ChatGPT が「分析ツール」としての</text>
+  <text x="598" y="198" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">地位をさらに強化</text>
+
+  <rect x="48" y="222" width="784" height="14" rx="4" fill="#350A20"/>
+  <text x="440" y="233" font-family="'Noto Sans JP',sans-serif" font-size="10" font-weight="700" fill="#A51E6D" text-anchor="middle">「データを貼って、グラフにして」がそのまま使えるように ― ChatGPT がビジネス分析の入口になる</text>
+</svg>

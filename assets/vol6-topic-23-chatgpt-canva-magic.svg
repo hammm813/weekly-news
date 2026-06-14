@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 240" width="100%" height="240">
+  <rect width="100%" height="240" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 23 — ツール / ChatGPT × Canva 連携　生成画像を Magic Layers で即編集可能に</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="18" font-weight="900" fill="#ffffff">ChatGPT で生成した画像をそのまま Canva の編集可能デザインに変換　チャットから離れず完結</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: the workflow -->
+  <rect x="48" y="108" width="220" height="102" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="158" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">新しいワークフロー</text>
+  <line x1="68" y1="140" x2="228" y2="140" stroke="#5A1035" stroke-width="1"/>
+  <text x="158" y="162" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9" text-anchor="middle">ChatGPT で画像生成</text>
+  <text x="158" y="180" font-family="'Nunito Sans',sans-serif" font-size="18" font-weight="900" fill="#8C52FF" text-anchor="middle">↓ Magic Layers</text>
+  <text x="158" y="200" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle">Canva で完全編集可能に</text>
+
+  <!-- Middle: key points -->
+  <rect x="288" y="108" width="274" height="102" rx="8" fill="#2A1A2A"/>
+  <text x="308" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">特徴</text>
+  <line x1="308" y1="138" x2="542" y2="138" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="308" y="158" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ チャットを離れずそのまま編集</text>
+  <text x="308" y="178" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ レイヤー単位での調整が可能</text>
+  <text x="308" y="198" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">▸ 生成→編集→仕上げが一つの画面で完結</text>
+
+  <!-- Right: insight -->
+  <rect x="582" y="108" width="250" height="102" rx="8" fill="#1E0E1E"/>
+  <text x="707" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">インサイト</text>
+  <line x1="602" y1="138" x2="812" y2="138" stroke="#333333" stroke-width="1"/>
+  <text x="602" y="158" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">AI 生成と人間の編集が</text>
+  <text x="602" y="176" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">シームレスにつながる時代へ</text>
+  <text x="602" y="196" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">デザイン工程の「最後の壁」が消える</text>
+
+  <rect x="48" y="222" width="784" height="14" rx="4" fill="#350A20"/>
+  <text x="440" y="233" font-family="'Noto Sans JP',sans-serif" font-size="10" font-weight="700" fill="#A51E6D" text-anchor="middle">「生成して終わり」から「生成して仕上げる」へ ― ChatGPT × Canva でデザイン工程が変わる</text>
+</svg>

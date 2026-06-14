@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="100%" height="300">
+  <rect width="100%" height="300" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 02 — AI 安全性 / Anthropic「Claude Opus 4 が AI 開発速度を3倍に加速」</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="17" font-weight="900" fill="#ffffff">Claude Opus 4（2025年5月〜）で AI 開発が約3倍に加速　再帰的自己改善への経路を社内データが示す</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: key stat -->
+  <rect x="48" y="108" width="200" height="158" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="148" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">加速の規模</text>
+  <line x1="68" y1="140" x2="228" y2="140" stroke="#5A1035" stroke-width="1"/>
+  <text x="148" y="172" font-family="'Nunito Sans',sans-serif" font-size="36" font-weight="900" fill="#FFFFFF" text-anchor="middle">~3x</text>
+  <text x="148" y="194" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#B3B3B3" text-anchor="middle">平均スピードアップ</text>
+  <line x1="68" y1="206" x2="228" y2="206" stroke="#5A1035" stroke-width="1"/>
+  <text x="148" y="224" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#8C52FF" text-anchor="middle">2025年5月〜</text>
+  <text x="148" y="242" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">Claude Opus 4 以降</text>
+  <text x="148" y="260" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#FF5757" text-anchor="middle">2024年5月以前：変化なし</text>
+
+  <!-- Middle: timeline + scenarios -->
+  <rect x="268" y="108" width="290" height="74" rx="8" fill="#2A1A2A"/>
+  <text x="288" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">評価の経緯</text>
+  <line x1="288" y1="138" x2="538" y2="138" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="288" y="157" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">評価手法の導入：2024年9月〜</text>
+  <text x="288" y="175" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">過去モデルへのバックテストで判明</text>
+
+  <rect x="268" y="192" width="290" height="74" rx="8" fill="#2A1A2A"/>
+  <text x="288" y="212" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">示された2つの可能性</text>
+  <line x1="288" y1="222" x2="538" y2="222" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="288" y="242" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">① 再帰的自己改善（RSI）への経路</text>
+  <text x="288" y="260" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">② AI が自律的に後継モデルを構築</text>
+
+  <!-- Right: significance -->
+  <rect x="578" y="108" width="254" height="158" rx="8" fill="#1E0E1E"/>
+  <text x="705" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">なぜ重要か</text>
+  <line x1="598" y1="140" x2="812" y2="140" stroke="#333333" stroke-width="1"/>
+  <text x="598" y="162" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">加速は 2024年モデルでは確認されず</text>
+  <text x="598" y="180" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">Opus 4 世代で初めて現れた変化</text>
+  <line x1="598" y1="194" x2="812" y2="194" stroke="#333333" stroke-width="1"/>
+  <text x="598" y="214" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">AI が次世代 AI を作る速度が</text>
+  <text x="598" y="232" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">突然跳ね上がった世代として</text>
+  <text x="598" y="250" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">歴史的な転換点になりうる</text>
+
+  <rect x="48" y="278" width="784" height="16" rx="4" fill="#350A20"/>
+  <text x="440" y="290" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">「Opus 4 世代で何かが変わった」― 開発元自身が速度に驚く、AI 加速の臨界点</text>
+</svg>

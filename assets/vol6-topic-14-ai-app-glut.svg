@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 280" width="100%" height="280">
+  <rect width="100%" height="280" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 14 — 考察 / AI でアプリリリース数は30%増、でもユーザー数は変わらない</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="18" font-weight="900" fill="#ffffff">AI が量産する時代こそ「AI では出せない磨きと価値」が最大の差別化になる</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: the data -->
+  <rect x="48" y="108" width="220" height="140" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="158" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">データが示すギャップ</text>
+  <line x1="68" y1="140" x2="228" y2="140" stroke="#5A1035" stroke-width="1"/>
+  <text x="158" y="165" font-family="'Noto Sans JP',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">アプリリリース数</text>
+  <text x="158" y="187" font-family="'Nunito Sans',sans-serif" font-size="28" font-weight="900" fill="#8C52FF" text-anchor="middle">+30%</text>
+  <line x1="68" y1="200" x2="228" y2="200" stroke="#5A1035" stroke-width="1"/>
+  <text x="158" y="220" font-family="'Noto Sans JP',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">ユーザー数の伸び</text>
+  <text x="158" y="242" font-family="'Nunito Sans',sans-serif" font-size="28" font-weight="900" fill="#FF5757" text-anchor="middle">±0%</text>
+
+  <!-- Middle: what this means -->
+  <rect x="288" y="108" width="270" height="140" rx="8" fill="#2A1A2A"/>
+  <text x="308" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">何が起きているか</text>
+  <line x1="308" y1="140" x2="538" y2="140" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="308" y="162" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">AI コーディングツールで</text>
+  <text x="308" y="180" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">「誰も使わないアプリ」が量産されている</text>
+  <line x1="308" y1="194" x2="538" y2="194" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="308" y="214" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">リリースのハードルが下がっただけで</text>
+  <text x="308" y="232" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">価値が届くかどうかは別の問題</text>
+  <text x="308" y="248" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">供給過多 × 需要横ばい = 競争激化</text>
+
+  <!-- Right: the real differentiator -->
+  <rect x="578" y="108" width="254" height="140" rx="8" fill="#1E0E1E"/>
+  <text x="705" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">本当の差別化要因</text>
+  <line x1="598" y1="140" x2="812" y2="140" stroke="#333333" stroke-width="1"/>
+  <text x="598" y="163" font-family="'Noto Sans JP',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">AI では出せない</text>
+  <text x="598" y="183" font-family="'Noto Sans JP',sans-serif" font-size="12" font-weight="700" fill="#8C52FF">「磨き」と「価値」</text>
+  <line x1="598" y1="197" x2="812" y2="197" stroke="#333333" stroke-width="1"/>
+  <text x="598" y="217" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">量産できる時代に残るのは</text>
+  <text x="598" y="235" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">人間にしか生み出せない</text>
+  <text x="598" y="253" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">こだわりと体験設計</text>
+
+  <rect x="48" y="260" width="784" height="16" rx="4" fill="#350A20"/>
+  <text x="440" y="272" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">AI が「作る」を民主化した今、「使われる」かどうかは人間の仕事になった</text>
+</svg>

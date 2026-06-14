@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 280" width="100%" height="280">
+  <rect width="100%" height="280" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 10 — AIモデル比較 / コード監査：Claude Opus 4.8 vs MiniMax M3</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="18" font-weight="900" fill="#ffffff">同じバグ17件・同じプロンプトで検証　MiniMax M3 が $0.07 で達成した結果に Claude は $1.30 かかった</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: test setup -->
+  <rect x="48" y="108" width="196" height="140" rx="8" fill="#2A1A2A"/>
+  <text x="146" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">テスト条件</text>
+  <line x1="68" y1="140" x2="224" y2="140" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="68" y="162" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">同一コードベース</text>
+  <text x="68" y="182" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">同一プロンプト</text>
+  <text x="68" y="202" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">事前に埋め込んだバグ</text>
+  <text x="68" y="224" font-family="'Nunito Sans',sans-serif" font-size="28" font-weight="900" fill="#FFFFFF">17</text>
+  <text x="116" y="224" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">件</text>
+
+  <!-- Middle: results comparison -->
+  <rect x="264" y="108" width="240" height="64" rx="8" fill="#1A2A1A" stroke="#2A5A2A" stroke-width="1"/>
+  <text x="284" y="128" font-family="'Nunito Sans',sans-serif" font-size="12" font-weight="900" fill="#34A853">MiniMax M3</text>
+  <line x1="284" y1="138" x2="484" y2="138" stroke="#2A5A2A" stroke-width="1"/>
+  <text x="284" y="158" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">検出：<tspan font-weight="700" fill="#FFFFFF">13 / 17</tspan>件</text>
+  <text x="400" y="158" font-family="'Nunito Sans',sans-serif" font-size="18" font-weight="900" fill="#34A853" text-anchor="end">$0.07</text>
+
+  <rect x="264" y="182" width="240" height="64" rx="8" fill="#2A1A1A" stroke="#5A1035" stroke-width="1"/>
+  <text x="284" y="202" font-family="'Nunito Sans',sans-serif" font-size="12" font-weight="900" fill="#FF5757">Claude Opus 4.8</text>
+  <line x1="284" y1="212" x2="484" y2="212" stroke="#5A1035" stroke-width="1"/>
+  <text x="284" y="232" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">検出：<tspan font-weight="700" fill="#FFFFFF">13 / 17</tspan>件</text>
+  <text x="400" y="232" font-family="'Nunito Sans',sans-serif" font-size="18" font-weight="900" fill="#FF5757" text-anchor="end">$1.30</text>
+
+  <!-- Right: insight -->
+  <rect x="524" y="108" width="308" height="140" rx="8" fill="#1E0E1E"/>
+  <text x="678" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">インサイト</text>
+  <line x1="544" y1="140" x2="812" y2="140" stroke="#333333" stroke-width="1"/>
+  <text x="544" y="163" font-family="'Noto Sans JP',sans-serif" font-size="13" font-weight="900" fill="#FFFFFF">同じ結果で</text>
+  <text x="660" y="163" font-family="'Nunito Sans',sans-serif" font-size="18" font-weight="900" fill="#34A853"> 18.5x</text>
+  <text x="544" y="183" font-family="'Noto Sans JP',sans-serif" font-size="13" font-weight="900" fill="#FFFFFF">コスト差</text>
+  <line x1="544" y1="198" x2="812" y2="198" stroke="#333333" stroke-width="1"/>
+  <text x="544" y="218" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">フロンティアモデルの優位性が</text>
+  <text x="544" y="236" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">コモディティ化しつつある現実</text>
+  <text x="544" y="254" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">タスク設計によっては安価モデルが最適解</text>
+
+  <rect x="48" y="260" width="784" height="16" rx="4" fill="#350A20"/>
+  <text x="440" y="272" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">「高いモデルが正解」の時代は終わった ― タスクに合ったモデルを選ぶコスト設計が問われる</text>
+</svg>

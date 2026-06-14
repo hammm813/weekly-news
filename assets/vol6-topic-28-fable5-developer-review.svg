@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 280" width="100%" height="280">
+  <rect width="100%" height="280" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 28 — AIモデル / Claude Fable 5 開発者レビュー　「コーディングエージェント」から「思考パートナー」へ</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="17" font-weight="900" fill="#ffffff">Opus 4.5 以来最大の跳躍　Fable は「判断力・センス・立体感」を持つ最初のモデル ― Claude Code チームより</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: the leap -->
+  <rect x="48" y="108" width="210" height="140" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="153" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">体感の変化</text>
+  <line x1="68" y1="138" x2="228" y2="138" stroke="#5A1035" stroke-width="1"/>
+  <text x="68" y="160" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">Opus 4.5（11月）以来最大の前進</text>
+  <line x1="68" y1="174" x2="228" y2="174" stroke="#5A1035" stroke-width="1"/>
+  <text x="153" y="194" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9" text-anchor="middle">コーディングエージェント</text>
+  <text x="153" y="212" font-family="'Nunito Sans',sans-serif" font-size="16" font-weight="900" fill="#FF5757" text-anchor="middle">↓ Fable 5</text>
+  <text x="153" y="232" font-family="'Noto Sans JP',sans-serif" font-size="12" font-weight="700" fill="#8C52FF" text-anchor="middle">思考・設計パートナー</text>
+
+  <!-- Middle: what's different -->
+  <rect x="278" y="108" width="284" height="140" rx="8" fill="#2A1A2A"/>
+  <text x="298" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">何が違うのか</text>
+  <line x1="298" y1="138" x2="542" y2="138" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="298" y="158" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ 判断力・センス・立体感を持つ</text>
+  <text x="298" y="178" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ デバッグが緻密：計測→ログ追加</text>
+  <text x="298" y="196" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">　→ 本当に直ったか検証してから完了宣言</text>
+  <line x1="298" y1="210" x2="542" y2="210" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="298" y="228" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#FF5757">プロンプトで指示していない</text>
+  <text x="298" y="246" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">「それがモデルの個性」として自然に出る</text>
+
+  <!-- Right: big model smell -->
+  <rect x="582" y="108" width="250" height="140" rx="8" fill="#1E0E1E"/>
+  <text x="707" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">「大モデルの匂い」</text>
+  <line x1="602" y1="138" x2="812" y2="138" stroke="#333333" stroke-width="1"/>
+  <text x="602" y="160" font-family="'Nunito Sans',sans-serif" font-size="13" font-weight="900" fill="#FFFFFF">"Big Model Smell"</text>
+  <text x="602" y="180" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">感じたことのなかった質的な違い</text>
+  <line x1="602" y1="194" x2="812" y2="194" stroke="#333333" stroke-width="1"/>
+  <text x="602" y="214" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">Opus 4.5 後：IDE をアンインストール</text>
+  <text x="602" y="232" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">Fable 後：最も複雑な作業も委ねられる</text>
+  <text x="602" y="248" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">Claude Code チームによる第一印象</text>
+
+  <rect x="48" y="260" width="784" height="16" rx="4" fill="#350A20"/>
+  <text x="440" y="272" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">「指示しなくても正しくやる」が始まった ― Fable 5 が AI の「個性」を持つ最初のモデルかもしれない</text>
+</svg>

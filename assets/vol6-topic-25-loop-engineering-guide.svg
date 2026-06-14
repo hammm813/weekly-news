@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 320" width="100%" height="320">
+  <rect width="100%" height="320" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 25 — エンジニアリング / Loop Engineering 完全解説　プロンプトを書く時代の終わり</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="16" font-weight="900" fill="#ffffff">「もうエージェントに指示するな、ループを設計せよ」― Peter（OpenClaw）× Boris（Claude Code）が示す次の地図</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: old vs new -->
+  <rect x="48" y="108" width="196" height="178" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="146" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">パラダイムシフト</text>
+  <line x1="68" y1="138" x2="224" y2="138" stroke="#5A1035" stroke-width="1"/>
+  <text x="68" y="158" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">旧：あなた→指示→AI→出力→レビュー</text>
+  <text x="146" y="176" font-family="'Nunito Sans',sans-serif" font-size="18" font-weight="900" fill="#FF5757" text-anchor="middle">↓</text>
+  <text x="68" y="196" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#D9D9D9">新：ゴール設定→ループ実行→完了</text>
+  <line x1="68" y1="208" x2="224" y2="208" stroke="#5A1035" stroke-width="1"/>
+  <text x="68" y="226" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">5段階：DISCOVER→PLAN</text>
+  <text x="68" y="242" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">→EXECUTE→VERIFY→ITERATE</text>
+  <text x="68" y="260" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#8C52FF">クローズドループから始めよ</text>
+  <text x="68" y="278" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">（オープンは高コスト）</text>
+
+  <!-- Middle: 6 building blocks -->
+  <rect x="264" y="108" width="290" height="178" rx="8" fill="#2A1A2A"/>
+  <text x="284" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">ループの6構成要素</text>
+  <line x1="284" y1="138" x2="534" y2="138" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="284" y="158" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">① Automations — ループの心臓・/goal /loop</text>
+  <text x="284" y="176" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">② Worktrees — 並列エージェントの衝突防止</text>
+  <text x="284" y="194" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">③ Skills — プロジェクト知識を毎回再利用</text>
+  <text x="284" y="212" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">④ Plugins/Connectors — 実ツールへの接続</text>
+  <text x="284" y="230" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">⑤ Subagents — 作る者と検証する者を分離</text>
+  <text x="284" y="248" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">⑥ Memory — ループ間の記憶を永続化</text>
+  <line x1="284" y1="262" x2="534" y2="262" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="284" y="280" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">Claude Code・Codex 共に全6要素を実装済み</text>
+
+  <!-- Right: cost + mindset -->
+  <rect x="574" y="108" width="258" height="100" rx="8" fill="#1E0E1E"/>
+  <text x="703" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">コストの現実</text>
+  <line x1="594" y1="138" x2="812" y2="138" stroke="#333333" stroke-width="1"/>
+  <text x="594" y="158" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">1回のループ：50K〜200K トークン</text>
+  <text x="594" y="176" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">フリートループ：〜200万トークン</text>
+  <text x="594" y="196" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#FF5757">DeepSeek V4 で経済的に解決</text>
+
+  <rect x="574" y="218" width="258" height="68" rx="8" fill="#1E0E1E"/>
+  <text x="703" y="238" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">PE vs LE</text>
+  <line x1="594" y1="248" x2="812" y2="248" stroke="#333333" stroke-width="1"/>
+  <text x="594" y="266" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#D9D9D9">プロンプトエンジニア → 出力を求める</text>
+  <text x="594" y="282" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#8C52FF">ループエンジニア → 検証済み成果を設計</text>
+
+  <!-- Bottom bar -->
+  <rect x="48" y="298" width="784" height="16" rx="4" fill="#350A20"/>
+  <text x="440" y="310" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">「1つの信頼できるループは1,000の完璧なプロンプトに勝る」― Loop Engineering が AI 活用の次の頂点</text>
+</svg>

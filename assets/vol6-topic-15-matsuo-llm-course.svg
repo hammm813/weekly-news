@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 260" width="100%" height="260">
+  <rect width="100%" height="260" fill="#F6E9F0"/>
+  <rect x="0" y="0" width="6" height="260" fill="#A51E6D"/>
+  <text x="32" y="44" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 15 — 国内・教育 / 東京大学 松尾研究室「LLM 基礎講義資料」期間限定無料公開</text>
+  <text x="32" y="76" font-family="'Noto Sans JP',sans-serif" font-size="18" font-weight="900" fill="#1A1A1A">東大 松尾研が LLM 入門講義資料を無料開放　国内最高峰の研究室が学びの扉を開く</text>
+  <line x1="32" y1="92" x2="848" y2="92" stroke="#DEDEDE" stroke-width="1"/>
+
+  <!-- Left: highlight -->
+  <text x="160" y="136" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">公開内容</text>
+  <text x="160" y="160" font-family="'Noto Sans JP',sans-serif" font-size="13" font-weight="900" fill="#1A1A1A" text-anchor="middle">LLM Course</text>
+  <text x="160" y="180" font-family="'Noto Sans JP',sans-serif" font-size="13" font-weight="900" fill="#1A1A1A" text-anchor="middle">Basics</text>
+  <text x="160" y="202" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#4D4D4D" text-anchor="middle">講義資料（スライド）</text>
+  <text x="160" y="222" font-family="'Nunito Sans',sans-serif" font-size="12" font-weight="900" fill="#A51E6D" text-anchor="middle">期間限定 無料</text>
+
+  <line x1="310" y1="108" x2="310" y2="220" stroke="#DEDEDE" stroke-width="1"/>
+
+  <!-- Middle: what + who -->
+  <rect x="330" y="108" width="230" height="52" rx="8" fill="#ffffff" stroke="#DEDEDE" stroke-width="1"/>
+  <text x="350" y="128" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">提供元：東京大学 松尾研究室</text>
+  <text x="350" y="148" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#4D4D4D">日本の AI 研究をリードする拠点が</text>
+
+  <rect x="330" y="168" width="230" height="52" rx="8" fill="#ffffff" stroke="#DEDEDE" stroke-width="1"/>
+  <text x="350" y="188" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#4D4D4D">LLM の基礎を体系的に学べる</text>
+  <text x="350" y="208" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#1A1A1A" font-weight="700">講義資料を期間限定で一般公開</text>
+
+  <!-- Right: significance -->
+  <rect x="578" y="108" width="254" height="112" rx="8" fill="#ffffff" stroke="#DEDEDE" stroke-width="1"/>
+  <text x="598" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">なぜ重要か</text>
+  <line x1="598" y1="138" x2="812" y2="138" stroke="#DEDEDE" stroke-width="1"/>
+  <text x="598" y="158" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#4D4D4D">国内最高峰の AI 研究機関が</text>
+  <text x="598" y="176" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#4D4D4D">入門レベルの教材を無償提供</text>
+  <text x="598" y="196" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#4D4D4D">「期間限定」のため早めの取得を推奨</text>
+  <text x="598" y="214" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">国内 AI リテラシー底上げへの貢献</text>
+
+  <rect x="32" y="232" width="816" height="20" rx="4" fill="#F0D8E8"/>
+  <text x="440" y="246" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">東大発の一次資料で LLM を学ぶ機会 ― 期間限定、今すぐ保存を</text>
+</svg>

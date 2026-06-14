@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 320" width="100%" height="320">
+  <rect width="100%" height="320" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 05 — Tips / 100以上試して残った Claude Skills 厳選15選（全 GitHub リンク付き）</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="17" font-weight="900" fill="#ffffff">毎日使える15スキルを4カテゴリで整理　「再説明ゼロ」の Claude 環境を作る最短ルート</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Col 1: コード開発 -->
+  <rect x="48" y="108" width="186" height="178" rx="8" fill="#2A1A2A"/>
+  <text x="141" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">コード開発</text>
+  <line x1="64" y1="138" x2="218" y2="138" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="64" y="158" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ Superpowers</text>
+  <text x="64" y="175" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">　計画→テスト→自己レビュー</text>
+  <text x="64" y="196" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ GSD（大規模開発向け）</text>
+  <text x="64" y="213" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">　フェーズ分割で長期プロジェクト</text>
+  <text x="64" y="234" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ Context Mode</text>
+  <text x="64" y="251" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">　315KB→5KB に圧縮し長時間作業</text>
+  <text x="64" y="272" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ frontend-design（公式）</text>
+
+  <!-- Col 2: 業務効率化 -->
+  <rect x="244" y="108" width="186" height="178" rx="8" fill="#2A1A2A"/>
+  <text x="337" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">業務効率化</text>
+  <line x1="260" y1="138" x2="414" y2="138" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="260" y="158" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ content-research-writer</text>
+  <text x="260" y="175" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">　調査→声調整→文章化</text>
+  <text x="260" y="196" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ document-skills（公式）</text>
+  <text x="260" y="213" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">　Word / Excel / PPT / PDF 作成</text>
+  <text x="260" y="234" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ Meeting Insights Analyzer</text>
+  <text x="260" y="251" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">　発話比率・行動パターン分析</text>
+  <text x="260" y="272" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ NotebookLM Integration</text>
+
+  <!-- Col 3: 思考・調査 -->
+  <rect x="440" y="108" width="186" height="178" rx="8" fill="#2A1A2A"/>
+  <text x="533" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">思考・調査</text>
+  <line x1="456" y1="138" x2="610" y2="138" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="456" y="158" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ interview-me</text>
+  <text x="456" y="175" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">　仕様の抜け漏れをAIが尋問</text>
+  <text x="456" y="196" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ Twitter Algorithm Optimizer</text>
+  <text x="456" y="213" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">　公式アルゴリズムで最適化</text>
+  <text x="456" y="234" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ academic-research-skills</text>
+  <text x="456" y="251" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">　引用検証・論理一貫性チェック</text>
+
+  <!-- Col 4: メタ -->
+  <rect x="636" y="108" width="196" height="178" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="734" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">メタ（スキルの管理）</text>
+  <line x1="652" y1="138" x2="816" y2="138" stroke="#5A1035" stroke-width="1"/>
+  <text x="652" y="158" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ skill-creator（公式）</text>
+  <text x="652" y="175" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">　説明文→スキルファイルを自動生成</text>
+  <text x="652" y="196" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ one-skill-to-rule-them-all</text>
+  <text x="652" y="213" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">　3ヶ月で600+改善を自律適用</text>
+  <text x="652" y="234" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ skill-optimizer</text>
+  <text x="652" y="251" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">　肥大化・競合スキルを診断・整理</text>
+  <text x="652" y="272" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#8C52FF">▸ awesome-claude-skills（索引）</text>
+
+  <!-- Bottom bar -->
+  <rect x="48" y="298" width="784" height="16" rx="4" fill="#350A20"/>
+  <text x="440" y="310" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">「再説明しない Claude 環境」を作る3本柱：Superpowers・interview-me・skill-creator ― 著者：Vaibhav</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 260" width="100%" height="260">
+  <rect width="100%" height="260" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 30 — ツール / Claude Fable 5 が Notion に搭載　複雑なカスタムエージェントの基盤モデルに</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="18" font-weight="900" fill="#ffffff">Notion が Fable 5 を採用　多段階タスクの内部ベンチマークで過去最高スコア　Biz・Ent プランで利用可</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: deployment -->
+  <rect x="48" y="108" width="210" height="120" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="153" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">搭載情報</text>
+  <line x1="68" y1="140" x2="228" y2="140" stroke="#5A1035" stroke-width="1"/>
+  <text x="153" y="162" font-family="'Nunito Sans',sans-serif" font-size="14" font-weight="900" fill="#FFFFFF" text-anchor="middle">Claude Fable 5</text>
+  <text x="153" y="182" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#B3B3B3" text-anchor="middle">Notion AI に統合</text>
+  <line x1="68" y1="194" x2="228" y2="194" stroke="#5A1035" stroke-width="1"/>
+  <text x="153" y="214" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#34A853" text-anchor="middle">Business・Enterprise プラン</text>
+
+  <!-- Middle: what it's for + benchmark -->
+  <rect x="278" y="108" width="284" height="56" rx="8" fill="#2A1A2A"/>
+  <text x="298" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">用途</text>
+  <line x1="298" y1="138" x2="542" y2="138" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="298" y="156" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">複雑なカスタムエージェント・ワーカーの基盤モデル</text>
+
+  <rect x="278" y="172" width="284" height="56" rx="8" fill="#2A1A2A"/>
+  <text x="298" y="190" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">Notion 内部ベンチマーク</text>
+  <line x1="298" y1="200" x2="542" y2="200" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="298" y="218" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#8C52FF">困難な多段階タスクで過去最高スコアを記録</text>
+
+  <!-- Right: context + insight -->
+  <rect x="582" y="108" width="250" height="120" rx="8" fill="#1E0E1E"/>
+  <text x="707" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">インサイト</text>
+  <line x1="602" y1="138" x2="812" y2="138" stroke="#333333" stroke-width="1"/>
+  <text x="602" y="158" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">Topic 01：Anthropic モデル障害で</text>
+  <text x="602" y="176" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">Notion が一時全モデルを無効化</text>
+  <text x="602" y="196" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#FF5757">→ Fable 5 で関係が再構築</text>
+  <text x="602" y="216" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">最高性能モデルの採用が信頼回復の証明</text>
+
+  <rect x="48" y="240" width="784" height="16" rx="4" fill="#350A20"/>
+  <text x="440" y="252" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">障害から Fable 5 搭載へ ― Notion × Anthropic が最高性能モデルで関係をアップグレード</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 260" width="100%" height="260">
+  <rect width="100%" height="260" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 19 — 考察 / 出資を集めて作るはずだったシステムが Claude で3分で完成した</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="17" font-weight="900" fill="#ffffff">「社長、株主に説明する頃合いです。調達して作るはずだったシステムが Claude で3分で完成した件について」</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: the irony -->
+  <rect x="48" y="108" width="220" height="120" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="158" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">ビフォー・アフター</text>
+  <line x1="68" y1="140" x2="228" y2="140" stroke="#5A1035" stroke-width="1"/>
+  <text x="158" y="163" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080" text-anchor="middle">数ヶ月かけて資金調達</text>
+  <text x="158" y="181" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080" text-anchor="middle">開発チームを組成</text>
+  <text x="158" y="201" font-family="'Nunito Sans',sans-serif" font-size="26" font-weight="900" fill="#FF5757" text-anchor="middle">3分</text>
+  <text x="158" y="222" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle">で Claude が完成させた</text>
+
+  <!-- Middle: what this means -->
+  <rect x="288" y="108" width="276" height="120" rx="8" fill="#2A1A2A"/>
+  <text x="308" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">何が変わったか</text>
+  <line x1="308" y1="140" x2="544" y2="140" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="308" y="162" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">「システム構築」の価値が</text>
+  <text x="308" y="180" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">ゼロに近づきつつある</text>
+  <line x1="308" y1="194" x2="544" y2="194" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="308" y="213" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">価値が移る先：</text>
+  <text x="308" y="228" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#8C52FF">「何を作るか」の判断と設計</text>
+
+  <!-- Right: insight -->
+  <rect x="584" y="108" width="248" height="120" rx="8" fill="#1E0E1E"/>
+  <text x="708" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">インサイト</text>
+  <line x1="604" y1="140" x2="812" y2="140" stroke="#333333" stroke-width="1"/>
+  <text x="604" y="162" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">調達 → 開発 → リリース の</text>
+  <text x="604" y="180" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">従来モデルが崩壊しつつある</text>
+  <text x="604" y="200" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">株主に説明すべきは</text>
+  <text x="604" y="218" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">「3分」ではなく「次の一手」</text>
+
+  <rect x="48" y="240" width="784" height="16" rx="4" fill="#350A20"/>
+  <text x="440" y="252" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">「作ること」の希少性が消える ― AI 時代に問われるのは「何を・なぜ作るか」</text>
+</svg>

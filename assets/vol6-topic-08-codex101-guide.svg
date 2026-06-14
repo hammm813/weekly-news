@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 320" width="100%" height="320">
+  <rect width="100%" height="320" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 08 — Tips / OpenAI 公式「Codex 101」完全解説</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="17" font-weight="900" fill="#ffffff">補完→ペア→委譲の3段階で捉える Codex 活用地図　Sora は4人28日でコードの85%を Codex が書いた</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: 3 approaches -->
+  <rect x="48" y="108" width="196" height="178" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="146" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">AI コーディング3段階</text>
+  <line x1="68" y1="140" x2="224" y2="140" stroke="#5A1035" stroke-width="1"/>
+  <text x="68" y="162" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">① コード補完（次の行を予測）</text>
+  <text x="68" y="184" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">② ペアプログラミング（相談）</text>
+  <line x1="68" y1="196" x2="224" y2="196" stroke="#5A1035" stroke-width="1"/>
+  <text x="68" y="216" font-family="'Noto Sans JP',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">③ エージェントへの委譲</text>
+  <text x="68" y="234" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#8C52FF">← Codex 101 のゴール</text>
+  <line x1="68" y1="246" x2="224" y2="246" stroke="#5A1035" stroke-width="1"/>
+  <text x="68" y="264" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">入り口：アプリ / CLI / IDE</text>
+  <text x="68" y="282" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">迷うならアプリを推奨（公式）</text>
+
+  <!-- Middle top: delegation template -->
+  <rect x="264" y="108" width="290" height="88" rx="8" fill="#2A1A2A"/>
+  <text x="284" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">委譲プロンプト4欄テンプレ（公式）</text>
+  <line x1="284" y1="138" x2="534" y2="138" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="284" y="157" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">【ゴール】何を変えるか・なぜ重要か</text>
+  <text x="284" y="174" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">【コンテキスト】関係ファイル・既存パターン</text>
+  <text x="284" y="191" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">【制約】やること・やらないこと</text>
+
+  <!-- Middle bottom: AGENTS.md + real numbers -->
+  <rect x="264" y="206" width="290" height="80" rx="8" fill="#2A1A2A"/>
+  <text x="284" y="224" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">AGENTS.md（委譲の土台）</text>
+  <line x1="284" y1="234" x2="534" y2="234" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="284" y="252" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">リポジトリの説明・規約・禁止事項を記載</text>
+  <text x="284" y="270" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">社内 AGENTS.md はほぼ100行未満（OpenAI）</text>
+
+  <!-- Right: case numbers -->
+  <rect x="574" y="108" width="258" height="178" rx="8" fill="#1E0E1E"/>
+  <text x="703" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">導入事例の数字</text>
+  <line x1="594" y1="140" x2="812" y2="140" stroke="#333333" stroke-width="1"/>
+  <text x="594" y="160" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">Sora：4人・28日・コード85% Codex</text>
+  <text x="594" y="178" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">Cisco：バグ対応 <tspan font-weight="700" fill="#8C52FF">10〜15倍</tspan>・月1,500時間削減</text>
+  <text x="594" y="196" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">楽天：平均修復時間 <tspan font-weight="700" fill="#8C52FF">50%</tspan> 短縮</text>
+  <text x="594" y="214" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">Datadog：1,000人超が週次利用</text>
+  <line x1="594" y1="228" x2="812" y2="228" stroke="#333333" stroke-width="1"/>
+  <text x="594" y="248" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">共通点：「ツールでなくチームの</text>
+  <text x="594" y="266" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">一員として扱う」ことで成果が出た</text>
+  <text x="594" y="284" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">著者：tatsuki @nobel_824</text>
+
+  <!-- Bottom bar -->
+  <rect x="48" y="298" width="784" height="16" rx="4" fill="#350A20"/>
+  <text x="440" y="310" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">「使う人」から「任せて確認する人」へ ― Codex 101 が示す AI コーディングの次のステージ</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="100%" height="300">
+  <rect width="100%" height="300" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 20 — 教育・規制 / UC バークレー法科大学院が AI を「事実上全面禁止」へ</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="17" font-weight="900" fill="#ffffff">論文・試験・資料アップロードまで AI 禁止　名門ロースクールが AI ブームに逆張りする理由</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: prohibited list -->
+  <rect x="48" y="108" width="230" height="158" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="163" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">禁止事項（ほぼ全面）</text>
+  <line x1="68" y1="138" x2="258" y2="138" stroke="#5A1035" stroke-width="1"/>
+  <text x="68" y="158" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#FF5757">✕ 論文の構想・下書き・編集・翻訳</text>
+  <text x="68" y="178" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#FF5757">✕ 試験での AI 使用</text>
+  <text x="68" y="198" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#FF5757">✕ 授業資料の AI へのアップロード</text>
+  <line x1="68" y1="212" x2="258" y2="212" stroke="#5A1035" stroke-width="1"/>
+  <text x="163" y="232" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#34A853" text-anchor="middle">唯一の例外</text>
+  <text x="68" y="252" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">△ 判例・法令の検索のみ許可</text>
+
+  <!-- Middle: background + goal -->
+  <rect x="298" y="108" width="274" height="74" rx="8" fill="#2A1A2A"/>
+  <text x="318" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">背景</text>
+  <line x1="318" y1="138" x2="552" y2="138" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="318" y="158" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">生成 AI（特に Claude）の急速な進化に伴う</text>
+  <text x="318" y="176" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">方針転換。違反は「AI 不正使用」と見なす</text>
+
+  <rect x="298" y="192" width="274" height="74" rx="8" fill="#2A1A2A"/>
+  <text x="318" y="212" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">目的</text>
+  <line x1="318" y1="222" x2="552" y2="222" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="318" y="242" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">学生の「批判的思考力」を守るため</text>
+  <text x="318" y="260" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#8C52FF">AI 教育目的の特別講座のみ例外</text>
+
+  <!-- Right: insight -->
+  <rect x="592" y="108" width="240" height="158" rx="8" fill="#1E0E1E"/>
+  <text x="712" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">インサイト</text>
+  <line x1="612" y1="140" x2="812" y2="140" stroke="#333333" stroke-width="1"/>
+  <text x="612" y="162" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">AI ブームへの「逆張り」は</text>
+  <text x="612" y="180" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">「人間の知性」を守る戦略</text>
+  <line x1="612" y1="194" x2="812" y2="194" stroke="#333333" stroke-width="1"/>
+  <text x="612" y="214" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">AI が普及するほど</text>
+  <text x="612" y="232" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">「AI なしで考える力」が</text>
+  <text x="612" y="250" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">希少価値になるという逆説</text>
+
+  <rect x="48" y="278" width="784" height="16" rx="4" fill="#350A20"/>
+  <text x="440" y="290" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">名門校が問う：AI に依存する教育で育った法律家は「本物」か ― 業界に広がる反 AI 議論の火種</text>
+</svg>

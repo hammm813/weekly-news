@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 320" width="100%" height="320">
+  <rect width="100%" height="320" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 06 — Tips / Claude Opus を何時間・何日も自律稼働させる5つの設定</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="18" font-weight="900" fill="#ffffff">ベンチマークが示す「長時間タスクは Opus 最強」　ラップトップを閉じたまま動かし続ける完全構成</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left label -->
+  <rect x="48" y="108" width="150" height="178" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="123" y="138" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">前提</text>
+  <line x1="68" y1="148" x2="182" y2="148" stroke="#5A1035" stroke-width="1"/>
+  <text x="123" y="170" font-family="'Noto Sans JP',sans-serif" font-size="12" font-weight="900" fill="#FFFFFF" text-anchor="middle">Opus</text>
+  <text x="123" y="190" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#B3B3B3" text-anchor="middle">長時間タスクで</text>
+  <text x="123" y="208" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#B3B3B3" text-anchor="middle">最高スコア</text>
+  <line x1="68" y1="220" x2="182" y2="220" stroke="#5A1035" stroke-width="1"/>
+  <text x="123" y="240" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">複数ベンチマーク</text>
+  <text x="123" y="258" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">で確認済み</text>
+
+  <!-- 5 tips -->
+  <rect x="214" y="108" width="618" height="32" rx="6" fill="#2A1A2A"/>
+  <text x="234" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">① <tspan font-weight="700" fill="#8C52FF">auto mode（自動許可）</tspan> を使う　→ 承認待ちで止まらない</text>
+
+  <rect x="214" y="148" width="618" height="32" rx="6" fill="#2A1A2A"/>
+  <text x="234" y="168" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">② <tspan font-weight="700" fill="#8C52FF">dynamic workflows</tspan> で数百〜数千エージェントをオーケストレーション</text>
+
+  <rect x="214" y="188" width="618" height="32" rx="6" fill="#2A1A2A"/>
+  <text x="234" y="208" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">③ <tspan font-weight="700" fill="#8C52FF">/goal</tspan> または <tspan font-weight="700" fill="#8C52FF">/loop</tspan> で「完了まで走り続ける」よう指示</text>
+
+  <rect x="214" y="228" width="618" height="32" rx="6" fill="#2A1A2A"/>
+  <text x="234" y="248" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">④ <tspan font-weight="700" fill="#8C52FF">クラウド上で Claude Code</tspan> を動かす　→ ラップトップを閉じてOK（デスクトップ・モバイルアプリ）</text>
+
+  <rect x="214" y="268" width="618" height="28" rx="6" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="234" y="286" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">⑤ <tspan font-weight="700" fill="#FF5757">自己検証手段</tspan> を必ず用意：Chrome拡張 / iOS-Android sim MCP / フルサーバー起動</text>
+
+  <!-- Bottom bar -->
+  <rect x="48" y="300" width="784" height="16" rx="4" fill="#350A20"/>
+  <text x="440" y="312" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">「PCを閉じたまま翌朝完成」を実現する5設定 ― 自律エージェントの本番運用が現実になった</text>
+</svg>

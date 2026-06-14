@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="100%" height="340">
+  <rect width="100%" height="340" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 53 — Tips / Agent は差を縮めない、差を拡大する　Skill が埋める認知の断層</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="16" font-weight="900" fill="#ffffff">Skill = 専門家経験を能力商品に変換　Thin Harness, Fat Skills で長期複利を生む</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: K-divergence thesis -->
+  <rect x="48" y="108" width="200" height="198" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="148" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">Agent の本質</text>
+  <line x1="68" y1="138" x2="228" y2="138" stroke="#5A1035" stroke-width="1"/>
+  <text x="68" y="156" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">従来の誤解</text>
+  <text x="68" y="170" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">「AI は能力格差を縮める」</text>
+  <line x1="68" y1="182" x2="228" y2="182" stroke="#5A1035" stroke-width="1"/>
+  <text x="148" y="202" font-family="'Nunito Sans',sans-serif" font-size="18" font-weight="900" fill="#FF5757" text-anchor="middle">K型分化</text>
+  <text x="68" y="220" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#FFFFFF">目標明確な人 → さらに強化</text>
+  <text x="68" y="234" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">目標曖昧な人 → 混乱を拡大</text>
+  <line x1="68" y1="246" x2="228" y2="246" stroke="#5A1035" stroke-width="1"/>
+  <text x="148" y="264" font-family="'Noto Sans JP',sans-serif" font-size="10" font-weight="700" fill="#8C52FF" text-anchor="middle">Skill が差を埋める</text>
+  <text x="68" y="280" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">専門家経験を可分発・可複用な</text>
+  <text x="68" y="294" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">能力商品に変換する</text>
+
+  <!-- Middle: Skill architecture -->
+  <rect x="268" y="108" width="276" height="198" rx="8" fill="#2A1A2A"/>
+  <text x="288" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">好Skill の構造原則</text>
+  <line x1="288" y1="138" x2="524" y2="138" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="288" y="156" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">中心短、辐射厚</text>
+  <text x="288" y="172" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#D9D9D9">SKILL.md → 高信号ルーティングのみ</text>
+  <text x="288" y="186" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#D9D9D9">references/ scripts/ assets/ 条件読み込み</text>
+  <line x1="288" y1="198" x2="524" y2="198" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="288" y="216" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">Thin Harness, Fat Skills</text>
+  <text x="288" y="232" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#D9D9D9">harness: モデルループ・権限管理のみ</text>
+  <text x="288" y="246" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#D9D9D9">Skill: 流程・判断・知識・gotchas を保持</text>
+  <line x1="288" y1="258" x2="524" y2="258" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="288" y="276" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">description = ルーティング条件</text>
+  <text x="288" y="292" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">「何をするか」でなく「いつ使うか」を書く</text>
+
+  <!-- Right: design Skill + gotchas -->
+  <rect x="564" y="108" width="268" height="198" rx="8" fill="#1E0E1E"/>
+  <text x="698" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">設計Skill の核心</text>
+  <line x1="584" y1="138" x2="812" y2="138" stroke="#333333" stroke-width="1"/>
+  <text x="584" y="156" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">品味 → モデルへの制約に変換</text>
+  <text x="584" y="172" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">AI デフォルト: 紫渐変・emoji・発光・過丸角</text>
+  <text x="584" y="186" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#D9D9D9">明確な制約でアウトプット下限を守る</text>
+  <line x1="584" y1="198" x2="812" y2="198" stroke="#333333" stroke-width="1"/>
+  <text x="584" y="216" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">gotchas が最高価値コンテンツ</text>
+  <text x="584" y="232" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#D9D9D9">正向原則はモデルが既知</text>
+  <text x="584" y="246" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#FF5757">「やってはいけない」こそ専門家経験の本体</text>
+  <line x1="584" y1="258" x2="812" y2="258" stroke="#333333" stroke-width="1"/>
+  <text x="584" y="274" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">Skill ライフサイクル</text>
+  <text x="584" y="288" font-family="'Noto Sans JP',sans-serif" font-size="9" fill="#808080">真タスク→抽象化→工程化→テスト→発布→改善</text>
+
+  <rect x="48" y="318" width="784" height="16" rx="4" fill="#350A20"/>
+  <text x="440" y="330" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">Skill は「人の経験・ワークフロー・品味」を分発・評価・反復改善できる能力商品にする Agent 時代の大機会</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 280" width="100%" height="280">
+  <rect width="100%" height="280" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 03 — ロボット / Figure 社がヒューマノイドロボットの量産体制を確立</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="18" font-weight="900" fill="#ffffff">Figure、120日で生産速度を24倍に　1台/日 → 1台/時間　階段昇降・複雑地形もビジョン制御で対応</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: production leap -->
+  <rect x="48" y="108" width="220" height="140" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="158" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">生産速度の変化</text>
+  <line x1="68" y1="140" x2="228" y2="140" stroke="#5A1035" stroke-width="1"/>
+  <text x="158" y="163" font-family="'Noto Sans JP',sans-serif" font-size="12" fill="#808080" text-anchor="middle">1台 / 日</text>
+  <text x="158" y="183" font-family="'Nunito Sans',sans-serif" font-size="22" font-weight="900" fill="#FF5757" text-anchor="middle">↓ 120日</text>
+  <text x="158" y="207" font-family="'Noto Sans JP',sans-serif" font-size="14" font-weight="900" fill="#FFFFFF" text-anchor="middle">1台 / 時間</text>
+  <line x1="68" y1="218" x2="228" y2="218" stroke="#5A1035" stroke-width="1"/>
+  <text x="158" y="237" font-family="'Nunito Sans',sans-serif" font-size="20" font-weight="900" fill="#8C52FF" text-anchor="middle">24x</text>
+  <text x="158" y="254" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">生産速度向上</text>
+
+  <!-- Middle: testing + capabilities -->
+  <rect x="288" y="108" width="280" height="66" rx="8" fill="#2A1A2A"/>
+  <text x="308" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">出荷前テスト内容</text>
+  <line x1="308" y1="138" x2="548" y2="138" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="308" y="157" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ スクワット・ジョギング動作の反復</text>
+  <text x="308" y="175" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#808080">　 集中的な耐久・動作検証を実施</text>
+
+  <rect x="288" y="184" width="280" height="64" rx="8" fill="#2A1A2A"/>
+  <text x="308" y="204" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D">デモで確認された能力</text>
+  <line x1="308" y1="214" x2="548" y2="214" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="308" y="233" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ 階段昇降・複雑地形のナビゲーション</text>
+  <text x="308" y="251" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">▸ ビジョンベース制御で自律移動</text>
+
+  <!-- Right: significance -->
+  <rect x="588" y="108" width="244" height="140" rx="8" fill="#1E0E1E"/>
+  <text x="710" y="130" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">なぜ重要か</text>
+  <line x1="608" y1="140" x2="812" y2="140" stroke="#333333" stroke-width="1"/>
+  <text x="608" y="162" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">ヒューマノイドロボットが</text>
+  <text x="608" y="180" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">「研究段階」から</text>
+  <text x="608" y="198" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">「工場量産段階」へ移行</text>
+  <line x1="608" y1="212" x2="812" y2="212" stroke="#333333" stroke-width="1"/>
+  <text x="608" y="230" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">Tesla・Boston Dynamics との</text>
+  <text x="608" y="248" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">量産競争が本格化</text>
+
+  <rect x="48" y="260" width="784" height="16" rx="4" fill="#350A20"/>
+  <text x="440" y="272" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">ヒューマノイドが量産品になる日は近い ― Figure が120日で証明した製造革命</text>
+</svg>

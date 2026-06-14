@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="100%" height="300">
+  <rect width="100%" height="300" fill="#1A1A1A"/>
+  <text x="48" y="46" font-family="'Nunito Sans',sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#A51E6D">TOPIC 54 — 体験談 / 40年のコーダーが Claude Code に全コーディングを委任するまで</text>
+  <text x="48" y="78" font-family="'Noto Sans JP',sans-serif" font-size="16" font-weight="900" fill="#ffffff">「根本的な差」を体験した人は世界の0.1%　その割合が15%に広がるとき社会への衝撃は計り知れない</text>
+  <line x1="48" y1="94" x2="832" y2="94" stroke="#333333" stroke-width="1"/>
+
+  <!-- Left: personal transformation -->
+  <rect x="48" y="108" width="200" height="158" rx="8" fill="#350A20" stroke="#7A1050" stroke-width="1"/>
+  <text x="148" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">働き方の根本転換</text>
+  <line x1="68" y1="138" x2="228" y2="138" stroke="#5A1035" stroke-width="1"/>
+  <text x="148" y="156" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">40年以上、心底楽しんで</text>
+  <text x="148" y="170" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">コードを自ら書いてきた</text>
+  <text x="148" y="190" font-family="'Nunito Sans',sans-serif" font-size="16" font-weight="900" fill="#FF5757" text-anchor="middle">↓</text>
+  <text x="148" y="210" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">Claude Code に全委任</text>
+  <line x1="68" y1="222" x2="228" y2="222" stroke="#5A1035" stroke-width="1"/>
+  <text x="68" y="238" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#D9D9D9">自身は設計と指示設計に集中</text>
+  <text x="68" y="254" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#8C52FF">根本的な働き方の変容</text>
+
+  <!-- Middle: diffusion curve -->
+  <rect x="268" y="108" width="276" height="158" rx="8" fill="#2A1A2A"/>
+  <text x="406" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">「根本的な差」体験者の割合</text>
+  <line x1="288" y1="138" x2="524" y2="138" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="406" y="157" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080" text-anchor="middle">現在</text>
+  <text x="406" y="179" font-family="'Nunito Sans',sans-serif" font-size="22" font-weight="900" fill="#FF5757" text-anchor="middle">約 0.1%</text>
+  <text x="288" y="198" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">↓　1%　→　5%　→　15% へ普及</text>
+  <line x1="288" y1="210" x2="524" y2="210" stroke="#3A2A3A" stroke-width="1"/>
+  <text x="288" y="228" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">普及するほど影響は非線形に拡大</text>
+  <text x="288" y="244" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">体験して初めてわかる ─ 言葉では伝わらない</text>
+
+  <!-- Right: societal insight -->
+  <rect x="564" y="108" width="268" height="158" rx="8" fill="#1E0E1E"/>
+  <text x="698" y="128" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">インサイト</text>
+  <line x1="584" y1="138" x2="812" y2="138" stroke="#333333" stroke-width="1"/>
+  <text x="584" y="158" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">社会全体への衝撃は</text>
+  <text x="584" y="176" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#FF5757">計り知れない</text>
+  <text x="584" y="192" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">良い面も悪い面も含めて</text>
+  <line x1="584" y1="204" x2="812" y2="204" stroke="#333333" stroke-width="1"/>
+  <text x="584" y="222" font-family="'Noto Sans JP',sans-serif" font-size="11" fill="#D9D9D9">「する人」→「設計する人」へ</text>
+  <text x="584" y="238" font-family="'Noto Sans JP',sans-serif" font-size="10" fill="#808080">40年の専門性が指示設計の質に転化</text>
+  <text x="584" y="252" font-family="'Noto Sans JP',sans-serif" font-size="9" fill="#808080">Topic 53 K型分化の象徴的な実例</text>
+
+  <rect x="48" y="278" width="784" height="16" rx="4" fill="#350A20"/>
+  <text x="440" y="290" font-family="'Noto Sans JP',sans-serif" font-size="11" font-weight="700" fill="#A51E6D" text-anchor="middle">0.1% の体験が 15% に広がるとき ― AI は社会の何を変え、何を壊すか</text>
+</svg>
