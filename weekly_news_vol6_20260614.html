@@ -412,6 +412,74 @@
     section.topic h2 { font-size: 20px; }
     .insight { padding: 16px 20px; }
   }
+
+  /* ===== 知っておくべきポイント（紫） ===== */
+  .must-know {
+    background: linear-gradient(135deg, #F3EEFF, #FFFFFF);
+    border-left: 6px solid #8C52FF;
+    padding: 20px 24px 20px 54px;
+    margin: 28px 0 8px;
+    border-radius: 0 6px 6px 0;
+    position: relative;
+  }
+  .must-know::before {
+    content: '';
+    position: absolute;
+    left: 18px; top: 22px;
+    width: 20px; height: 20px;
+    border-radius: 50%;
+    background: #8C52FF;
+  }
+  .must-know-label {
+    display: inline-block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #8C52FF;
+    background: #FFFFFF;
+    border: 1px solid #8C52FF;
+    padding: 3px 10px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  .must-know p { margin: 0 !important; font-size: 15px !important; line-height: 1.8 !important; color: #1A1A1A; }
+  .must-know strong { background: transparent !important; color: #6B3ECC !important; }
+
+  /* ===== 活用ポイント（緑） ===== */
+  .use-point {
+    background: linear-gradient(135deg, #EDFFF3, #FFFFFF);
+    border-left: 6px solid #2DB85A;
+    padding: 20px 24px 20px 54px;
+    margin: 12px 0 8px;
+    border-radius: 0 6px 6px 0;
+    position: relative;
+  }
+  .use-point::before {
+    content: '';
+    position: absolute;
+    left: 18px; top: 22px;
+    width: 20px; height: 20px;
+    border-radius: 50%;
+    background: #2DB85A;
+  }
+  .use-point-label {
+    display: inline-block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #2DB85A;
+    background: #FFFFFF;
+    border: 1px solid #2DB85A;
+    padding: 3px 10px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  .use-point p { margin: 0 !important; font-size: 15px !important; line-height: 1.8 !important; color: #1A1A1A; }
+  .use-point strong { background: transparent !important; color: #1A8C3E !important; }
 </style>
 </head>
 <body>
@@ -502,6 +570,15 @@
         <li>過去に外注・内製で作ったシステムのリストを作り、「今ならAIで何分でできるか」を試算する</li>
         <li>「3分システム完成」の事例を社内勉強会・提案書の導入事例として積極的に活用する</li>
       </ul>
+
+      <div class="must-know">
+        <span class="must-know-label">知っておくべきポイント</span>
+        <p>エージェントを学ぶうえで最初に理解すべき本質がこの事例に凝縮されています。「AIが人間の代わりに仕事をする」のではなく、「<strong>AIがあなたの能力を何倍にも拡張する</strong>」というのがエージェントの本質です。「3分でシステム完成」は上限ではなくスタート地点——<strong>何を作るかを決められる人ほど、エージェントの恩恵を最大化できます</strong>。Skillを学ぶ意味も、「正しく委任する判断力」を磨くことにあります。</p>
+      </div>
+      <div class="use-point">
+        <span class="use-point-label">活用ポイント</span>
+        <p>Claudeでの試作を「学習の第一歩」として活用しましょう。「アイデアはあるけどコードが書けない」状態でも、やりたいことを日本語で伝えるだけで試作できます。<strong>今週中に、業務で「あったら便利」と思うミニツールを1つ選んでClaudeに作らせてみてください</strong>。完成度は問いません——「試みること」「何が足りないか気づくこと」自体がエージェント学習の入口になります。</p>
+      </div>
     </section>
 
     <!-- ===== TOPIC 02 ===== -->
@@ -532,6 +609,15 @@
         <li><strong>Notionのビジネスプランを利用中のチームに「Fable 5の多段階タスク機能」を試してもらい、業務効率化の事例をまとめる</strong></li>
         <li>「Fable 5をいつ使うべきか」——どんなタスクに最適か——の選定基準をチームで共有するドキュメントを1枚作る</li>
       </ul>
+
+      <div class="must-know">
+        <span class="must-know-label">知っておくべきポイント</span>
+        <p>Skillやエージェントを開発・学習する際は、<strong>「どのモデルを使うか」より「どう使うか（設計）」の方が重要</strong>ですが、Fable 5はコーディング・多段階推論・知識統合の全領域で大幅に向上しており、SKILL.mdの指示解釈精度も上がっています。Claude Code でSkillを試作・テストする際は積極的に活用しましょう。APIのモデルIDは <code>claude-fable-5</code> です。</p>
+      </div>
+      <div class="use-point">
+        <span class="use-point-label">活用ポイント</span>
+        <p>練習で作ったSkillやAgentをFable 5で再テストしてみましょう。<strong>以前うまく動かなかった複雑な多段階指示が、Fable 5では意図通りに動く可能性があります</strong>。特にSKILL.mdに自然な日本語で書いた複雑なルールや分岐条件の解釈が改善されています。「以前諦めた実装」を掘り起こしてFable 5で再挑戦するのが最短の学習加速策です。</p>
+      </div>
     </section>
 
     <!-- ===== TOPIC 03 ===== -->
@@ -563,6 +649,15 @@
         <li><strong>/loopコマンドを試して、完了・停止・継続の判断がどう行われるかを観察し、記録する</strong></li>
         <li>「ループ設計シート」（ゴール・停止条件・検証方法・使用ツール）をテンプレート化してチームで共有する</li>
       </ul>
+
+      <div class="must-know">
+        <span class="must-know-label">知っておくべきポイント</span>
+        <p>Loop Engineeringの6要素（Automations・Worktrees・Skills・Plugins/Connectors・Subagents・Memory）は、<strong>エージェント設計全体の地図</strong>です。Skillを学ぶ段階では特に③Skills（専門知識パッケージ）と⑥Memory（ループ間の記憶継続）に注目してください。Skillは「ループのなかでAgentが繰り返し参照する再利用可能な知識」として機能します。ループが回るほどSkillの設計品質が結果を左右します。</p>
+      </div>
+      <div class="use-point">
+        <span class="use-point-label">活用ポイント</span>
+        <p>/loop コマンドを使って、毎週繰り返している作業（週次まとめ・定型調査・レポート下書きなど）を1つ自動化してみましょう。<strong>「ゴール設定→ループ実行→完了確認」の流れを体感することが、エージェント設計学習の核心</strong>です。最初のループは単純でOK。「どこでループが止まるか・なぜ止まるか」を観察するだけで、Skill設計に必要な停止条件の書き方が直感的に理解できます。</p>
+      </div>
     </section>
 
     <!-- ===== TOPIC 04 ===== -->
@@ -594,6 +689,15 @@
         <li><strong>ツール一覧を見直し「本当に必要かどうか」を問い直す——多すぎるツールはHarnessの重荷</strong></li>
         <li>月1回「どの設定・ルールが今も必要か」を棚卸しするHarness Decay点検をカレンダーに入れる</li>
       </ul>
+
+      <div class="must-know">
+        <span class="must-know-label">知っておくべきポイント</span>
+        <p>スキル学習者にとって最重要の概念がここにあります。<strong>CLAUDE.md＝Harnessの中核であり、SKILL.mdはHarness上で動くコンポーネント</strong>です。CLAUDE.mdが整備されていなければ、どんなに優れたSkillを作っても能力が引き出せません。また「削除することも設計」——モデルが賢くなるほど不要な設定が生まれるため、Harness Decayを定期点検する習慣がSkillの維持コストを最小化します。</p>
+      </div>
+      <div class="use-point">
+        <span class="use-point-label">活用ポイント</span>
+        <p>今すぐ自分のプロジェクト用CLAUDE.mdを作成しましょう。最低限「このプロジェクトの目的・使うSkillの一覧・絶対にやってはいけないこと」の3点を書けばOKです。<strong>CLAUDE.mdがあるだけで、毎回のセッション立ち上がり品質が劇的に改善します</strong>。次に「月1回のHarness Decay点検」をカレンダーに登録。「このSkillは今も必要か？この設定は今のモデルでも有効か？」を問い続ける習慣が、長期的なSkill設計力になります。</p>
+      </div>
     </section>
 
     <!-- ===== TOPIC 05 ===== -->
@@ -625,6 +729,15 @@
         <li><strong>「前提が不明な場合は作業を止めて質問してください」という停止条件を必ず入れる習慣を今日から始める</strong></li>
         <li>自分がよく依頼するタスク（レポート作成・コード生成・翻訳など）用の7項目テンプレートを1本作成する</li>
       </ul>
+
+      <div class="must-know">
+        <span class="must-know-label">知っておくべきポイント</span>
+        <p>この7項目フレームワーク（目的・成果物・制約・例・構造・検証・報告）は、<strong>SKILL.md設計の骨格としてそのまま応用できます</strong>。Skillを書くときは「このSkillが達成する目的」「返すべき成果物の形」「やってはいけない制約」「良い例・悪い例」を必ず明文化してください。特に<strong>停止条件（前提が足りなければ作業を中断して確認する指示）はSKILL.mdに必ず含めるべき安全装置</strong>です。</p>
+      </div>
+      <div class="use-point">
+        <span class="use-point-label">活用ポイント</span>
+        <p>既に作ったSKILL.mdを7項目チェックリストで見直してみましょう。「<strong>成果物の定義が曖昧ではないか・停止条件が書かれているか・良い例と悪い例が含まれているか</strong>」——この3点を確認するだけでSkillの動作精度が大幅に改善します。まだSkillを作っていない方は、自分がよく依頼するタスク（日報作成・問い合わせ返答・データ整理など）を1つ選んで、7項目を埋める練習から始めましょう。</p>
+      </div>
     </section>
 
     <!-- ===== TOPIC 06 ===== -->
@@ -655,6 +768,15 @@
         <li><strong>「作りたいもの」を1つ決めて、Plan Mode（Shift+Tab）からスタートする</strong></li>
         <li>完成度60%でいいから、まず動くものをVercelか同等サービスで公開してみる</li>
       </ul>
+
+      <div class="must-know">
+        <span class="must-know-label">知っておくべきポイント</span>
+        <p><strong>「PM（あなた）＋エンジニア（Claude）」という役割分担</strong>は、Skill設計の根本的な考え方と一致します。あなたの仕事は「何を作るか・何が成功か・どんな制約があるか」を定義すること。ClaudeとSkillの仕事はそれを実現すること。この分担を理解すれば、SKILL.mdに何を書くべきか（＝PMとして伝えるべき情報）が自然に見えてきます。コードが読めることは条件ではありません。</p>
+      </div>
+      <div class="use-point">
+        <span class="use-point-label">活用ポイント</span>
+        <p>Skillを新しく作るときも、<strong>毎回Plan Mode（Shift+Tab）から始める習慣を今すぐつけましょう</strong>。「このSkillが解決する問題・期待する動作・NGとなる条件」を最初に確認することで、SKILL.mdに書く内容が明確になります。また「CLAUDE.mdをDay1で作る」原則はSkill開発でも同じ——後回しにすると毎回の前提説明コストが積み重なります。60%の完成度で動かすことを目標に、今週1つSkillを作って公開してみてください。</p>
+      </div>
     </section>
 
     <!-- ===== TOPIC 07 ===== -->
@@ -685,6 +807,15 @@
         <li><strong>英語の業界ニュース・ポッドキャストをGemini Live Translateで聴き、情報収集速度を上げる</strong></li>
         <li>「翻訳が必要な業務」リストを作り、Gemini Live Translateで代替できるか評価する</li>
       </ul>
+
+      <div class="must-know">
+        <span class="must-know-label">知っておくべきポイント</span>
+        <p>SkillやAgentの最先端設計思想（Loop Engineering・Harness Engineering・Skill設計論など）は<strong>ほぼすべて英語で最初に発信されます</strong>。Gemini Live Translateにより英語圏の一次情報（論文・X投稿・GitHubのREADME・開発者ブログ）へのアクセス障壁が大幅に下がります。日本語情報だけを追っていると、最新のSkill設計手法を数週間〜数ヶ月遅れて学ぶことになります。</p>
+      </div>
+      <div class="use-point">
+        <span class="use-point-label">活用ポイント</span>
+        <p>英語のAI系ニュースレター（import AI・The Batch・TLDR AIなど）をGeminiで翻訳しながら読む習慣をつけましょう。<strong>週1本だけでもOK——英語の一次情報を継続して読む習慣がつくと、日本語で紹介される前に最新Skill設計手法を先取りできるようになります</strong>。特にX（旧Twitter）でAnthropicや主要エージェント開発者をフォローし、Geminiでリアルタイム翻訳しながら追うのが最速の学習経路です。</p>
+      </div>
     </section>
 
     <!-- ===== TOPIC 08 ===== -->
@@ -715,6 +846,15 @@
         <li><strong>Codexのスケジュール実行機能を試して、定期実行ワークフローの設計を始める</strong></li>
         <li>「夜間・週末にエージェントが稼働していたら何ができるか」を1案考えておく</li>
       </ul>
+
+      <div class="must-know">
+        <span class="must-know-label">知っておくべきポイント</span>
+        <p>Skillを学ぶ段階では「ローカルで手動実行するAgent」から始めますが、次の段階として<strong>「クラウドで常時稼働するAgent」を視野に入れた設計が重要</strong>になります。今作るSkillが「PCが起動しているときだけ動く」ものか、「将来クラウドで自律稼働できる」ものかを意識して設計することで、Skillの汎用性と将来価値が大きく変わります。「常時稼働」の前提が、Skill設計のレベルを一段引き上げます。</p>
+      </div>
+      <div class="use-point">
+        <span class="use-point-label">活用ポイント</span>
+        <p>自分が作ったSkillについて「<strong>クラウドで常時稼働させるとしたら何が必要か？</strong>」を考えてみましょう。例えば「夜間に自動で情報収集して朝に要約を送る」「毎週月曜に前週のデータを集計してレポートを生成する」などのユースケースを想定して設計すると、Skillの完成度と汎用性が一気に高まります。まずスケジュール実行を前提にしたSkillのコンセプト設計を1つ紙に書いてみてください。</p>
+      </div>
     </section>
 
     <!-- ===== TOPIC 09 ===== -->
@@ -746,6 +886,15 @@
         <li><strong>gotchasリストを作る：「この作業でよくある失敗・盲点・絶対にやってはいけないこと」を5つ書く</strong></li>
         <li>作成したSkillをClaude CodeにインストールしてSkillが正しく起動するか確認する</li>
       </ul>
+
+      <div class="must-know">
+        <span class="must-know-label">知っておくべきポイント</span>
+        <p>Skillを学ぶうえで最も重要な設計原則がここにあります。①<strong>descriptionは「何をするか」ではなく「いつ使うか（トリガー条件）」</strong>で書く——「〇〇するときに起動する」という形式が正しい。②<strong>gotchasが最も高価値なコンテンツ</strong>——失敗事例・盲点・絶対にやってはいけないことを書く場所。③<strong>Thin Harness, Fat Skills原則</strong>——SKILL.mdは高信号ルーティングのみ、詳細はreferences/フォルダへ分離する。この3点を意識するだけでSkillの品質が根本的に変わります。</p>
+      </div>
+      <div class="use-point">
+        <span class="use-point-label">活用ポイント</span>
+        <p>自分のSKILL.mdのdescriptionを今すぐ確認してください。「このSkillは〇〇するためのものです」という書き方になっていたら、<strong>「〇〇が必要なとき・〇〇と依頼されたときに起動する」という形式に書き直しましょう</strong>。次にgotchasセクションを追加して「このSkillでよくある失敗・見落としがちな盲点・絶対にやってはいけないこと」を5つ書き出してください。このたった2つの改修だけで、Skillの起動精度と実行品質が大幅に改善します。</p>
+      </div>
     </section>
 
     <!-- ===== TOPIC 10 ===== -->
@@ -776,6 +925,15 @@
         <li><strong>「AIに委任した後、自分は何に時間を使うか」を明文化する——これが次の専門性の種になる</strong></li>
         <li>クライアントとの対話で「あなたの業務のうち、AIに任せたら喜びますか？それとも寂しいですか？」と問いかけてみる</li>
       </ul>
+
+      <div class="must-know">
+        <span class="must-know-label">知っておくべきポイント</span>
+        <p>スキルやエージェントを学ぶ本質的な意味は、「<strong>自分の専門性を転化すること</strong>」です。40年のコーダーが「コードを書く」から「設計する」へ転化したように、あなたの現在の専門業務も「実行」から「設計・判断・監督」へ転化できます。<strong>エージェントが実行者になれば、人間は「何をすべきか」を決める存在になります</strong>——Skill学習は、この転化を意識的に設計するプロセスそのものです。</p>
+      </div>
+      <div class="use-point">
+        <span class="use-point-label">活用ポイント</span>
+        <p>自分の業務を「<strong>AIに完全委任できること</strong>」と「<strong>自分の判断が必要なこと</strong>」に分けて書き出しましょう。委任できる部分をSkillで自動化し、自分は判断と設計に集中する体制を作ることが、エージェント学習の最終ゴールです。<strong>今週中に、委任できる業務を1つ選んでSkillとして実装してみてください</strong>——「AIに委任した後、自分は何をするか」を明文化することが、あなたの次の専門性の種になります。</p>
+      </div>
     </section>
 
     <!-- ===== 締めまとめ ===== -->
