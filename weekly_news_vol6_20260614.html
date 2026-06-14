@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SHIFT AI ELITE: AI Agent News 週次レポート Vol.06｜2026年6月8日〜6月14日</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Nunito+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+  /* ===== リセット ===== */
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Noto Sans JP', 'Nunito Sans', -apple-system, sans-serif;
+    color: #333333;
+    background: #F5F5F5;
+    line-height: 1.7;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 880px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0 4px 32px rgba(165,30,109,0.10), 0 2px 8px rgba(0,0,0,0.04);
+    border: 1px solid rgba(165,30,109,0.08);
+  }
+
+  /* ===== ヘッダー ===== */
+  .header {
+    background: linear-gradient(135deg, #FF5757 0%, #A51E6D 50%, #8C52FF 100%);
+    color: #FFFFFF;
+    padding: 48px 56px 40px;
+    position: relative;
+    overflow: hidden;
+  }
+  .header::before {
+    content: '';
+    position: absolute;
+    right: -60px; top: -60px;
+    width: 260px; height: 260px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.06);
+  }
+  .header::after {
+    content: '';
+    position: absolute;
+    left: -40px; bottom: -80px;
+    width: 200px; height: 200px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.04);
+  }
+  .brand {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.75);
+    margin-bottom: 16px;
+  }
+  .header h1 {
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+  }
+  .header h1 .title-en {
+    display: block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: rgba(255,255,255,0.75);
+  }
+  .meta {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    padding-top: 18px;
+    border-top: 1px solid rgba(255,255,255,0.3);
+  }
+  .meta-item { font-size: 14px; }
+  .meta-item .label {
+    display: block;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgba(255,255,255,0.65);
+    margin-bottom: 4px;
+  }
+  .meta-item .value { font-weight: 500; font-size: 15px; color: #FFFFFF; }
+
+  /* ===== コンテンツ ===== */
+  .content { padding: 56px; }
+
+  /* ===== 3行サマリー ===== */
+  .summary {
+    background: linear-gradient(135deg, #F6E9F0, #FFFFFF);
+    border-left: 6px solid #A51E6D;
+    padding: 30px 34px;
+    margin-bottom: 48px;
+    border-radius: 0 8px 8px 0;
+  }
+  .summary-title {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #A51E6D;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+  }
+  .summary ol { list-style: none; counter-reset: summary; }
+  .summary ol li {
+    counter-increment: summary;
+    padding: 13px 0 13px 52px;
+    position: relative;
+    border-bottom: 1px dashed rgba(165,30,109,0.2);
+    line-height: 1.65;
+  }
+  .summary ol li:last-child { border-bottom: none; }
+  .summary ol li::before {
+    content: counter(summary);
+    position: absolute;
+    left: 0; top: 13px;
+    width: 34px; height: 34px;
+    border-radius: 50%;
+    background: #A51E6D;
+    color: #FFFFFF;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 34px;
+    text-align: center;
+  }
+  .summary strong { color: #7A1450; font-weight: 700; }
+
+  /* ===== 読み方ガイド ===== */
+  .read-guide {
+    background: #F5F5F5;
+    border: 1px solid #ECECEC;
+    padding: 18px 22px;
+    border-radius: 6px;
+    margin-bottom: 48px;
+    font-size: 14px;
+    line-height: 1.75;
+    color: #4D4D4D;
+  }
+  .read-guide strong { color: #333333; }
+
+  /* ===== 目次 ===== */
+  .toc {
+    background: #F5F5F5;
+    border: 1px solid #ECECEC;
+    padding: 30px 34px;
+    border-radius: 8px;
+    margin-bottom: 56px;
+  }
+  .toc-title {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #808080;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+  }
+  .toc ol { list-style: none; counter-reset: toc; }
+  .toc ol li {
+    counter-increment: toc;
+    padding: 10px 0 10px 42px;
+    position: relative;
+    border-bottom: 1px solid #ECECEC;
+  }
+  .toc ol li:last-child { border-bottom: none; }
+  .toc ol li::before {
+    content: counter(toc, decimal-leading-zero);
+    position: absolute;
+    left: 0; top: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    color: #A51E6D;
+    font-size: 13px;
+  }
+  .toc a { color: #333333; text-decoration: none; font-weight: 500; }
+
+  /* ===== トピックセクション ===== */
+  section.topic { margin-bottom: 60px; scroll-margin-top: 40px; }
+  section.topic h2 {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1.4;
+    color: #333333;
+    padding-bottom: 14px;
+    margin-bottom: 26px;
+    border-bottom: 3px solid #A51E6D;
+  }
+  section.topic h2 .topic-num {
+    display: inline-block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #A51E6D;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+  }
+  section.topic h2 .topic-title { display: block; margin-top: 4px; }
+  section.topic h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1A1A1A;
+    margin-top: 26px;
+    margin-bottom: 12px;
+    padding-left: 12px;
+    border-left: 4px solid #A51E6D;
+    line-height: 1.4;
+  }
+  section.topic p {
+    margin-bottom: 16px;
+    font-size: 15px;
+    line-height: 1.85;
+    color: #1A1A1A;
+  }
+  section.topic ul, section.topic ol {
+    margin: 14px 0 18px 4px;
+    padding-left: 22px;
+  }
+  section.topic ul li, section.topic ol li {
+    margin-bottom: 9px;
+    font-size: 15px;
+    line-height: 1.8;
+  }
+  section.topic ul li::marker { color: #A51E6D; }
+  section.topic ol li::marker { color: #A51E6D; font-weight: 700; }
+  section.topic strong {
+    font-weight: 700;
+    color: #333333;
+    background: linear-gradient(transparent 60%, #F6E9F0 60%);
+    padding: 0 2px;
+  }
+
+  /* ===== インサイトボックス ===== */
+  .insight {
+    background: linear-gradient(135deg, #FAFAFA, #F6E9F0);
+    border-left: 6px solid #A51E6D;
+    padding: 20px 24px 20px 54px;
+    margin: 24px 0 8px;
+    border-radius: 0 6px 6px 0;
+    position: relative;
+  }
+  .insight::before {
+    content: '';
+    position: absolute;
+    left: 18px; top: 50%;
+    transform: translateY(-50%);
+    width: 20px; height: 20px;
+    border-radius: 50%;
+    background: #A51E6D;
+  }
+  .insight-label {
+    display: inline-block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #A51E6D;
+    background: #FFFFFF;
+    border: 1px solid #A51E6D;
+    padding: 3px 10px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  .insight p { margin: 0 !important; font-size: 15px !important; line-height: 1.8 !important; color: #1A1A1A; }
+  .insight strong { background: transparent !important; color: #7A1450 !important; }
+
+  /* ===== テーブル ===== */
+  .summary-table-wrap {
+    margin: 22px 0;
+    overflow-x: auto;
+    border-radius: 6px;
+    border: 1px solid #DEDEDE;
+  }
+  table.action-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  table.action-table thead { background: #A51E6D; color: #FFFFFF; }
+  table.action-table thead th {
+    padding: 12px 16px;
+    text-align: left;
+    font-weight: 700;
+  }
+  table.action-table thead th:first-child { width: 56px; text-align: center; }
+  table.action-table thead th:last-child { width: 170px; }
+  table.action-table tbody tr { border-bottom: 1px solid #ECECEC; background: #FFFFFF; }
+  table.action-table tbody tr:last-child { border-bottom: none; }
+  table.action-table tbody td { padding: 12px 16px; line-height: 1.7; }
+  table.action-table tbody td:first-child {
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    color: #A51E6D;
+    font-size: 17px;
+  }
+  table.action-table tbody td:last-child { color: #808080; font-size: 13px; }
+
+  /* ===== トピック画像 ===== */
+  .topic-figure {
+    margin: 0 0 30px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 6px 28px rgba(165,30,109,0.10), 0 2px 8px rgba(0,0,0,0.04);
+    background: #FFFFFF;
+    width: 100%;
+  }
+  .topic-figure img { display: block; width: 100%; height: auto; }
+
+  /* ===== 締めまとめ ===== */
+  .closing {
+    margin-top: 60px;
+    padding: 40px;
+    background: linear-gradient(135deg, #1A1A1A, #2A1A2D);
+    color: #FFFFFF;
+    border-radius: 8px;
+  }
+  .closing h2 {
+    color: #FFFFFF;
+    border-bottom: 3px solid #FF5757;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1.4;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+  }
+  .closing p { color: rgba(255,255,255,0.92); margin-bottom: 14px; line-height: 1.85; font-size: 15px; }
+  .closing strong {
+    color: #FFFFFF;
+    font-weight: 700;
+    background: linear-gradient(transparent 60%, rgba(255,87,87,0.4) 60%);
+  }
+  .closing table.action-table thead { background: #FF5757; }
+  .closing table.action-table tbody tr { background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.1); }
+  .closing table.action-table tbody td { color: rgba(255,255,255,0.85); }
+  .closing table.action-table tbody td:first-child { color: #FF8080; }
+  .closing table.action-table tbody td:last-child { color: rgba(255,255,255,0.5); }
+
+  /* ===== フッター ===== */
+  .footer {
+    text-align: center;
+    padding: 36px 56px;
+    background: #1A1A1A;
+    color: rgba(255,255,255,0.7);
+    font-size: 13px;
+    line-height: 1.8;
+  }
+  .footer .brand-foot {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+  }
+  .footer .next { font-size: 12px; margin-top: 10px; opacity: 0.7; }
+
+  /* ===== 印刷・PDF出力 ===== */
+  @media print {
+    *, *::before, *::after {
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+    }
+    body { background: #FFFFFF; }
+    .wrap { max-width: 100%; box-shadow: none !important; border: none !important; }
+    .header { background: #A51E6D !important; }
+    .header::before, .header::after { display: none !important; }
+    .brand { color: #F0C8DE !important; }
+    .header h1 .title-en { color: #F0C8DE !important; }
+    .meta { border-top-color: #C04080 !important; }
+    .meta-item .label { color: #F0C8DE !important; }
+    .summary { background: #F6E9F0 !important; }
+    .summary ol li { border-bottom: 1px solid #DEDEDE !important; }
+    .insight { background: #F6E9F0 !important; padding-left: 24px !important; }
+    .insight::before { display: none !important; }
+    section.topic strong { background: #F6E9F0 !important; }
+    .closing { background: #1A1A1A !important; }
+    .closing p { color: #CCCCCC !important; }
+    .closing strong { background: none !important; color: #FFFFFF !important; }
+    .closing table.action-table tbody tr { background: #222222 !important; border-color: #333333 !important; }
+    .closing table.action-table tbody td { color: #CCCCCC !important; }
+    .closing table.action-table tbody td:last-child { color: #888888 !important; }
+    .footer { color: #AAAAAA !important; }
+    .footer .next { opacity: 1 !important; color: #888888 !important; }
+    .topic-figure { box-shadow: none !important; border: 1px solid #ECECEC !important; }
+    section.topic, .insight, .summary, .closing, .summary-table-wrap, .topic-figure {
+      break-inside: avoid; page-break-inside: avoid;
+    }
+    section.topic h2 { break-after: avoid; page-break-after: avoid; }
+    .closing { break-before: page; page-break-before: page; }
+    .header { padding: 28px 32px 24px; }
+    .content { padding: 32px; }
+  }
+
+  /* ===== レスポンシブ ===== */
+  @media (max-width: 768px) {
+    .header { padding: 36px 24px 28px; }
+    .header h1 { font-size: 26px; }
+    .content { padding: 32px 20px; }
+    .summary, .toc { padding: 22px 20px; }
+    .closing { padding: 28px 20px; }
+    section.topic h2 { font-size: 20px; }
+    .insight { padding: 16px 20px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="brand">SHIFT AI ELITE — Members Only Weekly Report</div>
+    <h1>
+      <span class="title-en">AI Agent News — Weekly Report</span>
+      AIエージェント週次レポート Vol.06
+    </h1>
+    <div class="meta">
+      <div class="meta-item">
+        <span class="label">対象期間</span>
+        <span class="value">2026年6月8日（月）〜 6月14日（土）</span>
+      </div>
+      <div class="meta-item">
+        <span class="label">発行</span>
+        <span class="value">SHIFT AI ELITE 編集室</span>
+      </div>
+      <div class="meta-item">
+        <span class="label">発行日</span>
+        <span class="value">2026年6月14日（土）</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="content">
+
+    <!-- ===== 3行サマリー ===== -->
+    <section class="summary">
+      <div class="summary-title">今週の3行サマリー</div>
+      <ol>
+        <li><strong>AnthropicがClaude Fable 5（Mythosクラス）を6月9日に正式公開。</strong>ソフトウェア開発・科学研究・ナレッジワーク・ビジョンの4領域で業界最高水準を達成し、全有料プランで即日利用可能に。NotionもBusiness・Enterpriseプランへの即採用を発表した。</li>
+        <li><strong>Loop EngineeringとHarness Engineeringが「2026年のAI活用の核心規律」として確立。</strong>「プロンプトを書く時代」から「ループと制約を設計する時代」への根本的パラダイムシフトが頭部ユーザーの間で共通認識となった。Fable 5への指示も、作業契約7項目の骨格なしでは能力を引き出せない。</li>
+        <li><strong>GoogleがGemini 3.5 Live Translateで70言語のリアルタイム音声翻訳を公開、OpenAIはOna買収でCodexのクラウド実行基盤を強化。</strong>「AIが常時稼働するインフラ」の整備が加速するなか、Agentが能力差を縮めるのではなく拡大するというK型分化の現実も、各所で語られ始めた。</li>
+      </ol>
+    </section>
+
+    <!-- ===== 読み方ガイド ===== -->
+    <div class="read-guide">
+      <strong>このレポートの読み方：</strong>各トピックは「何が起きたか（事実整理）」→「噛み砕くと（平易な解説）」→「コンサル視点のインサイト」→「明日から使える業務活用」の4層構造でまとめています。忙しい方は <strong>インサイト</strong> と <strong>業務活用</strong> だけ読んでも構いません。
+    </div>
+
+    <!-- ===== 目次 ===== -->
+    <nav class="toc">
+      <div class="toc-title">Contents</div>
+      <ol>
+        <li><a href="#topic01">「3分でシステムが完成した」― 調達して作るはずだったものが消えた日</a></li>
+        <li><a href="#topic02">Claude Fable 5 正式公開 ― Mythosクラス・史上最高性能が全プランで即日解放</a></li>
+        <li><a href="#topic03">Loop Engineering 完全解説 ― 「指示する時代」から「ループを設計する時代」へ</a></li>
+        <li><a href="#topic04">Harness Engineering ― 同じモデルでも設計次第で性能が変わる2026年の核心規律</a></li>
+        <li><a href="#topic05">Fable 5時代の「作業契約」7項目 ― プロンプトの語尾より骨格を渡せ</a></li>
+        <li><a href="#topic06">開発経験ゼロで土曜に始め月曜に公開 ― Claude Code 完全初心者ガイド</a></li>
+        <li><a href="#topic07">Gemini 3.5 Live Translate ― 70言語でリアルタイム音声翻訳、言語の壁が消える</a></li>
+        <li><a href="#topic08">OpenAI が Ona を買収 ― PCを閉じても動く Codex のクラウド実行基盤が整う</a></li>
+        <li><a href="#topic09">Skillは「能力商品」― Agent時代のK型分化と Thin Harness, Fat Skills</a></li>
+        <li><a href="#topic10">40年書いてきたコードを、Claude Codeに全委任した ― 0.1%の体験が広がるとき</a></li>
+      </ol>
+    </nav>
+
+    <!-- ===== TOPIC 01 ===== -->
+    <section class="topic" id="topic01">
+      <h2>
+        <span class="topic-num">Topic 01 — 考察</span>
+        <span class="topic-title">「3分でシステムが完成した」― 調達して作るはずだったものが消えた日</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/vol6-topic-19-claude-3min-system.svg" alt="Topic 01 — Claude 3分でシステム完成 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>ある経営者が、数ヶ月かけて資金調達し開発チームを組んで作ろうとしていたシステムを、Claudeで試したところ<strong>3分で完成させてしまった</strong>。「社長、株主に説明する頃合いです。調達して作るはずだったシステムがClaudeで3分で完成した件について」という言葉とともにこの体験が拡散し、多くの経営者・投資家・開発者に衝撃を与えた。システム開発にかかる時間・コスト・人員という前提が根本から崩壊しつつあることを示す、象徴的な出来事となった。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>「システムを作ること」の希少性・価値が急速にゼロへ向かっています。これは「開発者が不要になる」という話ではなく、<strong>「何を作るか」の判断と設計に価値が移行している</strong>、ということです。資金調達→開発チーム→数ヶ月というサイクルは、「Claudeで3分」という現実の前で意味を失いつつあります。株主に説明すべきは「3分で作れた事実」ではなく、「では次に何を作るか」という問いへの答えです。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>クライアントが「システム開発のために予算を確保したい」と言ったとき、まず「Claudeで3分のプロトタイプを作ってみましょう」と提案できることが、コンサルタントの新しい差別化になります。<strong>「まず試作してから投資を判断する」フローへの転換支援</strong>こそが、AI時代のコンサルティングの入口です。過去に外注・内製した業務システムのリストを見直し、「今ならAIで作れるか」を試算する習慣を今週から始めましょう。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>クライアントが「システム開発のために予算を確保したい」と言ったら、<strong>まずClaudeで試作品を作って見せる</strong>ことを提案する</li>
+        <li>過去に外注・内製で作ったシステムのリストを作り、「今ならAIで何分でできるか」を試算する</li>
+        <li>「3分システム完成」の事例を社内勉強会・提案書の導入事例として積極的に活用する</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 02 ===== -->
+    <section class="topic" id="topic02">
+      <h2>
+        <span class="topic-num">Topic 02 — AIモデル / Anthropic</span>
+        <span class="topic-title">Claude Fable 5 正式公開 ― Mythosクラス・史上最高性能が全プランで即日解放</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/vol6-topic-24-claude-fable5.svg" alt="Topic 02 — Claude Fable 5 正式公開 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>Anthropicが<strong>Claude Fable 5</strong>を2026年6月9日に正式公開した。同社が「Mythosクラス」と位置づける史上最高性能の公開モデルであり、（1）ソフトウェアエンジニアリング、（2）科学研究、（3）ナレッジワーク、（4）ビジョン（画像理解）の4領域で業界最高水準を達成。全有料プラン・Claude Code・Claude API・主要クラウドプラットフォーム（AWS・GCP等）で<strong>即日利用可能</strong>となった。Notion Business・EnterpriseプランへのFable 5即採用も発表され、Notionの内部ベンチマークでは困難な多段階タスクで過去最高スコアを記録している。GPT-5との正面対決も本格化している。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>「安全に使える最高のAIモデル」が全有料プランで即日解放されました。これまで研究用最上位モデルと製品の間にあった壁が消えた瞬間です。<strong>NotionのようなメジャーSaaSが即採用したという事実</strong>は、Fable 5の多段階タスク処理能力が実務水準を超えていることを示しています。今週からコーディング・分析・長文生成のすべてにおいて、使えるAIの上限が一段引き上げられました。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>Claude Fable 5は、コンサルティング業務の「最上位タスク」——複雑な調査・多段階分析・専門分野の知識統合——において、従来モデルを大幅に上回る可能性があります。<strong>まず自分の最も複雑な業務にFable 5を当ててみて、以前との差を数値で記録すること</strong>が最初のステップです。そのパフォーマンス差の実感が、クライアントへの「AI活用支援」提案の説得力に直結します。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>Claude Proプランに加入済みの方はFable 5に切り替えて、普段最も時間のかかる業務で試してみる</li>
+        <li><strong>Notionのビジネスプランを利用中のチームに「Fable 5の多段階タスク機能」を試してもらい、業務効率化の事例をまとめる</strong></li>
+        <li>「Fable 5をいつ使うべきか」——どんなタスクに最適か——の選定基準をチームで共有するドキュメントを1枚作る</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 03 ===== -->
+    <section class="topic" id="topic03">
+      <h2>
+        <span class="topic-num">Topic 03 — エンジニアリング</span>
+        <span class="topic-title">Loop Engineering 完全解説 ― 「指示する時代」から「ループを設計する時代」へ</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/vol6-topic-25-loop-engineering-guide.svg" alt="Topic 03 — Loop Engineering 完全解説 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>OpenClaw（元Anthropic）CEOのPeter LevinsonとClaude CodeのエンジニアリングリードであるBoris Chernyが、AIエージェントの次のパラダイムとして「<strong>Loop Engineering</strong>」を体系化した。従来の「あなた→指示→AI→出力→レビュー」から「ゴール設定→ループ実行→完了」への根本転換を提唱している。</p>
+      <p>ループの6構成要素は：①Automations（/goal /loop コマンド群）、②Worktrees（並列エージェントのファイル衝突防止）、③Skills（プロジェクト知識の毎回再利用）、④Plugins/Connectors（実ツールへの接続）、⑤Subagents（作る者と検証する者の分離）、⑥Memory（ループ間の記憶の永続化）。Claude CodeもCodexも全6要素を実装済みだ。コスト面では1回のループで50K〜200Kトークン、フリートループで〜200万トークン規模となり、DeepSeek V4の活用が経済合理性の鍵とされている。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>「AIに指示を出す」時代が終わりつつあります。次は「<strong>AIがループの中で自律的に作業し、人間はゴールと制約を設定するだけ</strong>」という時代です。プロンプトエンジニア（PE）からループエンジニア（LE）への転換が、2026年のAI活用の中核的スキルシフトです。「1つの信頼できるループは1,000の完璧なプロンプトに勝る」という原則が、頭部ユーザーの間で共通認識になっています。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>ループエンジニアリングは「やり方の習得」より「設計力の習得」が重要です。目標の明確化・停止条件の設定・検証ループの設計——これらは本質的にコンサルタントが日常業務でやっていることと重なります。<strong>まず自分の繰り返し作業（週次レポート・定期調査・データ集計など）を1つ選んで /loop で実験し、「どこでループが止まるか」を観察することが最短の学習経路</strong>です。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>Claude Codeで繰り返し行っているタスクを1つ選び、/goalでゴールを設定してループを回してみる</li>
+        <li><strong>/loopコマンドを試して、完了・停止・継続の判断がどう行われるかを観察し、記録する</strong></li>
+        <li>「ループ設計シート」（ゴール・停止条件・検証方法・使用ツール）をテンプレート化してチームで共有する</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 04 ===== -->
+    <section class="topic" id="topic04">
+      <h2>
+        <span class="topic-num">Topic 04 — エンジニアリング</span>
+        <span class="topic-title">Harness Engineering ― 同じモデルでも設計次第で性能が変わる2026年の核心規律</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/vol6-topic-11-harness-engineering.svg" alt="Topic 04 — Harness Engineering 完全解説 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>OpenAI・Anthropic・ThoughtWorksが独立に同じ結論に到達した：「<strong>Agent = Model + Harness</strong>」という原則だ。HarnessとはModelを動かすOS的な外層環境のこと。LangChainのTerminal Bench 2.0では、同じモデルでもHarness変更だけで<strong>52.8%→66.5%</strong>に性能が向上。Vercelは逆に「ツールを80%削除することで性能が向上した」と報告している。</p>
+      <p>Harnessの5要素として①CLAUDE.md/AGENT.mdの整備、②JSONフィーチャーリスト（進捗トラッカー兼テストスイート）、③セッション初期化ルーティン（7ステップ）、④スプリント契約（計画エージェントが先行）、⑤構造化タスクテンプレートが挙げられる。また「<strong>Harness Decay</strong>」の概念も重要で、Opus 4.5→4.6への進化でスプリント分解が不要になりコスト38%削減を達成した事例も報告されている。3社が収束した5原則：コンテキスト優先・計画と実行の分離・フィードバック必須・1つずつ・リポジトリが文書。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>「最高のモデルを使うこと」より「<strong>最高のHarnessを設計すること</strong>」が、2026年のAI活用の勝負どころです。同じFable 5でも、Harnessが良ければ遥かに良い結果が出ます。そして重要なのは「作ること」と同じくらい「削除すること」。モデルが賢くなるほど不要なHarnessが生まれるため、定期的なメンテナンスが必要になります。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>Harness EngineeringはCLAUDE.mdの整備から始めるのが最小コスト・最大効果の第一歩です。プロジェクトの文脈・ルール・禁止事項・ツール一覧をCLAUDE.mdに書いておくだけで、毎回のセッションの立ち上がり品質が劇的に向上します。<strong>「最高のコードより最高の制約を設計せよ」——この原則をチームのAI活用ガイドラインの中心に据えましょう</strong>。また月1回の「Harness Decay点検」として、どの設定が今も必要かを棚卸しする習慣も重要です。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>プロジェクトのCLAUDE.mdを作成または更新する（なければ30分で作れる）</li>
+        <li><strong>ツール一覧を見直し「本当に必要かどうか」を問い直す——多すぎるツールはHarnessの重荷</strong></li>
+        <li>月1回「どの設定・ルールが今も必要か」を棚卸しするHarness Decay点検をカレンダーに入れる</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 05 ===== -->
+    <section class="topic" id="topic05">
+      <h2>
+        <span class="topic-num">Topic 05 — Tips / Anthropic</span>
+        <span class="topic-title">Fable 5時代の「作業契約」7項目 ― プロンプトの語尾より骨格を渡せ</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/vol6-topic-32-fable5-prompt-guide.svg" alt="Topic 05 — Fable 5 作業契約7項目 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>Anthropic公式ベストプラクティスをもとに、Claude Fable 5時代の長時間タスク向けプロンプト設計フレームワークが整理された。核心的な発想転換は「<strong>きれいな命令文を書く</strong>」から「<strong>作業契約を渡す</strong>」へ。7項目とは①目的、②成果物、③制約、④良い例/悪い例、⑤構造（XML）、⑥検証方法、⑦進捗報告。</p>
+      <p>最重要とされるのが<strong>停止条件</strong>——「前提不足なら推測で進めず質問する」という指示だ。長時間タスクほど停止条件が命綱となり、「最後まで正しく間違えた成果物」を防ぐ仕組みとして機能する。Anthropic公式は「明確な指示・例の提示・XML構造化・検証手段を渡すこと」を推奨している。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>Fable 5が賢くなったほど、あいまいな指示で動かすと<strong>「自信を持って間違った方向に突き進む」</strong>リスクが増えます。「言い回し」を磨くより「骨格を整える」ことが重要です。7項目の作業契約を渡すことで、Fable 5の能力が初めてフルに引き出せます。特に停止条件は「前提が足りなければ止まる」という安全装置であり、長時間タスクでは最優先で設定すべき項目です。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>この7項目フレームワークは、AIへの指示だけでなく<strong>クライアントへの提案書・業務指示書・外注委託書の構成としても優秀</strong>です。「目的・成果物・制約・例・構造・検証・報告」という骨格は、人間同士のコミュニケーション品質も引き上げます。まずFable 5への指示に適用して習慣化し、その後クライアントとのやり取りにも応用しましょう。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>次にFable 5に大きなタスクを依頼するとき、7項目チェックリストを使って指示文を構成する</li>
+        <li><strong>「前提が不明な場合は作業を止めて質問してください」という停止条件を必ず入れる習慣を今日から始める</strong></li>
+        <li>自分がよく依頼するタスク（レポート作成・コード生成・翻訳など）用の7項目テンプレートを1本作成する</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 06 ===== -->
+    <section class="topic" id="topic06">
+      <h2>
+        <span class="topic-num">Topic 06 — Tips</span>
+        <span class="topic-title">開発経験ゼロで土曜に始め月曜に公開 ― Claude Code 完全初心者ガイド</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/vol6-topic-12-first-app-zero-experience.svg" alt="Topic 06 — Claude Code 初心者ガイド インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>コードが一切読めないビジネスパーソン（@eng_khairallah1）が、土曜の朝にClaude Codeを初めて開き、日曜夕方にはVercelでアプリを公開した。その後<strong>3週間でさらに4つのアプリを出荷</strong>。5つの典型的な失敗と12のルールが実録として公開された。主な失敗パターン：計画なしで始める、全機能を一度に作ろうとする、CLAUDE.mdを作らない、言葉でビジュアルを説明しようとする——など。主なルール：毎回Plan Modeから始める、機能ごとに会話をリセット、CLAUDE.mdをDay1で作る、ビジュアルはスクリーンショットで伝える、完璧でなくていい・まず出荷する。著者の自己定義：<strong>「あなた＝PM、Claude＝エンジニア」</strong>。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>コードが読めないことはもはや言い訳になりません。この実録が示すのは「<strong>初日のつまずきは全員共通で、乗り越え方にはパターンがある</strong>」ということです。2日でアプリを公開し、3週間で4本追加した事例は、「エンジニアを雇う」という選択肢より速く・安く動けることを証明しています。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>クライアントに「AIで何か作れますか？」と聞かれたとき、<strong>「試作品を2日で作ってみます」と答えられるスキル</strong>は、コンサルタントとして強力な差別化になります。この12ルールをチームの「Claude Code入門セット」として整備し、非エンジニアメンバーが最初の1週間でつまずかないようにしておくことが、チーム全体のAI活用レベルを底上げする最短経路です。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>今週末、CLAUDE.mdの書き方を覚えてプロジェクト用のCLAUDE.mdを1つ作る</li>
+        <li><strong>「作りたいもの」を1つ決めて、Plan Mode（Shift+Tab）からスタートする</strong></li>
+        <li>完成度60%でいいから、まず動くものをVercelか同等サービスで公開してみる</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 07 ===== -->
+    <section class="topic" id="topic07">
+      <h2>
+        <span class="topic-num">Topic 07 — ツール / Google</span>
+        <span class="topic-title">Gemini 3.5 Live Translate ― 70言語でリアルタイム音声翻訳、言語の壁が消える</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/vol6-topic-31-gemini-live-translate.svg" alt="Topic 07 — Gemini 3.5 Live Translate インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>GoogleがGemini 3.5 Live Translateを発表した。<strong>70以上の言語でリアルタイムの音声→音声翻訳</strong>を実現するモデルで、20年間のGoogle翻訳・言語バリア解消研究の成果がGeminiに統合された。単なるテキスト翻訳ではなく、<strong>話者の声のトーン・リズム・ピッチを保持したまま翻訳</strong>し、自動ノイズフィルタリング・イヤピースモード（片耳で聴きながら会話できる）にも対応。Gemini Live APIを通じて開発者が自アプリに組み込むことも可能で、自動言語検出機能も持つ。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>「通訳が必要な会議」「英語が苦手な商談」がリアルタイムで解消される時代が始まります。声のトーンやリズムまで保持する翻訳は、単なる「意味の変換」を超えて<strong>「人格ごと翻訳する」</strong>レベルに近づいています。言語スキルの格差が商談結果に直結していた時代が、着実に終わりを迎えつつあります。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>Gemini Live Translateは、語学力ではなく「業務知識と判断力」で勝負できる環境を作ります。外国語での提案・交渉にハードルを感じていたコンサルタントにとって国際案件への参入障壁が下がる一方、<strong>「語学力が付加価値だった」ポジションは逆風になります</strong>。今から「語学力ではなく、何で差別化するか」を考えておく必要があります。英語情報へのアクセスが容易になった分、情報の解釈・判断・適用力が差別化になります。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>Gemini Live Translateを試して、外国語の会議・音声コンテンツをリアルタイムで理解する体験をする</li>
+        <li><strong>英語の業界ニュース・ポッドキャストをGemini Live Translateで聴き、情報収集速度を上げる</strong></li>
+        <li>「翻訳が必要な業務」リストを作り、Gemini Live Translateで代替できるか評価する</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 08 ===== -->
+    <section class="topic" id="topic08">
+      <h2>
+        <span class="topic-num">Topic 08 — ツール / OpenAI</span>
+        <span class="topic-title">OpenAI が Ona を買収 ― PCを閉じても動く Codex のクラウド実行基盤が整う</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/vol6-topic-52-openai-ona.svg" alt="Topic 08 — OpenAI Ona 買収 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>OpenAIがセキュアなクラウド実行技術を持つスタートアップ<strong>Ona（@ona_hq）の買収に合意</strong>した。Onaの技術はCodexが「PCを閉じていても継続する長時間タスク」を実行できるようにし、組織が本番環境でエージェントを安全にデプロイできるインフラを提供する。買収完了後、OnaチームはOpenAIのCodexチームに合流する予定。OpenAIはこの買収をCodexのクラウド化・常時稼働化の重要な一手と位置づけている。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>「PCを閉じたままでもAIが働き続ける」インフラの争奪戦が始まっています。ローカル環境に依存するエージェントは、ユーザーがPCを使っている間しか動けません。<strong>Onaの技術はこの制約を取り除き、Codexを「常時稼働するAIワーカー」へ進化</strong>させます。本号のLoop EngineeringとHarness Engineeringで描いた「ループを常時回し続ける」という方向性と、この買収は完全に一致しています。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>「エージェントがクラウドで常時稼働する」世界では、コンサルの仕事の範囲が変わります。今は「AIに任せた後、自分が確認して次の指示を出す」サイクルが主流ですが、これが<strong>「エージェントが判断・実行・報告をクラウドで完結させ、人間は週次で結果を見るだけ」</strong>に移行します。「何をエージェントに委任し、何を人間が判断するか」という役割設計の能力が、次世代のコンサルスキルの核になります。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>「PC起動中しかできない作業」と「クラウドで完結させたい作業」を区分けしてリスト化する</li>
+        <li><strong>Codexのスケジュール実行機能を試して、定期実行ワークフローの設計を始める</strong></li>
+        <li>「夜間・週末にエージェントが稼働していたら何ができるか」を1案考えておく</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 09 ===== -->
+    <section class="topic" id="topic09">
+      <h2>
+        <span class="topic-num">Topic 09 — Tips / 考察</span>
+        <span class="topic-title">Skillは「能力商品」― Agent時代のK型分化と Thin Harness, Fat Skills</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/vol6-topic-53-skill-design-philosophy.svg" alt="Topic 09 — Skill設計論 K型分化 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>複数の爆款（バズ）Skillを制作した開発者が、Skill設計の本質についての考察を発表した。核心的主張は「<strong>AgentはK型分化をもたらす——能力の差を縮めるのではなく拡大する</strong>」。目標が明確で文脈を持つ人はさらに強化され、目標が曖昧で文脈がない人は混乱を拡大される。</p>
+      <p>Skillの定義は「専門家経験・ワークフロー・品味・ツール呼び出しを再利用可能・分発可能な能力単位に変換したもの」。アーキテクチャ原則は「<strong>中心短、辐射厚</strong>（SKILL.mdは高信号ルーティングのみ、詳細はreferences/scripts/assetsへ条件読み込み）」と「<strong>Thin Harness, Fat Skills</strong>」。descriptionはルーティング条件として機能させること（「何をするか」ではなく「いつ使うか」を書く）、<strong>gotchasが最も高価値なコンテンツ</strong>であること、完全自動生成は初稿にしかならないことも論じられた。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>「AIが皆を平等にする」は誤りです。「<strong>目標が明確で文脈を持つ人をさらに強化する</strong>」のがAgentの本質です。Skillは、頭部ユーザーが検証済みの能力を一般ユーザーが使えるようにする橋渡しです。大事なのは「どんな経験をSkillに変換するか」——それはあなた自身の専門知識、業界経験、そして失敗事例です。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>コンサルタントは「業界の暗黙知・失敗事例・判断基準」を大量に持っています。これをSkillに変換できれば、「あなたがいなくても動くコンサルプロセス」を作れます。<strong>今すぐできるのは、自分がよくやる分析・提案・レビューのプロセスを1つ選んで、gotchasとともにSKILL.md形式で文書化すること</strong>。それが最初の「能力商品」になります。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>自分の業務で「毎回同じ流れで行っている作業」を1つ特定し、SKILL.mdとして書き出す</li>
+        <li><strong>gotchasリストを作る：「この作業でよくある失敗・盲点・絶対にやってはいけないこと」を5つ書く</strong></li>
+        <li>作成したSkillをClaude CodeにインストールしてSkillが正しく起動するか確認する</li>
+      </ul>
+    </section>
+
+    <!-- ===== TOPIC 10 ===== -->
+    <section class="topic" id="topic10">
+      <h2>
+        <span class="topic-num">Topic 10 — 体験談 / 考察</span>
+        <span class="topic-title">40年書いてきたコードを、Claude Codeに全委任した ― 0.1%の体験が広がるとき</span>
+      </h2>
+
+      <figure class="topic-figure">
+        <img src="assets/vol6-topic-54-coder-transformation.svg" alt="Topic 10 — 40年コーダーの変容 インフォグラフィック" loading="lazy">
+      </figure>
+
+      <h3>何が起きたか</h3>
+      <p>40年以上にわたってコードを書くことを<strong>心底楽しんできた</strong>あるニュースレター著者が、過去半年でコーディングスタイルを根本的に変えたと語った。現在はすべてのコーディングをClaude Codeに委任し、自身は設計と指示設計に集中している。この変容を体験した人はまだ<strong>世界人口の約0.1%</strong>に過ぎず、その割合が0.1%→1%→5%→15%と広がるにつれて、社会全体への影響は計り知れないと述べた。「良い面も悪い面も含めて」という言葉も添えられた。</p>
+
+      <h3>噛み砕くと</h3>
+      <p>「40年コードを書いてきた人が、心から楽しんできたことをAIに委任した」という事実の重さは、「AI便利」という話を超えています。これは<strong>アイデンティティの変容であり、専門性の再定義</strong>です。0.1%の体験者が15%になるとき、「私は何者か」という問いを、あらゆる職種の人が迫られます。プログラマーだけでなく、コンサルタント、デザイナー、教師、医師——すべての「専門職」が同じ問いに直面します。</p>
+
+      <div class="insight">
+        <span class="insight-label">Consultant Insight</span>
+        <p>この体験談には、コンサルとして伝えるべき最重要メッセージが凝縮されています——「<strong>AIは仕事を奪うのではなく、仕事の定義を変える</strong>」。40年の専門性は消えていない。それが「コードを書く能力」から「何を作るかを設計する能力」へと転化された。クライアントとの対話で「<strong>あなたの専門性は何に転化されますか？</strong>」という問いを使いましょう。それが次のプロジェクトの入口になります。</p>
+      </div>
+
+      <h3>明日から使える業務活用</h3>
+      <ul>
+        <li>自分の専門業務の中で「AIに委任できる作業」と「自分でしか判断できないこと」を書き出す</li>
+        <li><strong>「AIに委任した後、自分は何に時間を使うか」を明文化する——これが次の専門性の種になる</strong></li>
+        <li>クライアントとの対話で「あなたの業務のうち、AIに任せたら喜びますか？それとも寂しいですか？」と問いかけてみる</li>
+      </ul>
+    </section>
+
+    <!-- ===== 締めまとめ ===== -->
+    <section class="closing">
+      <h2>今週のまとめ ― Fable 5 時代の幕開け、そして分化が始まる</h2>
+      <p>今週は「Claude Fable 5という最高性能モデルが手に入った」というニュースと、「それを使いこなすための設計思想（Loop Engineering・Harness Engineering・作業契約・Skill）」が同時に整理された週でした。モデルが強くなっても、使い方の骨格がなければ能力は引き出せません。</p>
+      <p><strong>AgentはK型分化をもたらす——目標が明確で文脈を持つ人はさらに強化され、そうでない人は混乱が拡大する。</strong>40年コードを書いてきた人がClaude Codeに全委任したという体験談は、この変化がすでに現実として起きていることを示しています。0.1%の体験者が15%になる過程で、今週学んだことを1つでも実践した人が「分化する側」に踏みとどまります。</p>
+
+      <div class="summary-table-wrap">
+        <table class="action-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>今週の最優先アクション</th>
+              <th>難易度・目安時間</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Claude Fable 5に切り替えて、最も複雑な業務で使い品質差を記録する</td>
+              <td>★☆☆ 10分</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>プロジェクトのCLAUDE.mdを作成または更新する（Harness Engineering第一歩）</td>
+              <td>★★☆ 30分</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>7項目の作業契約フレームワークを使って次のFable 5へのタスクを組み立てる</td>
+              <td>★★☆ 20分</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>/goalコマンドでループを1回試し、どこで止まるかを観察・記録する</td>
+              <td>★★☆ 15分</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>「自分の専門業務でAIに委任できる作業」と「自分で判断すべきこと」のリストを作る</td>
+              <td>★★☆ 20分</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="brand-foot">SHIFT AI ELITE</div>
+    <p>AI Agent News 週次レポート Vol.06｜2026年6月8日〜6月14日</p>
+    <p>発行：SHIFT AI ELITE 編集室</p>
+    <p class="next">次号 Vol.07 は2026年6月21日（日）発行予定です。</p>
+  </footer>
+
+</div>
+</body>
+</html>
